@@ -1,0 +1,12 @@
+{
+  "name": "xolo-fitness",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev --workspace=packages/server",
+    "chat": "npm run chat --workspace=packages/xolokan-agent"
+  }
+}
