@@ -43,7 +43,22 @@ packages/
   xolokan-agent/   XOLOKAN persona + Claude Agent SDK chat loop (CLI + library)
   server/          Express API wrapping the agent for the web UI
   web/             Minimal static chat UI
+docs/methodology/
+  XOLOKAN_METHODOLOGY.md   Training-science layer XOLOKAN's persona is built on
+  sources/                 Source documents the methodology is built from
 ```
+
+## Training methodology
+
+XOLOKAN's programming is built on a Soviet-block periodization system (base
+strength -> power/volume -> peak, 12-week cycles), layered with
+calisthenics-based relative-strength training and dance/artist-athlete
+injury-prevention science (ankle, knee, lower back, and hip protocols;
+mandatory single-leg work; isometric control training). Full detail,
+including cited research, is in
+[`docs/methodology/XOLOKAN_METHODOLOGY.md`](docs/methodology/XOLOKAN_METHODOLOGY.md).
+The source training documents it was built from are in
+`docs/methodology/sources/`.
 
 ## Setup
 
@@ -66,7 +81,7 @@ npm run dev:server
 ## XOLOKAN persona
 
 Defined in `packages/xolokan-agent/src/persona.ts`. It encodes the brand
-mission, five-pillar methodology, target audience, and voice (direct,
+mission, the training methodology above, target audience, and voice (direct,
 disciplined, coach-energy — distinct from a clinical or luxury tone). Edit
 that file to tune the agent as the brand voice solidifies.
 
