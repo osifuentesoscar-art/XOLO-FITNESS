@@ -14,6 +14,11 @@ Source documents live in `docs/methodology/sources/`:
 - `dancer_war_manual_12_week.pdf` — 12-week Soviet-system periodization block
 - `soviet_advanced_gymnast_dancer_program.pdf` — weekly training split
 
+This doc is under continuous review — a daily automated research pass checks
+for new evidence and makes small, cited, incremental updates when warranted.
+See `docs/methodology/RESEARCH_LOG.md` for the audit trail of what's been
+checked and when.
+
 ---
 
 ## 1. Periodization framework (Soviet block system)
