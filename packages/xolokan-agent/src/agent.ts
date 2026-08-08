@@ -1,5 +1,6 @@
 import { query } from "@anthropic-ai/claude-agent-sdk";
 import { XOLOKAN_SYSTEM_PROMPT } from "./persona.js";
+import { xolokanProgramServer, XOLOKAN_ALLOWED_TOOLS } from "./tools.js";
 
 export interface TurnResult {
   reply: string;
@@ -15,6 +16,8 @@ export async function runXolokanTurn(
     options: {
       systemPrompt: XOLOKAN_SYSTEM_PROMPT,
       resume: resumeSessionId,
+      mcpServers: { "xolokan-programs": xolokanProgramServer },
+      allowedTools: XOLOKAN_ALLOWED_TOOLS,
     },
   });
 

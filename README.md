@@ -40,12 +40,14 @@ site/socials when you have unrestricted access.
 
 ```
 packages/
-  xolokan-agent/   XOLOKAN persona + Claude Agent SDK chat loop (CLI + library)
+  xolokan-agent/   XOLOKAN persona, program generator, Claude Agent SDK chat loop
   server/          Express API wrapping the agent for the web UI
   web/             Minimal static chat UI
 docs/methodology/
   XOLOKAN_METHODOLOGY.md   Training-science layer XOLOKAN's persona is built on
   sources/                 Source documents the methodology is built from
+docs/business/
+  XOLOKAN_PRODUCT_SYSTEM.md   How the methodology turns into sellable programs
 ```
 
 ## Training methodology
@@ -54,11 +56,35 @@ XOLOKAN's programming is built on a Soviet-block periodization system (base
 strength -> power/volume -> peak, 12-week cycles), layered with
 calisthenics-based relative-strength training and dance/artist-athlete
 injury-prevention science (ankle, knee, lower back, and hip protocols;
-mandatory single-leg work; isometric control training). Full detail,
-including cited research, is in
+mandatory single-leg work; isometric control training; RPE/RIR effort
+landmarks; RAMP warm-up protocol; plyometric dosage by experience level).
+Full detail, including cited research, is in
 [`docs/methodology/XOLOKAN_METHODOLOGY.md`](docs/methodology/XOLOKAN_METHODOLOGY.md).
 The source training documents it was built from are in
 `docs/methodology/sources/`.
+
+## Program generator — turning the methodology into a system
+
+The methodology isn't just a reference doc XOLOKAN improvises from — it's
+implemented as a deterministic generator in `packages/xolokan-agent/src/`:
+
+- `programSchema.ts` / `archetypes.ts` — three sellable program archetypes
+  (Dancer, Gymnast/Aerialist, General Performer), each a tailored version of
+  the weekly split with its own injury-prehab emphasis.
+- `generateProgram.ts` — pure function: client intake (discipline,
+  experience, sessions/week, equipment access, injury history) in, a full
+  structured 12-week program out. No API key needed — try it directly:
+  ```bash
+  npm run generate:sample --workspace=packages/xolokan-agent -- \
+    --name "Test Client" --discipline dancer --days 4 \
+    --equipment bodyweight-only --injuries ankle
+  ```
+- `tools.ts` — wraps the generator as a tool XOLOKAN calls mid-conversation
+  when asked to actually build a program, rather than hand-writing one.
+
+See [`docs/business/XOLOKAN_PRODUCT_SYSTEM.md`](docs/business/XOLOKAN_PRODUCT_SYSTEM.md)
+for how this catalog maps to pricing tiers and delivery — the business layer
+on top of the training science.
 
 ## Setup
 

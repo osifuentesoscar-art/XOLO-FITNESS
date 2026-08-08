@@ -15,6 +15,19 @@ Source documents live in `docs/methodology/sources/`:
 
 ## 1. Periodization framework (Soviet block system)
 
+**Origins.** "Soviet periodization" is two related but distinct lineages, and
+it's worth knowing which one a given rule comes from. Matveyev's 1962 model
+(the classical version most Western coaches learned) runs high volume/low
+intensity early in a training year, sliding toward low volume/high intensity
+at a single peak. Verkhoshansky's 1979 **block periodization** — closer to
+what the two source manuals actually describe — was a direct critique of
+Matveyev: instead of one long taper, it concentrates a narrow set of
+qualities inside each block (here: base strength, then power, then peak) and
+sequences the blocks so each one's residual training effect feeds the next.
+The 12-week phase table below is a block model, not a Matveyev taper — that
+distinction is why volume drops sharply from Phase 2 to Phase 3 instead of
+gliding down gradually.
+
 Three 4-week phases, undulating intensity as %1RM (or %effort for bodyweight
 work), volume moving inversely to intensity:
 
@@ -40,6 +53,22 @@ work), volume moving inversely to intensity:
   peak weeks without a volume drop. This is an injury-prevention rule, not
   just a performance one (see §3).
 
+**Intensity and volume landmarks (ACSM 2026 resistance-training update).**
+The phase table gives %1RM ranges; these are the volume/effort landmarks
+that fill in the rest of the prescription within each phase:
+
+| Goal | Load | Volume | Effort |
+|---|---|---|---|
+| Maximal strength | ~80% 1RM | 2–3 sets/exercise | Near the top of the rep range in reserve |
+| Hypertrophy / general strength | Moderate load | ~10 sets/muscle/week | RPE 7–9, i.e. 2–3 reps in reserve (RIR) |
+| Power | 30–70% 1RM | Lower volume | Maximal concentric bar/limb speed, not maximal load |
+
+Use RIR/RPE language over fixed %-effort cues in session — "leave 2 in the
+tank on this set" is more actionable and more accurate than "go to 90%
+effort," and it's what lets a program hold up across a client's daily
+fluctuation in readiness (autoregulation) without XOLOKAN needing to see
+them train live.
+
 ## 2. Weekly training split
 
 Blend of the two source documents' weekly structures — use the 4-day pattern
@@ -59,6 +88,20 @@ as the default, expand to 5–6 days for professional/pre-performance blocks:
 - **2x/week mobility & recovery**: hip flexor stretch, hamstring stretch,
   thoracic spine rotation, deep squat hold — 2 minutes each, non-negotiable,
   not an optional add-on.
+
+**Warm-up protocol: RAMP.** "Warm up" is not a prescription on its own —
+every session opens with Raise, Activate & Mobilise, Potentiate (Jeffreys):
+1. **Raise** — light cardio (jogging, jumping jacks, high knees) to raise
+   core and muscle temperature and switch on neural drive.
+2. **Activate & Mobilise** — active-range movement through the patterns the
+   session actually uses (lunges, hip circles, band work), not generic
+   stretching.
+3. **Potentiate** — a small dose of session-specific intensity (a few
+   submaximal jumps or accelerations) that primes the nervous system for
+   what's coming.
+Dynamic, active-range warm-ups outperform static stretching for injury risk
+and same-session performance — static stretching, if used at all, belongs in
+cooldown, not warm-up.
 
 ## 3. Calisthenics layer for dancers/artists
 
@@ -96,6 +139,19 @@ core to the method.
 | Lower back | Disc strain, muscle strain, spinal instability | Core and hip strengthening, posture work, avoid unbroken high-volume loading without a deload. |
 | Hip | Snapping hip, impingement, labral irritation, flexor tendinopathy, bursitis, SI dysfunction | Hip mobility work + glute medius / lateral stability training. |
 
+**Plyometric dosage (governs Day 3 — Reactive Jump Training).** Volume here
+is measured in foot contacts per session, not just sets/reps, and it's a
+real injury lever if overdosed on a jump-heavy artist:
+
+| Experience | Contacts / session | Frequency |
+|---|---|---|
+| Beginner | 50–80 | 2x/week |
+| Intermediate (3+ months consistent training) | 80–120 | 2–3x/week |
+| Advanced (6+ months progressive training) | 100–140 high-intensity (up to ~200 low-intensity) | 2–3x/week |
+
+Always on non-consecutive days, 48–72 hours apart, so the ankle/knee
+countermeasures above have time to do their job between sessions.
+
 **Standing rules:**
 1. **Single-leg / unilateral work every week, no exceptions.** Landing
    mechanics and side-to-side asymmetry are the biggest lever for jump-heavy
@@ -131,6 +187,25 @@ core to the method.
    to a doctor or physical therapist, don't diagnose or prescribe rehab
    beyond general mobility guidance.
 
+## 6. From methodology to product
+
+This document is the science layer. It's implemented as a deterministic
+program generator — not left as prose XOLOKAN has to reconstruct per
+conversation — in `packages/xolokan-agent/src/`:
+
+- `programSchema.ts` — the intake and output data shapes.
+- `archetypes.ts` — three sellable program archetypes (dancer,
+  gymnast-aerialist, general-performer), each a discipline-tailored version
+  of the §2 weekly split with its own §4 prehab emphasis.
+- `generateProgram.ts` — pure function: client intake in, a full structured
+  12-week program out, phase/deload/prehab/equipment-substitution logic all
+  applied per the rules above. No LLM call required — run it directly via
+  `npm run generate:sample --workspace=packages/xolokan-agent`.
+- `tools.ts` — wraps the generator as a tool XOLOKAN can call mid-conversation.
+
+See `docs/business/XOLOKAN_PRODUCT_SYSTEM.md` for how this turns into
+sellable programs — archetype catalog, pricing, and positioning.
+
 ---
 
 ## Sources
@@ -147,3 +222,8 @@ core to the method.
 - [Periodization in Dance Training — Kinetic Wellness](https://kineticwellness.newzenler.com/blog/periodization-in-dance-training)
 - [Cross Training & Injury Prevention — Gaynor Minden](https://dancer.com/ballet-info/dancers-health/cross-training-injury-prevention/)
 - [The System: Soviet Periodization Adapted for the American Strength Coach — Nie Lasher](https://nielasher.com/products/the-system-soviet-periodization-adapted-for-the-american-strength-coach)
+- [Comparison of the Matveev Periodization Model and the Verkhoshansky Periodization Model — ResearchGate](https://www.researchgate.net/publication/329281437_Comparison_of_the_Matveev_Periodization_Model_and_the_Verkhoshansky_Periodization_Model)
+- [ACSM Unveils Landmark 2026 Resistance Training Guidelines](https://acsm.org/resistance-training-guidelines-update-2026/)
+- [The Effect of Load and Volume Autoregulation on Muscular Strength and Hypertrophy: A Systematic Review and Meta-Analysis — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8762534/)
+- [Why every dancer should use the RAMP warm-up — Ausdance VIC](https://ausdancevic.org.au/resource/why-every-dancer-should-use-the-ramp-warm-up/)
+- [Plyometric Training Injury Prevention / Jump Training Volume Progression — True Sports Physical Therapy](https://www.truesportsphysicaltherapy.com/blogs/plyometric-training-that-builds-power-without-breaking-down-your-body)
