@@ -146,6 +146,7 @@ core to the method.
 | Knee | Patellofemoral pain, ACL/MCL strain from landing/pivoting | Quad + glute strengthening, single-leg landing mechanics drilled explicitly, not assumed. |
 | Lower back | Disc strain, muscle strain, spinal instability | Core and hip strengthening, posture work, avoid unbroken high-volume loading without a deload. |
 | Hip | Snapping hip, impingement, labral irritation, flexor tendinopathy, bursitis, SI dysfunction | Hip mobility work + glute medius / lateral stability training. |
+| Wrist (gymnast/aerialist) | Chronic wrist pain from repetitive weight-bearing on an extended wrist | Shoulder ROM work alongside wrist loading progression — a 2026 systematic review of 185,107 gymnasts found 53% pooled wrist pain prevalence, with **decreased shoulder ROM** an identified risk factor, not just wrist-local overuse. Risk climbs with training intensity, years training, and weekly hours, so dose wrist-loaded calisthenics (ring support holds, handstand work) with the same discipline as plyometric contacts below. |
 
 **Plyometric dosage (governs Day 3 — Reactive Jump Training).** Volume here
 is measured in foot contacts per session, not just sets/reps, and it's a
@@ -195,7 +196,38 @@ countermeasures above have time to do their job between sessions.
    to a doctor or physical therapist, don't diagnose or prescribe rehab
    beyond general mobility guidance.
 
-## 6. From methodology to product
+## 6. Nutrition & energy availability
+
+Not previously in scope, and it should be: dancers specifically — and by
+extension other lean, aesthetic-conscious performers — are a documented
+at-risk population for **RED-S (Relative Energy Deficiency in Sport)**, the
+consequence of chronically under-fueling relative to training demand. This
+isn't a fringe concern: one study of vocational ballet students found 65%
+at risk of RED-S, with 40% reporting menstrual dysfunction. Training
+prescription without a baseline nutrition awareness is incomplete for this
+audience.
+
+**Baseline macronutrient targets** (adjust for individual training load):
+- Carbohydrate: 3–5 g/kg/day
+- Protein: 1.2–1.7 g/kg/day
+- Fat: 20–35% of total energy intake
+- Minimum energy floor: ≥30 kcal/kg fat-free mass/day, plus training energy
+  expenditure — this is a floor to avoid low energy availability, not a
+  target to hit exactly.
+
+**Watch for**: unintentional weight loss during a peak block, missed or
+irregular menstrual cycles, persistent fatigue disproportionate to training
+load, or repeated stress-response injuries (stress fractures, frequent soft
+tissue injury) — these are RED-S indicators, not just overtraining. Iron and
+calcium are the micronutrients most often low in dancers' diets specifically
+and worth flagging.
+
+**Boundary**: XOLOKAN can share these baseline targets and watch-for signs.
+Actual RED-S risk assessment, diagnosis, and individualized nutrition
+prescription belong to a doctor or sports dietitian — refer out rather than
+managing it in-app, same posture as the injury-referral rule above.
+
+## 7. From methodology to product
 
 This document is the science layer. It's implemented as a deterministic
 program generator — not left as prose XOLOKAN has to reconstruct per
@@ -235,3 +267,6 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [The Effect of Load and Volume Autoregulation on Muscular Strength and Hypertrophy: A Systematic Review and Meta-Analysis — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8762534/)
 - [Why every dancer should use the RAMP warm-up — Ausdance VIC](https://ausdancevic.org.au/resource/why-every-dancer-should-use-the-ramp-warm-up/)
 - [Plyometric Training Injury Prevention / Jump Training Volume Progression — True Sports Physical Therapy](https://www.truesportsphysicaltherapy.com/blogs/plyometric-training-that-builds-power-without-breaking-down-your-body)
+- [Epidemiology and Risk Factors of Wrist Pain and Injury in Adolescent Artistic Gymnasts: A Systematic Review and Meta-analysis — PMC, 2026](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12804664/)
+- [What Do We Know About the Energy Status and Diets of Pre-Professional and Professional Dancers: A Scoping Review — Nutrients](https://doi.org/10.3390/nu16244293)
+- [Assessment of Dietary Intake, Energy Status, and Factors Associated With RED-S in Vocational Female Ballet Students — Frontiers in Nutrition / PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333673/)
