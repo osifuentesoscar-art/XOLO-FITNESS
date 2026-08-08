@@ -1,8 +1,8 @@
 # XOLOKAN Product System
 
-**Status: Methodology and archetype catalog approved.** Exact pricing is
-still open — a business decision for Oscar, not something to lock in from
-market research alone. See §6 for what's still outstanding.
+**Status: Approved — methodology, archetype catalog, and pricing.** Pricing
+below is Oscar's actual confirmed virtual subscription pricing, not a market
+benchmark. See §6 for what's still outstanding.
 
 How the training methodology in `docs/methodology/XOLOKAN_METHODOLOGY.md`
 turns into programs Oscar can actually sell — repeatably, not as one-off
@@ -48,16 +48,23 @@ one-off document.
 
 ## 3. Delivery tiers and pricing
 
-Digital fitness program pricing clusters into a few well-tested bands. Map
-the three tiers below onto the one methodology and the three archetypes —
-the training content doesn't change per tier, the delivery format and
-personalization depth does:
+All three tiers are **virtual/remote** subscriptions at Oscar's confirmed
+pricing — not one-time purchases, and not the market-benchmark ranges a
+generic pricing study would suggest. The training content doesn't change
+per tier; the delivery format and personalization depth does:
 
-| Tier | What they get | Delivery | Benchmark price |
+| Tier | What they get | Delivery | Price |
 |---|---|---|---|
-| **Self-guided** | One archetype's full 12-week program, generated once, static PDF | Static export of `generateProgram()` output | $47–97 one-time |
-| **XOLOKAN-personalized** | Same program, generated live from their actual intake (discipline, equipment, injury history) via the chat agent, editable | The XOLOKAN web/chat app, `generate_program` tool | $97–297 one-time, or a $29–99/mo membership for ongoing regeneration each block |
-| **Premium / hybrid** | Personalized program plus check-ins, form feedback, or direct access to Oscar layered on top | 1:1 coaching relationship, program as the backbone | $497–997+ |
+| **Self-guided** | One archetype's full 12-week program, regenerated at each block transition | Static export of `generateProgram()` output, refreshed monthly | **$75/mo** |
+| **XOLOKAN-personalized** | Same program, generated live from real intake (discipline, equipment, injury history) via the chat agent, editable, regenerates each block | The XOLOKAN web/chat app, `generate_program` tool | **$150/mo** |
+| **Premium / hybrid** | Personalized program plus check-ins, form feedback, and direct virtual access to Oscar layered on top | Virtual coaching relationship, program as the backbone | **$200/mo** |
+
+This is a tight ladder ($75 → $150 → $200) rather than the wide bands a
+generic digital-product pricing study would suggest — appropriate for a
+single virtual-coaching funnel where the jump between tiers is about
+access to Oscar, not a jump from "cheap template" to "full 1:1 coaching."
+If an in-person or higher-touch premium offering gets added later, it's a
+fourth tier above $200, not a replacement for this ladder.
 
 Two mechanics worth building in regardless of tier, because they measurably
 lift revenue on digital fitness products specifically: a one-click upsell
@@ -67,8 +74,9 @@ itself, so a client self-selects by budget rather than bouncing.
 
 ## 4. Where this actually lives
 
-- **Self-guided tier**: any digital storefront (Gumroad-style) works — the
-  product is a static file, no client-management features needed.
+- **Self-guided tier**: a lightweight recurring-billing checkout (Stripe on
+  a landing page, or a membership plugin) delivering a regenerated static
+  program each month — no client-management features needed at this tier.
 - **XOLOKAN-personalized tier**: the web chat app already being built in
   this repo (`packages/server`, `packages/web`) *is* this tier's delivery
   mechanism — it's the product, not just a support tool.
@@ -93,17 +101,16 @@ language — the specificity is what a $47 template can't compete with.
 
 ## 6. Immediate next steps
 
-1. Pick real prices inside the bands above and confirm them with Oscar —
-   these are market benchmarks, not a recommendation to match them exactly.
-2. Build a PDF/print export of `GeneratedProgram` (the ICONS project in
+1. Build a PDF/print export of `GeneratedProgram` (the ICONS project in
    this account already has a proven pattern for this — a template engine
    that takes a structured data object and renders a branded document) so
    the self-guided tier has an actual deliverable, not just JSON.
-3. Decide whether the personalized tier is one-time-purchase or membership
-   — membership fits better if programs regenerate at each 12-week block
-   transition, which the phase system is already built to support.
-4. Write the sales page copy around the archetype catalog in §2 — each
+2. Set up recurring billing for the $75/$150/$200 ladder — Stripe
+   subscriptions are the natural fit given all three tiers are monthly.
+3. Write the sales page copy around the archetype catalog in §2 — each
    archetype is close to a landing-page section already.
+4. Decide the exact trigger for "regenerates each block" at the $75/$150
+   tiers — automatic on a 12-week timer, or on client request.
 
 ---
 
