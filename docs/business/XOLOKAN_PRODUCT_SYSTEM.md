@@ -1,5 +1,9 @@
 # XOLOKAN Product System
 
+**Status: Methodology and archetype catalog approved.** Exact pricing is
+still open — a business decision for Oscar, not something to lock in from
+market research alone. See §6 for what's still outstanding.
+
 How the training methodology in `docs/methodology/XOLOKAN_METHODOLOGY.md`
 turns into programs Oscar can actually sell — repeatably, not as one-off
 custom work each time. This is a business document, not training science;

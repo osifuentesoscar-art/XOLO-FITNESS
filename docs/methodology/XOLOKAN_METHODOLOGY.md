@@ -1,5 +1,8 @@
 # XOLOKAN Training Methodology
 
+**Status: Approved.** Reviewed by Oscar; this governs XOLOKAN's persona and
+program generator as written below.
+
 This is the canonical training-science layer behind XOLOKAN. It grounds every
 program XOLOKAN writes in three inputs: the two Soviet-system source
 documents the method is built on, published dance-science research on

@@ -113,7 +113,11 @@ that file to tune the agent as the brand voice solidifies.
 
 ## Status
 
-Early scaffold — not yet deployed. Next steps to consider: pull in the real
-brand voice/style guide once written, add fitness-specific tools (program
-generation, exercise library lookups) to the agent, and decide on a hosting
-target for the server + web UI.
+Training methodology and the archetype/pricing catalog are **reviewed and
+approved** by Oscar (see the Status lines in
+`docs/methodology/XOLOKAN_METHODOLOGY.md` and
+`docs/business/XOLOKAN_PRODUCT_SYSTEM.md`). The app itself is still an early
+scaffold, not yet deployed. Open next steps: pull in the real brand
+voice/style guide once written, build a PDF/print export of generated
+programs, confirm actual price points, and decide on a hosting target for
+the server + web UI.
