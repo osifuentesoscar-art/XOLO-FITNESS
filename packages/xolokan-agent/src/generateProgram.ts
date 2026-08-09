@@ -26,7 +26,17 @@ function applyEquipment(
 ): ExercisePrescription[] {
   if (equipmentAccess !== "bodyweight-only") return exercises;
   return exercises.map((ex) =>
-    ex.bodyweightAlt ? { ...ex, name: ex.bodyweightAlt, bodyweightAlt: undefined } : ex
+    ex.bodyweightAlt
+      ? {
+          ...ex,
+          name: ex.bodyweightAlt,
+          sets: ex.bodyweightAltSets ?? ex.sets,
+          reps: ex.bodyweightAltReps ?? ex.reps,
+          bodyweightAlt: undefined,
+          bodyweightAltSets: undefined,
+          bodyweightAltReps: undefined,
+        }
+      : ex
   );
 }
 

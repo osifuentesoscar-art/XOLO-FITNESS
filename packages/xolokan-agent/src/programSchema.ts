@@ -35,6 +35,12 @@ export interface ExercisePrescription {
   sets: number;
   reps: string;
   bodyweightAlt?: string;
+  /** Only used when bodyweightAlt is set and the alt needs a different
+   * volume than the loaded exercise (e.g. a jump substitution shouldn't
+   * inherit a kettlebell-swing rep scheme). Falls back to sets/reps above
+   * when omitted. */
+  bodyweightAltSets?: number;
+  bodyweightAltReps?: string;
   correctivePriority?: boolean;
 }
 
