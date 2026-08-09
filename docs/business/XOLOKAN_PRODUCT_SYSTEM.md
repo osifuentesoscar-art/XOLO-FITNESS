@@ -101,16 +101,43 @@ language — the specificity is what a $47 template can't compete with.
 
 ## 6. Immediate next steps
 
-1. Build a PDF/print export of `GeneratedProgram` (the ICONS project in
-   this account already has a proven pattern for this — a template engine
-   that takes a structured data object and renders a branded document) so
-   the self-guided tier has an actual deliverable, not just JSON.
+1. ~~Build a PDF/print export of `GeneratedProgram`~~ — done for one
+   archetype, see §7.
 2. Set up recurring billing for the $75/$150/$200 ladder — Stripe
    subscriptions are the natural fit given all three tiers are monthly.
 3. Write the sales page copy around the archetype catalog in §2 — each
    archetype is close to a landing-page section already.
 4. Decide the exact trigger for "regenerates each block" at the $75/$150
    tiers — automatic on a 12-week timer, or on client request.
+5. Generalize the PDF export (§7) to the Gymnast/Aerialist and
+   General-Performer archetypes, and to full-gym equipment mode.
+
+## 7. First sellable product: 30-Day Dancer Foundation
+
+`scripts/dancer_30_day_pdf.py` renders a branded, print-ready 30-day PDF —
+Phase 1 (Base Strength & Control) of the Dancer archetype, bodyweight
+equipment mode, generated from the same exercise data as
+`generateProgram()` so the sold product and the live generator can't drift
+apart. 11 pages: cover, how-it-works (RIR, RAMP warm-up, equipment,
+disclaimer), weekly rhythm, four workout day pages, a 30-day
+calendar/checklist, nutrition & recovery baseline, progress-check day, and
+a next-steps upsell into the Personalized/Premium tiers.
+
+This is the natural entry point for the **self-guided ($75/mo) tier**: a
+lower-commitment, broadly-marketable "start here" product ahead of the
+full 12-week personalized program. Regenerate it with:
+```bash
+python3 scripts/dancer_30_day_pdf.py [output_path]
+```
+
+Building this surfaced two real fixes applied upstream: a bodyweight
+substitution bug in the generator (`Kettlebell Swings -> Broad Jumps` was
+inheriting an unsafe 5x20 rep scheme) and a font-encoding issue where
+several Unicode glyphs (check marks, bullets, the "&#8805;" symbol) aren't
+in the base Helvetica encoding reportlab uses and silently render as wrong
+characters — worth remembering for any future PDF work in this repo: stick
+to plain ASCII or em/en-dash entities in table cells, and always audit
+with pdfplumber before calling a PDF done.
 
 ---
 

@@ -117,7 +117,15 @@ Training methodology, the archetype catalog, and pricing ($75 / $150 / $200
 monthly virtual subscription tiers) are all **reviewed and approved** by
 Oscar (see the Status lines in `docs/methodology/XOLOKAN_METHODOLOGY.md` and
 `docs/business/XOLOKAN_PRODUCT_SYSTEM.md`). The app itself is still an early
-scaffold, not yet deployed. Open next steps: pull in the real brand
-voice/style guide once written, build a PDF/print export of generated
-programs, set up recurring billing for the three tiers, and decide on a
-hosting target for the server + web UI.
+scaffold, not yet deployed.
+
+First sellable deliverable exists: `scripts/dancer_30_day_pdf.py` generates
+a branded, print-ready PDF (30-Day Dancer Foundation — Phase 1, bodyweight
+equipment) — see `docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7. It's
+purpose-built for one archetype/phase/equipment combination, not a generic
+exporter yet.
+
+Open next steps: pull in the real brand voice/style guide once written,
+generalize the PDF export to the other archetypes/phases/equipment modes,
+set up recurring billing for the three tiers, and decide on a hosting
+target for the server + web UI.
