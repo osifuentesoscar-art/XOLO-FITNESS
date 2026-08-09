@@ -13,6 +13,29 @@ nutrition for performers.
 
 ---
 
+## 2026-08-09 — autoregulation method ranking + sleep as recovery baseline
+
+**Checked:** RPE/autoregulation (previously only touched briefly inside the
+ACSM effort-landmarks table, no dedicated look at which method is best) and
+warm-up & recovery (RAMP covered warm-up already; sleep/recovery specifically
+was only a passing mention, no target or rationale).
+
+**Found:** (1) A 2025 systematic review and network meta-analysis ranking
+autoregulation methods for max-strength gains: APRE (Autoregulating
+Progressive Resistance Exercise — test-set-driven load adjustment) ranked
+highest, ahead of plain RPE, velocity-based training, and fixed-percentage
+programming. (2) Sleep research confirming deep/slow-wave sleep specifically
+(not just total sleep time) is where growth hormone release, protein
+synthesis, and collagen/connective-tissue repair concentrate — supports a
+concrete 7-9 hour target and treating sleep debt as a volume-reduction
+trigger.
+
+**Action:** Added an APRE recommendation to §1 (methodology + persona) for
+primary-lift load adjustment specifically, keeping RPE/RIR as the simpler
+default elsewhere. Added a sleep subsection to §2 (methodology + persona)
+with a concrete duration target and the volume-reduction-trigger framing.
+Both cited, both incremental — no restructuring.
+
 ## 2026-08-08 — gymnast/aerialist injury prevention + performer nutrition
 
 **Checked:** Gymnast/aerialist-specific injury prevention (previously

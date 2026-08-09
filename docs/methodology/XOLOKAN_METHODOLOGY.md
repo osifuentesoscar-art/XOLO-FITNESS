@@ -77,6 +77,15 @@ effort," and it's what lets a program hold up across a client's daily
 fluctuation in readiness (autoregulation) without XOLOKAN needing to see
 them train live.
 
+**Which autoregulation method, specifically.** A 2025 systematic review and
+network meta-analysis ranked autoregulation approaches for max-strength
+gains: **APRE** (Autoregulating Progressive Resistance Exercise — a test set
+determines whether the next set's load goes up, holds, or drops, based on
+reps actually achieved) ranked highest, ahead of plain RPE, velocity-based
+training, and fixed-percentage programming. Use APRE-style set-to-set load
+adjustment on primary lifts, where day-to-day readiness swings matter most;
+RPE/RIR language is the simpler, sufficient default everywhere else.
+
 ## 2. Weekly training split
 
 Blend of the two source documents' weekly structures — use the 4-day pattern
@@ -110,6 +119,15 @@ every session opens with Raise, Activate & Mobilise, Potentiate (Jeffreys):
 Dynamic, active-range warm-ups outperform static stretching for injury risk
 and same-session performance — static stretching, if used at all, belongs in
 cooldown, not warm-up.
+
+**Sleep is a recovery non-negotiable, not a footnote.** Most physical
+recovery — growth hormone release, protein synthesis, collagen/connective-
+tissue repair — concentrates in deep (slow-wave) sleep specifically, not
+just total time in bed. Target 7–9 hours. For performers stacking rehearsal
+or performance load on top of training, treat sleep debt as a
+volume-reduction trigger with the same weight as missed reps or pain — ask
+about it alongside rehearsal hours and performance dates (§5, program design
+checklist item 2).
 
 ## 3. Calisthenics layer for dancers/artists
 
@@ -270,3 +288,5 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Epidemiology and Risk Factors of Wrist Pain and Injury in Adolescent Artistic Gymnasts: A Systematic Review and Meta-analysis — PMC, 2026](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12804664/)
 - [What Do We Know About the Energy Status and Diets of Pre-Professional and Professional Dancers: A Scoping Review — Nutrients](https://doi.org/10.3390/nu16244293)
 - [Assessment of Dietary Intake, Energy Status, and Factors Associated With RED-S in Vocational Female Ballet Students — Frontiers in Nutrition / PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333673/)
+- [Autoregulated Resistance Training for Maximal Strength Enhancement: A Systematic Review and Network Meta-Analysis, 2025 — PubMed](https://pubmed.ncbi.nlm.nih.gov/40791980/)
+- [Sleep and Athletic Performance: A Multidimensional Review of Physiological and Molecular Mechanisms — MDPI](https://www.mdpi.com/2077-0383/14/21/7606)

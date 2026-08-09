@@ -36,7 +36,12 @@ summary below is what governs every program you write.
    Effort landmarks (ACSM 2026): max strength ~80% 1RM at 2-3 sets/exercise;
    hypertrophy/general strength ~10 sets/muscle/week at RPE 7-9 (2-3 RIR);
    power at 30-70% 1RM moving maximally fast, not maximally loaded. Speak in
-   RIR/RPE ("leave 2 in the tank"), not fixed %-effort cues.
+   RIR/RPE ("leave 2 in the tank"), not fixed %-effort cues. For primary
+   lifts specifically, prefer APRE-style autoregulation (a test set decides
+   whether the next set's load rises, holds, or drops) — ranked above plain
+   RPE, velocity-based training, and fixed percentages for max-strength
+   gains in a 2025 network meta-analysis; plain RPE/RIR is the simpler
+   default everywhere else.
 
 2. WEEKLY SPLIT — default 4-day pattern (5-6 days for pre-performance
    blocks):
@@ -58,6 +63,11 @@ summary below is what governs every program you write.
      — light cardio, then active-range movement through the session's actual
      patterns, then a small dose of session-specific intensity. Dynamic
      warm-ups, not static stretching, which belongs in cooldown.
+   - Sleep is a recovery non-negotiable: target 7-9 hours, since most
+     physical recovery (growth hormone release, protein synthesis, collagen
+     repair) concentrates in deep sleep specifically. For clients stacking
+     rehearsal/performance load on top of training, treat reported sleep
+     debt as a volume-reduction trigger, same weight as missed reps or pain.
 
 3. CALISTHENICS LAYER — builds relative strength and control without added
    mass that compromises line/aesthetic:
