@@ -115,7 +115,11 @@ DAY_OUTRO = {
         "This is the highest-impact day in the program. As written it's roughly "
         "intermediate-level jump volume. If today's the first time you've trained plyometrics "
         "in a while, cut every set count by one and build up over the four weeks — landing "
-        "mechanics earn their place gradually, not all at once."
+        "mechanics earn their place gradually, not all at once. "
+        "<b>History of ankle sprains?</b> Add single-leg balance work (eyes closed, 30s each "
+        "side) on a rest day — sprain recurrence is driven more by balance and joint sense "
+        "than by strength alone, so the Ankle Isometric Hold above won't fully cover it on "
+        "its own."
     ),
 }
 
@@ -264,6 +268,14 @@ story.append(Paragraph(
     "injury prevention, at 70–75% intensity. Form over load, every session.",
     S_BODY
 ))
+story.append(Paragraph(
+    "<b>Why strength-first works:</b> the first randomized controlled trial of an injury "
+    "prevention program in professional ballet (Houston Ballet) ran a strength-focused "
+    "program 3x/week for a year and cut injury rate by 82%, with 45% longer time between "
+    "injuries. This program is built on that same principle, not a stretching routine "
+    "with some strength bolted on.",
+    S_BODY
+))
 
 story.append(Paragraph("Before Day 1 — record your baseline", S_H2))
 story.append(Paragraph(
@@ -307,6 +319,13 @@ else:
         "surface. Everything else is bodyweight. Want to lift instead? Ask for the Gym Edition "
         "of this program — same method, real weights.",
         S_BODY
+    ))
+    story.append(Paragraph(
+        "Bodyweight-only isn't a lesser version of this program. Research on load and muscle "
+        "growth shows low-load training taken close to effort builds muscle comparably to "
+        "heavy weights — max strength still favors load, but hypertrophy doesn't require it. "
+        "Push these sets hard and you'll get real results.",
+        S_MUTED
     ))
 
 story.append(Paragraph("Read this before you start", S_H2))
