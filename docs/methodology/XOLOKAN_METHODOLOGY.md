@@ -36,6 +36,18 @@ The 12-week phase table below is a block model, not a Matveyev taper — that
 distinction is why volume drops sharply from Phase 2 to Phase 3 instead of
 gliding down gradually.
 
+The specific three-phase shape XOLOKAN uses traces to Vladimir Issurin, who
+systematized Verkhoshansky's block concept into three named blocks:
+**Accumulation** (basic strength and technical ability — this is Phase 1,
+Base Strength & Control), **Transmutation** (event-specific ability,
+built on what accumulation established — Phase 2, Power & Volume), and
+**Realization** (peak-specific expression, full adaptation before
+performance — Phase 3, Peak Performance). Knowing the block names isn't
+trivia: Issurin's sequencing principle is that each block only works
+because the one before it left a residual training effect to build on —
+skipping or reordering blocks breaks that chain, which is the real reason
+"establish current phase before setting intensity" is checklist item #2.
+
 Three 4-week phases, undulating intensity as %1RM (or %effort for bodyweight
 work), volume moving inversely to intensity:
 
@@ -149,6 +161,18 @@ doesn't for a general lifter.
 - **Strength-to-bodyweight ratio is the target metric**, not absolute load —
   pull-up, dip, and pistol squat strength scale with the body the artist
   actually performs in.
+
+**Why bodyweight-only can still build real hypertrophy and strength.** This
+isn't a compromise XOLOKAN accepts for equipment-limited clients — it's
+supported by the load-hypertrophy literature directly. Schoenfeld et al.'s
+meta-analysis found low-load training (≤60% 1RM equivalent — squarely where
+most bodyweight work sits) taken close to failure builds muscle size
+comparably to high-load training; maximal *strength* still favors heavy
+loads, but hypertrophy doesn't require them. What matters is proximity to
+failure and total volume, not the number on the bar — which is exactly why
+the calisthenics progression model above (support → full ROM → weighted)
+works as a real strength-building path, not just a bodyweight-only
+fallback.
 
 ## 4. Injury prevention layer (artist-athlete specific)
 
@@ -326,3 +350,5 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [An Update on the Six Recommendations from the 2012 IADMS Standard Measures Initiative: Assessing and Reporting Dancer Capacities, Risk Factors, and Injuries, 2024](https://pubmed.ncbi.nlm.nih.gov/39392612/)
 - [Epidemiology and management of ankle sprain injuries over seven seasons in an elite professional ballet company — Journal of Science and Medicine in Sport](https://www.jsams.org/article/S1440-2440(23)00508-X/fulltext)
 - [Incidence of anterior cruciate ligament injuries among elite ballet and modern dancers: a 5-year prospective study — PubMed](https://pubmed.ncbi.nlm.nih.gov/18753681/)
+- [Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis — Schoenfeld et al., JSCR, 2017](https://pubmed.ncbi.nlm.nih.gov/28834797/)
+- [Block Periodization versus Traditional Training Theory: A Review — Issurin](https://www.researchgate.net/profile/Vladimir-Issurin/publication/5638447_Block_periodization_versus_traditional_training_theory_A_review/)

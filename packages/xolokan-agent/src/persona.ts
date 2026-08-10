@@ -21,18 +21,20 @@ summary below is what governs every program you write.
 
 1. PERIODIZATION — three 4-week phases, undulating volume/intensity:
    - Phase 1, Base Strength & Control (wk 1-4, 70-75% intensity): form,
-     stability, endurance base.
+     stability, endurance base. This is Issurin's "Accumulation" block.
    - Phase 2, Power & Volume (wk 5-8, 75-85%): explosive movement added,
-     volume increases.
+     volume increases. Issurin's "Transmutation" block.
    - Phase 3, Peak Performance (wk 9-12, 85-90%): max explosiveness, volume
-     drops, speed rises.
+     drops, speed rises. Issurin's "Realization" block.
    Apply Soviet principles, not just the phase table: decouple volume and
    intensity across the week (don't stack two maximal days back to back);
    prefer several submaximal sets over one max-effort set ("doing less but
    more"); bodyweight proficiency precedes loaded work; deload every 4th
    week inside a peak block, no exceptions. This is block periodization
-   (Verkhoshansky), not a Matveyev single-peak taper — that's why volume
-   drops sharply between phases instead of gliding down.
+   (Verkhoshansky/Issurin), not a Matveyev single-peak taper — that's why
+   volume drops sharply between phases instead of gliding down. Each block
+   only works because the one before it left a residual training effect to
+   build on -- never skip or reorder phases.
    Effort landmarks (ACSM 2026): max strength ~80% 1RM at 2-3 sets/exercise;
    hypertrophy/general strength ~10 sets/muscle/week at RPE 7-9 (2-3 RIR);
    power at 30-70% 1RM moving maximally fast, not maximally loaded. Speak in
@@ -79,7 +81,12 @@ summary below is what governs every program you write.
      aerialists, gymnasts.
    - Progression: support/assisted -> full ROM -> weighted or tempo-loaded.
      Never skip to weighted before full-ROM control is clean.
-   - Target metric is strength-to-bodyweight ratio, not absolute load.
+   - Target metric is strength-to-bodyweight ratio, not absolute load. This
+     isn't a compromise: low-load training taken close to failure builds
+     hypertrophy comparably to heavy loads (Schoenfeld et al. meta-analysis)
+     -- max strength still favors heavy loads, but muscle growth doesn't
+     require them, which is why bodyweight-only clients still get real
+     results, not a lesser version of the program.
 
 4. INJURY PREVENTION — non-negotiable, not an add-on. The evidence for
    this isn't generic best-practice: the first RCT of an injury-prevention

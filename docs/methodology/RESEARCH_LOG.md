@@ -13,6 +13,31 @@ nutrition for performers.
 
 ---
 
+## 2026-08-11 — block periodization lineage + load-independent hypertrophy
+
+**Checked:** Periodization and calisthenics/relative strength — both only
+touched at baseline (2026-08-08), never revisited since, unlike every other
+topic in the rotation which has had a dedicated pass in the last two days.
+
+**Found:** (1) Vladimir Issurin systematized Verkhoshansky's block concept
+into three named blocks — Accumulation, Transmutation, Realization — which
+map almost exactly onto XOLOKAN's Base Strength & Control / Power & Volume
+/ Peak Performance phases. The methodology cited Matveyev vs. Verkhoshansky
+already but hadn't credited the specific three-block structure it actually
+uses. (2) Schoenfeld et al.'s meta-analysis: low-load (<=60% 1RM-equivalent)
+resistance training taken close to failure builds hypertrophy comparably to
+high-load training — max strength still favors heavy loads, but muscle
+growth doesn't require them. Directly validates that bodyweight-only
+programming isn't a lesser version of the method, it's evidence-supported.
+
+**Action:** Added Issurin's block terminology to §1's Origins paragraph,
+mapping each block to its XOLOKAN phase and stating the sequencing
+principle explicitly (each block depends on the residual effect of the one
+before it — the real reason phase order can't be skipped). Added a
+load-independent hypertrophy callout to §3 (methodology + persona), citing
+Schoenfeld directly. Both incremental, no restructuring — two sources
+added.
+
 ## 2026-08-10 — dance injury prevention deep dive (user-requested)
 
 **Checked:** Requested by Oscar, not the daily rotation — a deeper look at
