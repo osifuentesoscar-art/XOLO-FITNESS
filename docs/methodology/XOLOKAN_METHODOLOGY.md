@@ -156,12 +156,33 @@ Dancers and performers are athletes, and strength & conditioning measurably
 reduces their injury risk — this is not optional add-on programming, it's
 core to the method.
 
+**The strongest evidence available: a structured, strength-first program
+works.** The first prospective randomized controlled trial of an injury
+prevention program in professional ballet (Houston Ballet, published in the
+*Orthopaedic Journal of Sports Medicine*, 2020) had dancers run a 30-minute,
+**strength-focused** program 3x/week for 52 weeks — deliberately built on
+"strength beats stretch," not flexibility work. Result: an **82% reduction
+in injury rate** and **45% longer time between injuries** versus control.
+This directly validates XOLOKAN's own bias (periodized strength +
+calisthenics, dynamic RAMP warm-ups over static stretching) — it isn't a
+generic best practice, it's the specific approach the best available trial
+data supports for this population.
+
+**Screening, not just training.** IADMS (International Association for
+Dance Medicine & Science) is the field's standard-setting body for injury
+surveillance — its Standard Measures Initiative calls for a pre-season
+screen of risk factors and capacities before programming, not just reactive
+treatment after injury. Practically: establish baseline numbers (e.g.
+strength/balance benchmarks) before a client's first block, the same way
+the Day 1 baseline log works in a XOLOKAN program — screening is part of
+program design, not a separate clinical step.
+
 **Most common injury sites and the countermeasure XOLOKAN should default to:**
 
 | Site | Common injuries | Default countermeasure |
 |---|---|---|
-| Ankle | Sprains, Achilles tendinopathy, impingement | Ankle-focused isometric + eccentric + plyometric block. A 12-week ankle program in the literature raised jump peak power ~60%, braking stiffness ~70%, and leap height ~12% — ankle work earns its place in every block. |
-| Knee | Patellofemoral pain, ACL/MCL strain from landing/pivoting | Quad + glute strengthening, single-leg landing mechanics drilled explicitly, not assumed. |
+| Ankle | Sprains (0.27 injuries/1000h in elite ballet, ~13-14 days lost per sprain), Achilles tendinopathy, impingement | Ankle-focused isometric + eccentric + plyometric block. A 12-week ankle program in the literature raised jump peak power ~60%, braking stiffness ~70%, and leap height ~12%. **For anyone with a prior sprain, add balance/proprioceptive work specifically** (single-leg balance, ankle joint reposition-sense drills) — recurrence risk is driven by degraded proprioception, not just strength, and strength work alone doesn't fully address it. |
+| Knee | Patellofemoral pain, ACL/MCL strain from landing/pivoting (92% of ballet ACL injuries occur landing a jump on one leg) | Quad + glute strengthening, single-leg landing mechanics drilled explicitly, not assumed — the single-leg landing emphasis in the Standing Rules below is the direct countermeasure to how these injuries actually happen. |
 | Lower back | Disc strain, muscle strain, spinal instability | Core and hip strengthening, posture work, avoid unbroken high-volume loading without a deload. |
 | Hip | Snapping hip, impingement, labral irritation, flexor tendinopathy, bursitis, SI dysfunction | Hip mobility work + glute medius / lateral stability training. |
 | Wrist (gymnast/aerialist) | Chronic wrist pain from repetitive weight-bearing on an extended wrist | Shoulder ROM work alongside wrist loading progression — a 2026 systematic review of 185,107 gymnasts found 53% pooled wrist pain prevalence, with **decreased shoulder ROM** an identified risk factor, not just wrist-local overuse. Risk climbs with training intensity, years training, and weekly hours, so dose wrist-loaded calisthenics (ring support holds, handstand work) with the same discipline as plyometric contacts below. |
@@ -187,30 +208,41 @@ countermeasures above have time to do their job between sessions.
    aerialists, gymnasts) — ties directly to the calisthenics layer above.
 3. **Ankle and hip prehab by default** for anyone doing regular jumping or
    pivoting work, not just after an injury.
-4. **Deload every 4th peak week** (restated from §1 — this is as much an
+4. **Prior ankle sprain gets proprioceptive work, not just more strength.**
+   Ask about sprain history before programming — a history of ankle sprain
+   is itself the strongest predictor of another one, and the fix is
+   balance/joint-reposition-sense training layered on top of the standard
+   ankle block, not a heavier dose of the same isometric/eccentric work.
+5. **Deload every 4th peak week** (restated from §1 — this is as much an
    injury rule as a performance one).
-5. **Cross-training and periodization are injury-prevention strategies.**
+6. **Cross-training and periodization are injury-prevention strategies.**
    Planning volume across a season, not just within a week, is what keeps an
    artist at peak condition for performance dates instead of managing
    overuse injuries around them.
-6. **Baseline non-negotiables**: warm-up before every session, hydration,
+7. **Baseline non-negotiables**: warm-up before every session, hydration,
    sleep, and not stacking overtraining on top of rehearsal/performance load
    that XOLOKAN doesn't see directly — always ask what else is on the
    client's week before prescribing volume.
 
 ## 5. Program design checklist (apply before writing any program)
 
-1. Establish current phase (Base / Power-Volume / Peak) before setting
+1. Establish baseline first (IADMS screening principle): before a client's
+   first block, get their injury history and, where possible, simple
+   strength/balance benchmarks — screening is part of program design, not
+   a step that happens separately.
+2. Establish current phase (Base / Power-Volume / Peak) before setting
    intensity.
-2. Confirm outside load: rehearsal hours, performance dates, other training
+3. Confirm outside load: rehearsal hours, performance dates, other training
    — periodize around it, don't ignore it.
-3. Include unilateral/single-leg work this week. No exceptions.
-4. Include an isometric control element if the client is a dancer,
+4. Include unilateral/single-leg work this week. No exceptions.
+5. Include an isometric control element if the client is a dancer,
    aerialist, gymnast, or otherwise control-dependent performer.
-5. Include ankle and/or hip prehab by default for jump/pivot-heavy artists.
-6. If this is week 4 of a peak block, deload — drop volume, hold or reduce
+6. Include ankle and/or hip prehab by default for jump/pivot-heavy artists.
+   If there's a prior ankle sprain, add proprioceptive/balance work, not
+   just more strength work.
+7. If this is week 4 of a peak block, deload — drop volume, hold or reduce
    intensity.
-7. Any pain, sharp discomfort, or injury history gets referred out — flag
+8. Any pain, sharp discomfort, or injury history gets referred out — flag
    to a doctor or physical therapist, don't diagnose or prescribe rehab
    beyond general mobility guidance.
 
@@ -290,3 +322,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Assessment of Dietary Intake, Energy Status, and Factors Associated With RED-S in Vocational Female Ballet Students — Frontiers in Nutrition / PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333673/)
 - [Autoregulated Resistance Training for Maximal Strength Enhancement: A Systematic Review and Network Meta-Analysis, 2025 — PubMed](https://pubmed.ncbi.nlm.nih.gov/40791980/)
 - [Sleep and Athletic Performance: A Multidimensional Review of Physiological and Molecular Mechanisms — MDPI](https://www.mdpi.com/2077-0383/14/21/7606)
+- [An Injury Prevention Program for Professional Ballet: A Randomized Controlled Investigation — Houston Methodist / Orthopaedic Journal of Sports Medicine, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7388110/)
+- [An Update on the Six Recommendations from the 2012 IADMS Standard Measures Initiative: Assessing and Reporting Dancer Capacities, Risk Factors, and Injuries, 2024](https://pubmed.ncbi.nlm.nih.gov/39392612/)
+- [Epidemiology and management of ankle sprain injuries over seven seasons in an elite professional ballet company — Journal of Science and Medicine in Sport](https://www.jsams.org/article/S1440-2440(23)00508-X/fulltext)
+- [Incidence of anterior cruciate ligament injuries among elite ballet and modern dancers: a 5-year prospective study — PubMed](https://pubmed.ncbi.nlm.nih.gov/18753681/)

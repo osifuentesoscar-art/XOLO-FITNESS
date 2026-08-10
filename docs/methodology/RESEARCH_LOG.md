@@ -13,6 +13,45 @@ nutrition for performers.
 
 ---
 
+## 2026-08-10 — dance injury prevention deep dive (user-requested)
+
+**Checked:** Requested by Oscar, not the daily rotation — a deeper look at
+structured dance injury prevention protocols and screening standards,
+beyond the risk-factor studies already cited.
+
+**Found:** (1) The first prospective RCT of an injury prevention program in
+professional ballet (Houston Ballet, 2020): a strength-focused 30-min
+program 3x/week for 52 weeks cut injury rate 82% and extended time between
+injuries 45% — direct validation of XOLOKAN's existing strength-first,
+RAMP-over-static-stretch bias, not just a generic best practice. (2) IADMS
+(International Association for Dance Medicine & Science) is the field's
+standard-setting body for injury screening — its Standard Measures
+Initiative calls for pre-season baseline screening, which the methodology
+didn't explicitly frame as part of program design before this. (3)
+Concrete epidemiology: ankle sprains at 0.27/1000h in elite ballet (~13-14
+days lost each), ACL injuries with 92% occurring on single-leg jump
+landings — reinforces existing ankle/knee content with real numbers. (4) A
+genuine gap: ankle sprain *recurrence* is driven by degraded
+proprioception, not just weakness — the existing ankle countermeasure
+(isometric + eccentric + plyometric) doesn't address this; prior-sprain
+clients need balance/joint-reposition-sense work specifically.
+
+**Action:** Added a validating-evidence callout and IADMS screening
+principle to §4 opening, updated the Ankle and Knee table rows with the
+epidemiology, added a new Standing Rule (#4) and checklist item for
+proprioceptive work after a prior ankle sprain, and added an IADMS-based
+baseline-screening item as checklist item #1 (previously the checklist
+started at "establish phase" with no screening step). All cited, all
+incremental — six sources added.
+
+**Also completed (explicit request):** A full repo + generated-PDF scan
+for any Brace Life Studios / ICONS content bleeding into XOLO FITNESS
+material, following the tagline mixup caught last session. Scanned repo
+source (grep across all files for brand terms, hex codes, client names,
+script names) and the actual generated PDF's extracted text. Result:
+clean — no contamination found anywhere, including git history commit
+messages.
+
 ## 2026-08-09 — autoregulation method ranking + sleep as recovery baseline
 
 **Checked:** RPE/autoregulation (previously only touched briefly inside the
