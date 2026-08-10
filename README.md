@@ -120,10 +120,13 @@ Oscar (see the Status lines in `docs/methodology/XOLOKAN_METHODOLOGY.md` and
 scaffold, not yet deployed.
 
 First sellable deliverable exists: `scripts/dancer_30_day_pdf.py` generates
-a branded, print-ready PDF (30-Day Dancer Foundation — Phase 1, bodyweight
-equipment) — see `docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7. It's
-purpose-built for one archetype/phase/equipment combination, not a generic
-exporter yet.
+a branded, print-ready PDF (30-Day Dancer Foundation — Phase 1), in both a
+bodyweight-only and a full-gym (real weights) edition, pulled live from
+`generateProgram()` so it can't drift from the generator — see
+`docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7. It's purpose-built for the
+Dancer archetype/Phase 1, not a generic exporter for every
+archetype/phase yet. A weekly Routine keeps it current — see
+`docs/business/PRODUCT_CHANGELOG.md`.
 
 Open next steps: pull in the real brand voice/style guide once written,
 generalize the PDF export to the other archetypes/phases/equipment modes,

@@ -115,29 +115,50 @@ language — the specificity is what a $47 template can't compete with.
 ## 7. First sellable product: 30-Day Dancer Foundation
 
 `scripts/dancer_30_day_pdf.py` renders a branded, print-ready 30-day PDF —
-Phase 1 (Base Strength & Control) of the Dancer archetype, bodyweight
-equipment mode, generated from the same exercise data as
-`generateProgram()` so the sold product and the live generator can't drift
-apart. 11 pages: cover, how-it-works (RIR, RAMP warm-up, equipment,
-disclaimer), weekly rhythm, four workout day pages, a 30-day
-calendar/checklist, nutrition & recovery baseline, progress-check day, and
-a next-steps upsell into the Personalized/Premium tiers.
+Phase 1 (Base Strength & Control) of the Dancer archetype. It pulls
+exercises, sets, and reps **live from `generateProgram()`** at build time
+(via `generateSampleCli.ts`) rather than duplicating that data as hardcoded
+Python — so the PDF and the actual generator can never drift apart as
+`archetypes.ts` evolves. Only coaching cues, RIR targets, and rest times
+are authored in the script, keyed by exercise name, since the generator
+doesn't produce those yet. 11 pages: cover, how-it-works (RIR, RAMP
+warm-up, equipment, disclaimer), weekly rhythm, four workout day pages, a
+30-day calendar/checklist, nutrition & recovery baseline, progress-check
+day, and a next-steps upsell into the Personalized/Premium tiers.
+
+**Two editions, one script:**
+```bash
+python3 scripts/dancer_30_day_pdf.py --equipment bodyweight-only [output_path]
+python3 scripts/dancer_30_day_pdf.py --equipment full-gym [output_path]
+```
+The Gym Edition uses real loaded strength work (Front Squat, Weighted
+Pull-Ups, Seated Overhead Press, Sled Push, Kettlebell Swings) instead of
+the bodyweight substitutions — same method, same phase, same days, real
+weights. This widens the addressable market for the self-guided tier
+beyond bodyweight-only clients.
 
 This is the natural entry point for the **self-guided ($75/mo) tier**: a
 lower-commitment, broadly-marketable "start here" product ahead of the
-full 12-week personalized program. Regenerate it with:
-```bash
-python3 scripts/dancer_30_day_pdf.py [output_path]
-```
+full 12-week personalized program.
 
-Building this surfaced two real fixes applied upstream: a bodyweight
-substitution bug in the generator (`Kettlebell Swings -> Broad Jumps` was
-inheriting an unsafe 5x20 rep scheme) and a font-encoding issue where
-several Unicode glyphs (check marks, bullets, the "&#8805;" symbol) aren't
-in the base Helvetica encoding reportlab uses and silently render as wrong
-characters — worth remembering for any future PDF work in this repo: stick
-to plain ASCII or em/en-dash entities in table cells, and always audit
-with pdfplumber before calling a PDF done.
+Building this surfaced real fixes applied upstream, not just to the PDF:
+a bodyweight substitution bug in the generator (`Kettlebell Swings ->
+Broad Jumps` was inheriting an unsafe 5x20 rep scheme), and a
+font-encoding issue where several Unicode glyphs (check marks, bullets,
+the "&#8805;" symbol) aren't in the base Helvetica encoding reportlab uses
+and silently render as wrong characters. The script now fails loudly with
+a clear error if it hits an exercise name with no authored cue, rather
+than silently shipping a gap — caught immediately when the Gym Edition
+was added (`Ankle Isometric Hold (single-leg calf raise)`'s exact archetype
+name didn't match the cue lookup key). Lesson for any future PDF work in
+this repo: stick to plain ASCII or em/en-dash entities in table cells, and
+always audit with pdfplumber before calling a PDF done.
+
+**Weekly improvement routine**: a scheduled Routine reviews this product
+every week — syncing in anything from that week's methodology research
+that should reach the PDF's cues or notes, catching drift against the live
+generator, and re-running the full overflow + contamination audit before
+anything ships. See `docs/business/PRODUCT_CHANGELOG.md` for the log.
 
 ---
 
