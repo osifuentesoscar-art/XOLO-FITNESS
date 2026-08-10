@@ -301,7 +301,63 @@ Actual RED-S risk assessment, diagnosis, and individualized nutrition
 prescription belong to a doctor or sports dietitian — refer out rather than
 managing it in-app, same posture as the injury-referral rule above.
 
-## 7. From methodology to product
+## 7. Demographic factors: age & sex
+
+Client age (in 5-year brackets, 20–40) and anatomical sex are intake
+inputs that measurably change programming — implemented in
+`packages/xolokan-agent/src/demographics.ts`, wired into
+`generateProgram()` so every program picks these up automatically, not
+just this document. A note on scope: within 20–40, the real physiological
+differences are more "20s vs 30s" than four sharply distinct 5-year zones
+— the brackets below are honest about where the science actually
+differentiates versus where they're a reasonable segmentation choice.
+
+### Age
+
+| Bracket | What's actually different |
+|---|---|
+| 20–25 | Peak bone mass is typically reached by the mid-20s (~25.7y men, ~24.8y women) and plateaus for decades after — this is the single highest-leverage window for heavy compound loading's long-term payoff. |
+| 25–30 | Still inside or just past the peak bone-mass window — same guidance as 20–25, no meaningful physiological gap between these two brackets. |
+| 30–35 | Recovery capacity begins a gradual, normal decline. Consider a deload every 3rd peak week instead of every 4th if fatigue accumulates faster than the default schedule assumes — this is a pacing adjustment, not a reduction in what's achievable. |
+| 35–40 | Research on training-age recovery suggests ~10–20% longer regeneration windows than the early 20s (declining anabolic hormone levels, reduced satellite cell responsiveness, changing slow-wave sleep architecture). Build the extra recovery in rather than cutting it to preserve the same weekly volume. |
+
+### Sex (anatomical/biomechanical, not identity or ability)
+
+These factors exist because of documented anatomical and biomechanical
+differences tied to biological sex — not because training capacity or
+preference differs by sex. Framing matters here: the countermeasures below
+are about risk factors with a known anatomical mechanism, not a claim that
+women need an easier program.
+
+- **ACL injury risk is 3–8x higher in women.** Driven by a greater Q-angle
+  (anatomical) and a more erect, quad-dominant landing pattern with
+  greater knee valgus (biomechanical) — not by weakness alone.
+  Countermeasure: posterior chain / hip-abductor strength plus explicit
+  landing-mechanics cueing. `generateProgram()` inserts a Banded Lateral
+  Walk into the reactive-jump day for female clients specifically, on top
+  of the standing single-leg-work rule that already applies to everyone.
+- **Pelvic floor dysfunction is under-recognized in young female strength
+  athletes, not just postpartum or older populations.** Research on this
+  population found significant prevalence of dysfunction from the
+  intra-abdominal pressure spikes of heavy lifting and jump-landing work.
+  Cue "the Knack" (a conscious pelvic floor contraction just before the
+  effort) on heavy lifts and landings; any leaking, heaviness, or pressure
+  gets referred to a pelvic floor physical therapist, not pushed through.
+- **No reliable evidence supports programming around menstrual cycle
+  phase.** A 2023 umbrella review — the highest tier of evidence available,
+  reviewing every meta-analysis and systematic review on the topic —
+  found no basis for cycle-phase-based training recommendations. Train at
+  consistent intensity and autoregulate via RIR/RPE around individual
+  symptoms over multiple cycles, never a fixed calendar. Don't build
+  cycle-syncing into programming even though it's a common trend.
+- **Baseline strength differs by sex; the training response doesn't.**
+  Female upper-body strength averages ~56% of male, lower-body ~72% — but
+  women show *greater relative* strength gains from training than men do.
+  This is exactly why the method already tracks relative,
+  bodyweight-scaled strength as its primary metric rather than absolute
+  load — that framework is sex-fair by construction, not by adjustment.
+
+## 8. From methodology to product
 
 This document is the science layer. It's implemented as a deterministic
 program generator — not left as prose XOLOKAN has to reconstruct per
@@ -352,3 +408,11 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Incidence of anterior cruciate ligament injuries among elite ballet and modern dancers: a 5-year prospective study — PubMed](https://pubmed.ncbi.nlm.nih.gov/18753681/)
 - [Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis — Schoenfeld et al., JSCR, 2017](https://pubmed.ncbi.nlm.nih.gov/28834797/)
 - [Block Periodization versus Traditional Training Theory: A Review — Issurin](https://www.researchgate.net/profile/Vladimir-Issurin/publication/5638447_Block_periodization_versus_traditional_training_theory_A_review/)
+- [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
+- [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
+- [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
+- [Factors Associated with Urinary Incontinence in Female Weightlifters — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12897852/)
+- [Pelvic Floor Muscle Training on Stress Urinary Incontinence in Power- and Weightlifters: a Pilot Study — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11245411/)
+- [Current evidence shows no influence of women's menstrual cycle phase on acute strength performance or adaptations to resistance exercise training — Colenso-Semple, D'Souza, Elliott-Sale, Phillips, Frontiers in Sports and Active Living, 2023](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1054542/full)
+- [Narrative Review of Sex Differences in Muscle Strength, Endurance, Activation, Size, Fiber Type, and Strength Training — JSCR, 2023](https://journals.lww.com/nsca-jscr/fulltext/2023/02000/narrative_review_of_sex_differences_in_muscle.28.aspx)
+- [Resistance training induces similar adaptations of upper and lower-body muscles between sexes — Scientific Reports](https://www.nature.com/articles/s41598-021-02867-y)

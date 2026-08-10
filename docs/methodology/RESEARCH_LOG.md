@@ -13,6 +13,54 @@ nutrition for performers.
 
 ---
 
+## 2026-08-10 (later) — age & sex as demographic programming factors (user-requested)
+
+**Checked:** Requested by Oscar, not the daily rotation — build age range
+(20-25/25-30/30-35/35-40) and anatomical sex (female/male) into the
+generator as real programming factors, not just documentation. Researched
+fresh and independently for this project: bone-density age curves, tendon/
+connective-tissue adaptation timelines, training-age recovery research,
+ACL injury risk and Q-angle/landing-mechanics differences by sex, pelvic
+floor dysfunction in young female strength athletes specifically, relative
+vs. absolute strength gains by sex, and the current menstrual-cycle-and-
+performance evidence base.
+
+**Found:** (1) Peak bone mass hits ~25.7y (men) / ~24.8y (women), then
+plateaus for decades — makes 20-25/25-30 the highest-leverage window for
+heavy compound loading. (2) Recovery capacity declines gradually from the
+early-to-mid 30s, ~10-20% longer regeneration windows by 35-40 (hormonal,
+satellite cell, sleep-architecture factors) — a pacing adjustment, not a
+capability cliff. (3) ACL injury risk is 3-8x higher in women (Q-angle +
+quad-dominant landing pattern), directly actionable via posterior-chain/
+hip-abductor work and landing cues. (4) Pelvic floor dysfunction is
+significantly prevalent in young female strength athletes specifically —
+not just postpartum/older populations, which is a common and incorrect
+assumption. (5) A 2023 umbrella review (top of the evidence hierarchy)
+found no reliable menstrual-cycle-phase effect on strength performance or
+adaptation — cycle-syncing programming is not evidence-supported. (6)
+Women show greater *relative* strength gains than men despite smaller
+absolute ones — validates the method's existing relative-strength-as-
+primary-metric framework as sex-fair by design already.
+
+**Action:** Added `ageRange` and `sex` as required `ClientIntake` fields
+(`programSchema.ts`), a new `demographics.ts` module producing age/sex
+notes plus a sex-specific corrective exercise (Banded Lateral Walk, ACL
+prehab) for female clients, wired into `generateProgram()` — every program
+now carries `demographicNotes` and the corrective is inserted
+automatically. Updated the SDK tool schema, CLI, methodology doc (new §7),
+and persona to match. All 3 archetypes x both sexes x all 4 age brackets
+smoke-tested. The 30-Day Foundation PDF's fixed demographic default
+(female, 25-30) is now an explicit, documented product decision rather
+than an implicit CLI default — see `docs/business/PRODUCT_CHANGELOG.md`.
+
+**Framing note:** the sex field is explicitly documented as
+anatomical/biomechanical (tied to Q-angle, ACL risk, pelvic floor
+anatomy), not a claim about ability, preference, or identity — worth
+preserving that framing in any future edits to this content.
+
+**Also completed (standing practice):** full contamination scan across
+repo source and both regenerated PDFs. Clean.
+
 ## 2026-08-11 — block periodization lineage + load-independent hypertrophy
 
 **Checked:** Periodization and calisthenics/relative strength — both only

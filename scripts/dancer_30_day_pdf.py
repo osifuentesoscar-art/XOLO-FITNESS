@@ -50,6 +50,17 @@ OUT_PATH = args.output or (
 # =========================================================
 # Pull live program data from the generator (source of truth)
 # =========================================================
+# Product decision, not a generator default: this is a single broad-market
+# SKU, not the personalized tier, so it needs one fixed age/sex profile.
+# Ballet/dance participation skews heavily female and this age band covers
+# the bulk of the professional/pre-professional market -- female, 25-30 is
+# the most representative profile for THIS product. The generator itself
+# supports all 4 age brackets x both sexes; a client going through the
+# personalized (XOLOKAN chat) tier gets their own actual age/sex, not this
+# default. Revisit if a male-specific or other-age edition gets built.
+PRODUCT_AGE_RANGE = "25-30"
+PRODUCT_SEX = "female"
+
 def get_program():
     result = subprocess.run(
         [
@@ -57,6 +68,8 @@ def get_program():
             "--name", "Dancer",
             "--discipline", "dancer",
             "--level", "intermediate",
+            "--age", PRODUCT_AGE_RANGE,
+            "--sex", PRODUCT_SEX,
             "--days", "4",
             "--equipment", EQUIPMENT,
         ],
@@ -102,6 +115,7 @@ CUES = {
     "Broad Jumps":         {"rir": "-", "rest": "60s", "cue": "Reset fully between reps — this is a power drill, not conditioning."},
     "Battle Ropes":        {"rir": "-", "rest": "30s", "cue": "Stay low, alternate waves stay consistent, breathe."},
     "Mountain Climbers 30s": {"rir": "-", "rest": "30s", "cue": "Hips stay low, drive the knees to the chest."},
+    "Banded Lateral Walk": {"rir": "-", "rest": "30s", "cue": "Band above the knees, stay low, knees track over toes — not a warm-up, this is ACL prehab."},
 }
 
 DAY_INTRO = {

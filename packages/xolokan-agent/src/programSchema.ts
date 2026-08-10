@@ -20,10 +20,26 @@ export type EquipmentAccess = z.infer<typeof EquipmentAccessSchema>;
 export const PhaseSchema = z.enum(["base", "power-volume", "peak"]);
 export type Phase = z.infer<typeof PhaseSchema>;
 
+export const AgeRangeSchema = z.enum(["20-25", "25-30", "30-35", "35-40"]);
+export type AgeRange = z.infer<typeof AgeRangeSchema>;
+
+/**
+ * Anatomical/biomechanical sex, used specifically to apply the injury-risk
+ * and recovery countermeasures in demographics.ts (ACL/knee-valgus risk,
+ * pelvic floor / intra-abdominal pressure management, relative-strength
+ * framing). This is not a claim about ability, preference, or identity --
+ * it exists only because those specific countermeasures are tied to
+ * anatomy, not because programming otherwise differs by sex.
+ */
+export const BiologicalSexSchema = z.enum(["female", "male"]);
+export type BiologicalSex = z.infer<typeof BiologicalSexSchema>;
+
 export const ClientIntakeSchema = z.object({
   clientName: z.string(),
   discipline: DisciplineSchema,
   experienceLevel: ExperienceLevelSchema,
+  ageRange: AgeRangeSchema,
+  sex: BiologicalSexSchema,
   sessionsPerWeek: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]),
   equipmentAccess: EquipmentAccessSchema,
   injuryFlags: z.array(z.enum(["ankle", "knee", "lower-back", "hip"])).default([]),
@@ -65,5 +81,6 @@ export interface GeneratedProgram {
   client: ClientIntake;
   weeks: ProgramWeek[];
   prehabFocus: string[];
+  demographicNotes: string[];
   disclaimers: string[];
 }

@@ -92,12 +92,20 @@ Most sellable fitness programs are static PDFs — the entire market of
 and can't adapt. XOLOKAN's actual moat is that the personalized tier isn't
 static: it's a real generator (`generateProgram()` in
 `packages/xolokan-agent/src/`) that takes a client's discipline, experience,
-equipment access, and injury history and produces a genuinely different
-12-week program — deload weeks, corrective exercises, and equipment
-substitutions all computed, not hand-edited. That's the pitch: not "a PDF
-from a trainer," but "an AI coach running Oscar's own method." Lead
-marketing copy with that distinction, not with generic AI-coaching
-language — the specificity is what a $47 template can't compete with.
+equipment access, injury history, **age range, and anatomical sex** and
+produces a genuinely different 12-week program — deload weeks, corrective
+exercises, equipment substitutions, age-specific recovery pacing, and
+sex-specific injury countermeasures (ACL/landing-mechanics work and pelvic
+floor guidance for female clients) all computed, not hand-edited. That's
+the pitch: not "a PDF from a trainer," but "an AI coach running Oscar's own
+method, factoring in who you actually are." Lead marketing copy with that
+distinction, not with generic AI-coaching language — the specificity is
+what a $47 template can't compete with.
+
+**Sell the personalization dimension directly.** "Same 12-week arc,
+programmed differently for a 22-year-old and a 38-year-old, for a man and
+a woman" is a concrete, demonstrable claim competitors with a static PDF
+can't make — worth a line in sales copy, not just an engineering detail.
 
 ## 6. Immediate next steps
 
@@ -140,6 +148,19 @@ beyond bodyweight-only clients.
 This is the natural entry point for the **self-guided ($75/mo) tier**: a
 lower-commitment, broadly-marketable "start here" product ahead of the
 full 12-week personalized program.
+
+**Demographic default is an explicit product decision, not an accident.**
+The generator now factors in age range and anatomical sex
+(`packages/xolokan-agent/src/demographics.ts` — see the methodology's
+§7), but this static PDF is one broad-market SKU, not the personalized
+tier, so it needs one fixed profile: **female, 25–30**, chosen because
+ballet/dance participation skews heavily female and that age band covers
+the bulk of the professional/pre-professional market. This is set
+explicitly in the script (`PRODUCT_AGE_RANGE` / `PRODUCT_SEX`), not left
+as an implicit CLI default. A client going through the Personalized tier
+gets their own actual age/sex from XOLOKAN, not this default. Revisit if
+a male-specific or different-age edition becomes worth building as a
+fourth SKU.
 
 Building this surfaced real fixes applied upstream, not just to the PDF:
 a bodyweight substitution bug in the generator (`Kettlebell Swings ->

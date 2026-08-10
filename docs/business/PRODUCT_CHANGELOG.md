@@ -8,6 +8,23 @@ entry on top.
 
 ---
 
+## 2026-08-10 (later, 2) — demographic factors (age/sex) reach the PDF
+
+**Changed:**
+- The generator's new `ageRange`/`sex` intake fields (see
+  `docs/methodology/RESEARCH_LOG.md`) surfaced immediately when
+  regenerating: the CLI's new default (`female`) meant Day 3 gained a
+  Banded Lateral Walk (ACL prehab) with no authored cue — the script's
+  fail-loud check caught it before anything shipped. Added the cue.
+- Set the PDF's demographic profile explicitly (`PRODUCT_AGE_RANGE`,
+  `PRODUCT_SEX` constants — female, 25-30) instead of leaving it as an
+  implicit CLI default, with the reasoning documented in the script and
+  in `docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7.
+
+**Audit:** Both editions regenerated — still 11 pages each, zero overflow,
+zero glyph corruption, zero Brace Life/ICONS contamination. Spot-checked
+the new Day 3 row renders correctly.
+
 ## 2026-08-10 (later) — synced injury-prevention and hypertrophy research into the PDF
 
 **Note:** this is the first scheduled firing of the weekly Routine, landing

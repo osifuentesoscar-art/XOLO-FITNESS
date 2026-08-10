@@ -1,4 +1,5 @@
 import { ARCHETYPES, dayLabels } from "./archetypes.js";
+import { getAgeNotes, getSexNotes, getSexCorrective } from "./demographics.js";
 import type {
   ClientIntake,
   ExercisePrescription,
@@ -47,6 +48,9 @@ function buildDaysForWeek(client: ClientIntake): ProgramDay[] {
   const extraInjuryFlags = client.injuryFlags.filter((f) => !archetype.prehabFocus.includes(f));
   const correctiveInserts = extraInjuryFlags.map((f) => CORRECTIVE_EXERCISES[f]).filter(Boolean);
 
+  const sexCorrective = getSexCorrective(client.sex);
+  const day3WithSexCorrective = sexCorrective ? [sexCorrective, ...day3] : day3;
+
   const baseDays: ProgramDay[] = [
     { dayNumber: 1, focus: dayLabels[0], exercises: day1, mobilitySession: false },
     {
@@ -55,7 +59,7 @@ function buildDaysForWeek(client: ClientIntake): ProgramDay[] {
       exercises: [...correctiveInserts, ...day2],
       mobilitySession: true,
     },
-    { dayNumber: 3, focus: dayLabels[2], exercises: day3, mobilitySession: false },
+    { dayNumber: 3, focus: dayLabels[2], exercises: day3WithSexCorrective, mobilitySession: false },
     { dayNumber: 4, focus: dayLabels[3], exercises: day4, mobilitySession: true },
   ];
 
@@ -63,7 +67,7 @@ function buildDaysForWeek(client: ClientIntake): ProgramDay[] {
     const mergedDay3: ProgramDay = {
       dayNumber: 3,
       focus: `${dayLabels[2]} + Conditioning Finisher`,
-      exercises: [...day3, ...day4.slice(0, 2)],
+      exercises: [...day3WithSexCorrective, ...day4.slice(0, 2)],
       mobilitySession: true,
     };
     return [baseDays[0], baseDays[1], mergedDay3];
@@ -105,6 +109,7 @@ export function generateProgram(client: ClientIntake): GeneratedProgram {
     client,
     weeks,
     prehabFocus: Array.from(new Set([...archetype.prehabFocus, ...client.injuryFlags])),
+    demographicNotes: [...getAgeNotes(client.ageRange), ...getSexNotes(client.sex)],
     disclaimers: [
       "XOLOKAN is not a medical provider. Any pain, sharp discomfort, or injury history should be referred to a doctor or physical therapist.",
       "This program does not prescribe rehabilitation beyond general mobility guidance.",
