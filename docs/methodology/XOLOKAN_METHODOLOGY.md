@@ -208,6 +208,7 @@ program design, not a separate clinical step.
 | Ankle | Sprains (0.27 injuries/1000h in elite ballet, ~13-14 days lost per sprain), Achilles tendinopathy, impingement | Ankle-focused isometric + eccentric + plyometric block. A 12-week ankle program in the literature raised jump peak power ~60%, braking stiffness ~70%, and leap height ~12%. **For anyone with a prior sprain, add balance/proprioceptive work specifically** (single-leg balance, ankle joint reposition-sense drills) — recurrence risk is driven by degraded proprioception, not just strength, and strength work alone doesn't fully address it. |
 | Knee | Patellofemoral pain, ACL/MCL strain from landing/pivoting (92% of ballet ACL injuries occur landing a jump on one leg) | Quad + glute strengthening, single-leg landing mechanics drilled explicitly, not assumed — the single-leg landing emphasis in the Standing Rules below is the direct countermeasure to how these injuries actually happen. |
 | Lower back | Disc strain, muscle strain, spinal instability | Core and hip strengthening, posture work, avoid unbroken high-volume loading without a deload. |
+| Lower back (gymnast/aerialist) | Spondylolysis (pars interarticularis stress fracture) — the dominant cause of low back pain in adolescent/young gymnasts specifically, a different mechanism than the generic row above | Driven by repetitive spinal hyperextension + rotation (backbends, walkovers, aerial arch work), not axial loading. Deep trunk/lumbar stabilization work in a neutral spine, not generic "core strengthening" — and cap hyperextension-heavy skill volume the same disciplined way plyometric contacts are capped, since this is also a cumulative-load injury. |
 | Hip | Snapping hip, impingement, labral irritation, flexor tendinopathy, bursitis, SI dysfunction | Hip mobility work + glute medius / lateral stability training. |
 | Wrist (gymnast/aerialist) | Chronic wrist pain from repetitive weight-bearing on an extended wrist | Shoulder ROM work alongside wrist loading progression — a 2026 systematic review of 185,107 gymnasts found 53% pooled wrist pain prevalence, with **decreased shoulder ROM** an identified risk factor, not just wrist-local overuse. Risk climbs with training intensity, years training, and weekly hours, so dose wrist-loaded calisthenics (ring support holds, handstand work) with the same discipline as plyometric contacts below. |
 
@@ -222,7 +223,16 @@ real injury lever if overdosed on a jump-heavy artist:
 | Advanced (6+ months progressive training) | 100–140 high-intensity (up to ~200 low-intensity) | 2–3x/week |
 
 Always on non-consecutive days, 48–72 hours apart, so the ankle/knee
-countermeasures above have time to do their job between sessions.
+countermeasures above have time to do their job between sessions. The
+underlying reason: **tendons adapt more slowly than muscle**, so the
+48–72h spacing isn't conservative padding, it's matched to the slower
+tissue. Run plyometric progression in 4–6 week blocks rather than
+open-ended increases — this is also where the tendon-stiffness adaptation
+actually shows up (better energy return, shorter ground contact time),
+not just injury avoidance. Landing cue to standardize across Day 3:
+**heel stays high, short amortization** (minimal pause between landing
+and the next takeoff) — a longer amortization phase bleeds the elastic
+energy the plyometric work is supposed to build.
 
 **Standing rules:**
 1. **Single-leg / unilateral work every week, no exceptions.** Landing
@@ -416,3 +426,8 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Current evidence shows no influence of women's menstrual cycle phase on acute strength performance or adaptations to resistance exercise training — Colenso-Semple, D'Souza, Elliott-Sale, Phillips, Frontiers in Sports and Active Living, 2023](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1054542/full)
 - [Narrative Review of Sex Differences in Muscle Strength, Endurance, Activation, Size, Fiber Type, and Strength Training — JSCR, 2023](https://journals.lww.com/nsca-jscr/fulltext/2023/02000/narrative_review_of_sex_differences_in_muscle.28.aspx)
 - [Resistance training induces similar adaptations of upper and lower-body muscles between sexes — Scientific Reports](https://www.nature.com/articles/s41598-021-02867-y)
+- [Tendon Adaptation to Plyometric Training — Wheeler Sports Tech](https://www.wheelersportstech.com/2026/02/05/tendon-adaptation-to-plyometric-training/)
+- [Effects of plyometrics training on lower limb strength, power, agility, and body composition in athletically trained adults: systematic review and meta-analysis — Scientific Reports, 2025](https://www.nature.com/articles/s41598-025-10652-4)
+- [Spondylolysis: A Narrative Review of Etiology, Diagnosis, and Management — MDPI](https://www.mdpi.com/1660-4601/23/2/153)
+- [Injuries in Artistic Gymnastics: Etiology, Prevention Strategies, and Multifactorial Perspectives — A Systematic Review, 2026 — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12652705/)
+- [Prevention and Treatment of Low Back Pain in Young Female TeamGym Gymnasts — ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04778215)

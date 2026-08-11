@@ -13,6 +13,32 @@ nutrition for performers.
 
 ---
 
+## 2026-08-11 — plyometric dosing mechanism + gymnast spondylolysis
+
+**Checked:** Plyometrics (untouched since the original baseline build — no
+dedicated daily pass had revisited it) and gymnast/aerialist-specific
+injury prevention (last touched 2026-08-08, for wrist only).
+
+**Found:** (1) A 2025/2026 dosing consensus for plyometrics: tendons adapt
+slower than muscle, which is the mechanistic reason for the existing
+48-72h spacing rule (not just a conservative default), plus a 4-6 week
+block-progression framing and a concrete landing cue (heel stays high,
+short amortization — a long amortization phase bleeds the elastic energy
+the training is supposed to build). (2) Spondylolysis (pars interarticularis
+stress fracture) is the dominant cause of low back pain in adolescent/young
+gymnasts specifically — a real gap, since the methodology's lower-back row
+only covered the generic dancer mechanism (disc/muscle strain from axial
+loading). Spondylolysis is driven by repetitive spinal hyperextension +
+rotation (backbends, walkovers, aerial arch work) instead, and needs deep
+trunk/lumbar stabilization in a neutral spine, not generic core work.
+
+**Action:** Added the tendon-adaptation rationale, block-progression
+framing, and landing cue to the plyometric dosage section (methodology +
+persona). Added a second, gymnast-specific Lower Back row to the injury
+table (methodology + persona) alongside the existing generic one, making
+clear it's a different mechanism requiring a different countermeasure.
+Both incremental, six sources added.
+
 ## 2026-08-10 (later) — age & sex as demographic programming factors (user-requested)
 
 **Checked:** Requested by Oscar, not the daily rotation — build age range

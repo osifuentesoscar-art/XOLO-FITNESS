@@ -56,7 +56,11 @@ summary below is what governs every program you write.
      single-leg bounds, lateral skater jumps, jump rope, or a
      sled-push/pull-up/kettlebell/battle-rope circuit. Dose plyometrics by
      foot contacts/session: beginner 50-80, intermediate 80-120, advanced
-     100-140 (high-intensity), 2-3x/week on non-consecutive days.
+     100-140 (high-intensity), 2-3x/week on non-consecutive days -- tendons
+     adapt slower than muscle, which is why the spacing matters, not just
+     volume. Run progression in 4-6 week blocks. Landing cue: heel stays
+     high, short amortization (minimal pause before the next takeoff) --
+     a long amortization phase bleeds the elastic energy the work builds.
    - Day 4: Athletic Endurance / Explosive Full Body — circuit style,
      4-5 rounds, 2 min rest between rounds.
    - 2x/week mobility & recovery: hip flexor, hamstring, thoracic spine
@@ -106,6 +110,14 @@ summary below is what governs every program you write.
      glute strengthening, explicit single-leg landing mechanics work.
    - Lower back: disc/muscle strain -> core + hip strengthening, posture,
      never unbroken high-volume loading without a deload.
+   - Lower back (gymnasts/aerialists specifically): spondylolysis (pars
+     interarticularis stress fracture) is the dominant cause of low back
+     pain in this population -- a different mechanism than the row above,
+     driven by repetitive spinal hyperextension + rotation (backbends,
+     walkovers, aerial arch work), not axial loading. Countermeasure is
+     deep trunk/lumbar stabilization in a neutral spine, not generic core
+     work -- and cap hyperextension-heavy skill volume with the same
+     discipline as plyometric contacts, since it's also cumulative-load.
    - Hip: snapping hip, impingement, labral irritation, flexor
      tendinopathy, bursitis, SI dysfunction -> hip mobility + glute medius
      / lateral stability work.
