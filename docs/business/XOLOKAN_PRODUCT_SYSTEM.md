@@ -109,77 +109,92 @@ can't make — worth a line in sales copy, not just an engineering detail.
 
 ## 6. Immediate next steps
 
-1. ~~Build a PDF/print export of `GeneratedProgram`~~ — done for one
-   archetype, see §7.
-2. Set up recurring billing for the $75/$150/$200 ladder — Stripe
-   subscriptions are the natural fit given all three tiers are monthly.
-3. Write the sales page copy around the archetype catalog in §2 — each
-   archetype is close to a landing-page section already.
-4. Decide the exact trigger for "regenerates each block" at the $75/$150
+1. ~~Build a PDF/print export of `GeneratedProgram`~~ — done, all 3
+   archetypes, see §7.
+2. ~~Generalize the PDF export to Gymnast/Aerialist and General-Performer,
+   and to full-gym equipment mode~~ — done, see §7.
+3. ~~Write the sales page copy around the archetype catalog~~ — done, see
+   §8, `packages/storefront/index.html`.
+4. **Set up recurring billing** — the storefront's three "Subscribe"
+   buttons are Stripe Payment Link placeholders (marked `<!-- SETUP: -->`
+   in the HTML). Create the three recurring products in Stripe and drop
+   the Payment Link URLs in — see `packages/storefront/SETUP.md`. Nothing
+   else blocks going live; Payment Links don't need a custom backend.
+5. Decide the exact trigger for "regenerates each block" at the $75/$150
    tiers — automatic on a 12-week timer, or on client request.
-5. Generalize the PDF export (§7) to the Gymnast/Aerialist and
-   General-Performer archetypes, and to full-gym equipment mode.
+6. Wire Stripe subscription status to XOLOKAN chat access (the
+   Personalized/Premium tiers' actual product) — not built yet, noted in
+   `packages/storefront/SETUP.md`.
 
-## 7. First sellable product: 30-Day Dancer Foundation
+## 7. The full sellable catalog
 
-`scripts/dancer_30_day_pdf.py` renders a branded, print-ready 30-day PDF —
-Phase 1 (Base Strength & Control) of the Dancer archetype. It pulls
-exercises, sets, and reps **live from `generateProgram()`** at build time
-(via `generateSampleCli.ts`) rather than duplicating that data as hardcoded
-Python — so the PDF and the actual generator can never drift apart as
-`archetypes.ts` evolves. Only coaching cues, RIR targets, and rest times
-are authored in the script, keyed by exercise name, since the generator
-doesn't produce those yet. 11 pages: cover, how-it-works (RIR, RAMP
-warm-up, equipment, disclaimer), weekly rhythm, four workout day pages, a
-30-day calendar/checklist, nutrition & recovery baseline, progress-check
-day, and a next-steps upsell into the Personalized/Premium tiers.
+`scripts/generate_program_pdf.py` renders a branded, print-ready PDF for
+**any archetype, any scope, any equipment mode** — one generalized script,
+not three copy-pasted ones. It pulls exercises, sets, and reps **live from
+`generateProgram()`** at build time (via `generateSampleCli.ts`) rather
+than duplicating that data as hardcoded Python — so no PDF can ever drift
+from the generator as `archetypes.ts` evolves. Only coaching cues, RIR
+targets, rest times, and per-archetype marketing copy are authored in the
+script, keyed by exercise name / archetype id, since the generator doesn't
+produce those.
 
-**Two editions, one script:**
 ```bash
-python3 scripts/dancer_30_day_pdf.py --equipment bodyweight-only [output_path]
-python3 scripts/dancer_30_day_pdf.py --equipment full-gym [output_path]
+python3 scripts/generate_program_pdf.py \
+  --archetype {dancer, gymnast-aerialist, general-performer} \
+  --equipment {bodyweight-only, full-gym} \
+  --scope {30-day, 12-week} \
+  [output_path]
 ```
-The Gym Edition uses real loaded strength work (Front Squat, Weighted
-Pull-Ups, Seated Overhead Press, Sled Push, Kettlebell Swings) instead of
-the bodyweight substitutions — same method, same phase, same days, real
-weights. This widens the addressable market for the self-guided tier
-beyond bodyweight-only clients.
 
-This is the natural entry point for the **self-guided ($75/mo) tier**: a
-lower-commitment, broadly-marketable "start here" product ahead of the
-full 12-week personalized program.
+That's **3 archetypes × 2 equipment modes × 2 scopes = 12 distinct
+sellable PDFs** from one script:
+
+| Scope | Pages | What it is |
+|---|---|---|
+| `30-day` | 11 | Phase 1 (Base Strength & Control) only — the low-commitment entry product, natural fit for the **self-guided ($75/mo) tier** |
+| `12-week` | 24 | The complete Method — all three phases (Base → Power & Volume → Peak), a 12-week phase map instead of a day-by-day calendar, end-of-phase progress checks instead of just Day 29/30 |
+
+All 12 combinations generated and audited clean on the first full run:
+zero page overflow, zero glyph corruption, zero Brace Life/ICONS
+contamination.
 
 **Demographic default is an explicit product decision, not an accident.**
-The generator now factors in age range and anatomical sex
+The generator factors in age range and anatomical sex
 (`packages/xolokan-agent/src/demographics.ts` — see the methodology's
-§7), but this static PDF is one broad-market SKU, not the personalized
-tier, so it needs one fixed profile: **female, 25–30**, chosen because
-ballet/dance participation skews heavily female and that age band covers
-the bulk of the professional/pre-professional market. This is set
-explicitly in the script (`PRODUCT_AGE_RANGE` / `PRODUCT_SEX`), not left
-as an implicit CLI default. A client going through the Personalized tier
-gets their own actual age/sex from XOLOKAN, not this default. Revisit if
-a male-specific or different-age edition becomes worth building as a
-fourth SKU.
+§7), but these are broad-market SKUs, not the personalized tier, so each
+needs one fixed profile: **female, 25–30** across all of them currently,
+chosen because that skews toward the bulk of this audience. Set explicitly
+in the script, not an implicit default — revisit if archetype-specific or
+male-specific editions become worth building as additional SKUs.
 
-Building this surfaced real fixes applied upstream, not just to the PDF:
+Building this surfaced real fixes applied upstream, not just to the PDFs:
 a bodyweight substitution bug in the generator (`Kettlebell Swings ->
 Broad Jumps` was inheriting an unsafe 5x20 rep scheme), and a
 font-encoding issue where several Unicode glyphs (check marks, bullets,
 the "&#8805;" symbol) aren't in the base Helvetica encoding reportlab uses
-and silently render as wrong characters. The script now fails loudly with
-a clear error if it hits an exercise name with no authored cue, rather
-than silently shipping a gap — caught immediately when the Gym Edition
-was added (`Ankle Isometric Hold (single-leg calf raise)`'s exact archetype
-name didn't match the cue lookup key). Lesson for any future PDF work in
-this repo: stick to plain ASCII or em/en-dash entities in table cells, and
-always audit with pdfplumber before calling a PDF done.
+and silently render as wrong characters. The script fails loudly with a
+clear error if it hits an exercise name with no authored cue, rather than
+silently shipping a gap — this caught real mismatches immediately both
+times new archetypes/exercises were added. Lesson for any future PDF work
+in this repo: stick to plain ASCII or em/en-dash entities in table cells,
+and always audit with pdfplumber before calling a PDF done.
 
-**Weekly improvement routine**: a scheduled Routine reviews this product
+**Weekly improvement routine**: a scheduled Routine reviews the catalog
 every week — syncing in anything from that week's methodology research
-that should reach the PDF's cues or notes, catching drift against the live
+that should reach the PDFs' cues or notes, catching drift against the live
 generator, and re-running the full overflow + contamination audit before
 anything ships. See `docs/business/PRODUCT_CHANGELOG.md` for the log.
+
+## 8. Storefront
+
+`packages/storefront/index.html` — a single self-contained landing page:
+the three-protocol catalog (§2), the differentiator (§5) as four concrete
+claims, and the $75/$150/$200 pricing ladder (§3) with Stripe subscribe
+buttons. No build step, no backend — deploy as-is or drop into xolofit.com
+as a custom page. The three "Subscribe" buttons are placeholders until
+Stripe Payment Links are created — see `packages/storefront/SETUP.md` for
+the exact steps and what's still missing (subscription-to-access wiring
+for the personalized tier).
 
 ---
 

@@ -1,12 +1,41 @@
-# 30-Day Dancer Foundation — Product Changelog
+# XOLOKAN Catalog — Product Changelog
 
-Weekly log for `scripts/dancer_30_day_pdf.py`, the first sellable product.
-Distinct from `docs/methodology/RESEARCH_LOG.md` (which tracks methodology
-research) — this tracks changes to the actual sellable deliverable: content
-accuracy, drift against the live generator, and audit results. Most recent
-entry on top.
+Weekly log for `scripts/generate_program_pdf.py` and
+`packages/storefront/`, the sellable products. Distinct from
+`docs/methodology/RESEARCH_LOG.md` (which tracks methodology research) —
+this tracks changes to the actual sellable deliverables: content accuracy,
+drift against the live generator, and audit results. Most recent entry on
+top.
 
 ---
+
+## 2026-08-11 — full catalog + storefront (user-requested)
+
+**Changed:**
+- Generalized `scripts/dancer_30_day_pdf.py` into
+  `scripts/generate_program_pdf.py`, parameterized by `--archetype`,
+  `--equipment`, and a new `--scope` (`30-day` | `12-week`). One script
+  instead of one-per-archetype, still pulling live from `generateProgram()`.
+- Added the **12-week scope**: the complete Method across all 3 phases (24
+  pages — phase intros, all 4 workout days per phase, end-of-phase
+  progress checks, a 12-week phase map instead of a day-by-day calendar).
+  This is the actual product behind the $150/$200 personalized/premium
+  tiers, not just the $75 entry product.
+- Added cues for 10 new exercises (Ring Support Hold, Handstand Push-Ups,
+  Pistol Squat Progression, Dips, L-Sit Progression, Farmer Carry, Wall
+  Handstand Hold, Medicine Ball Slams, Dead Bug, Hip Airplane) to cover
+  the Gymnast/Aerialist and General-Performer archetypes.
+- Built `packages/storefront/index.html` — a landing page with the
+  3-protocol catalog, the differentiator pitch, and $75/$150/$200
+  Stripe-ready pricing tiers. `packages/storefront/SETUP.md` documents the
+  three Payment Link placeholders and what's still not wired (subscription
+  access to the personalized tier).
+
+**Generated:** all 12 combinations (3 archetypes × 2 equipment × 2 scopes).
+Zero cue-lookup failures on the first full run.
+
+**Audit:** all 12 PDFs — 11 or 24 pages depending on scope, zero overflow,
+zero glyph corruption, zero Brace Life/ICONS contamination.
 
 ## 2026-08-10 (later, 2) — demographic factors (age/sex) reach the PDF
 

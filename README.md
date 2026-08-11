@@ -43,11 +43,15 @@ packages/
   xolokan-agent/   XOLOKAN persona, program generator, Claude Agent SDK chat loop
   server/          Express API wrapping the agent for the web UI
   web/             Minimal static chat UI
+  storefront/      Sales landing page + pricing (packages/storefront/SETUP.md)
+scripts/
+  generate_program_pdf.py   Sellable PDF generator, any archetype/scope/equipment
 docs/methodology/
   XOLOKAN_METHODOLOGY.md   Training-science layer XOLOKAN's persona is built on
   sources/                 Source documents the methodology is built from
 docs/business/
   XOLOKAN_PRODUCT_SYSTEM.md   How the methodology turns into sellable programs
+  PRODUCT_CHANGELOG.md        Weekly log of changes to the sellable catalog
 ```
 
 ## Training methodology
@@ -119,14 +123,16 @@ Oscar (see the Status lines in `docs/methodology/XOLOKAN_METHODOLOGY.md` and
 `docs/business/XOLOKAN_PRODUCT_SYSTEM.md`). The app itself is still an early
 scaffold, not yet deployed.
 
-First sellable deliverable exists: `scripts/dancer_30_day_pdf.py` generates
-a branded, print-ready PDF (30-Day Dancer Foundation — Phase 1), in both a
-bodyweight-only and a full-gym (real weights) edition, pulled live from
-`generateProgram()` so it can't drift from the generator — see
-`docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7. It's purpose-built for the
-Dancer archetype/Phase 1, not a generic exporter for every
-archetype/phase yet. A weekly Routine keeps it current — see
-`docs/business/PRODUCT_CHANGELOG.md`.
+**Full sellable catalog exists.** `scripts/generate_program_pdf.py`
+generates a branded, print-ready PDF for any of the 3 archetypes, in a
+30-day (Phase 1 entry product) or 12-week (complete Method) scope, in a
+bodyweight-only or full-gym edition — 12 distinct PDFs from one script,
+pulled live from `generateProgram()` so none of them can drift from the
+generator. A landing page with pricing lives in
+`packages/storefront/index.html` (Stripe Payment Links needed to go live —
+see `packages/storefront/SETUP.md`). Full detail in
+`docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7-8. A weekly Routine keeps the
+catalog current — see `docs/business/PRODUCT_CHANGELOG.md`.
 
 Open next steps: pull in the real brand voice/style guide once written,
 generalize the PDF export to the other archetypes/phases/equipment modes,

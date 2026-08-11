@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>XOLOKAN — Programs by XOLO FITNESS</title>
+<meta name="description" content="AI-personalized strength programs for dancers, gymnasts, aerialists, and performers, built on Oscar Sifuentes's coaching method." />
+<style>
+  :root {
+    --bg: #0d0f0a;
+    --surface: #15170f;
+    --surface-2: #1b1e13;
+    --text: #f1f2e6;
+    --muted: #98997f;
+    --accent: #d7ff3f;
+    --accent-ink: #171c05;
+    --rule: #2a2d1c;
+    --shadow: 0 20px 60px rgba(0,0,0,0.35);
+
+    --font-display: "Archivo Narrow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    --font-body: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", "Roboto Mono", Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f1f0e3;
+      --surface: #ffffff;
+      --surface-2: #eae8d9;
+      --text: #1c1d13;
+      --muted: #6d6e58;
+      --accent: #5c7a0d;
+      --accent-ink: #f6ffe2;
+      --rule: #dad8c3;
+      --shadow: 0 20px 60px rgba(0,0,0,0.08);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f1f0e3;
+    --surface: #ffffff;
+    --surface-2: #eae8d9;
+    --text: #1c1d13;
+    --muted: #6d6e58;
+    --accent: #5c7a0d;
+    --accent-ink: #f6ffe2;
+    --rule: #dad8c3;
+    --shadow: 0 20px 60px rgba(0,0,0,0.08);
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: dark light; scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); }
+  ::selection { background: var(--accent); color: var(--accent-ink); }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  h1, h2, h3 { text-wrap: balance; margin: 0; }
+
+  /* ---------- nav ---------- */
+  nav.top {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 90%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+  }
+  nav.top .wrap {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 24px;
+  }
+  .wordmark {
+    font-family: var(--font-display); font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; font-size: 0.95rem; color: var(--text); text-decoration: none;
+  }
+  .navlinks { display: flex; align-items: center; gap: 28px; }
+  .navlinks a {
+    font-family: var(--font-display); font-weight: 700; font-size: 0.8rem;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); text-decoration: none;
+  }
+  .navlinks a:hover { color: var(--text); }
+  .navlinks a.cta-small {
+    color: var(--accent-ink); background: var(--accent); padding: 9px 18px; border-radius: 2px;
+  }
+  .navlinks a.cta-small:hover { opacity: 0.9; }
+
+  /* ---------- hero ---------- */
+  header.hero { padding: 96px 24px 72px; border-bottom: 1px solid var(--rule); }
+  header.hero .wrap { display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .eyebrow {
+    font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 20px;
+  }
+  h1.hero-title {
+    font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+    font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: 0.98; letter-spacing: 0.01em;
+    max-width: 16ch;
+  }
+  p.hero-dek {
+    font-family: var(--font-body); font-style: italic; color: var(--muted);
+    font-size: 1.2rem; max-width: 52ch; margin: 26px 0 36px;
+  }
+  .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+  .btn {
+    font-family: var(--font-display); font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.04em; font-size: 0.85rem; padding: 15px 30px; border-radius: 2px;
+    text-decoration: none; display: inline-block; border: 1px solid transparent;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .btn-primary { background: var(--accent); color: var(--accent-ink); }
+  .btn-primary:hover { opacity: 0.92; }
+  .btn-ghost { border-color: var(--rule); color: var(--text); }
+  .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+  .hero-meta {
+    display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; margin-top: 44px;
+    font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); letter-spacing: 0.02em;
+  }
+  .hero-meta b { color: var(--text); font-weight: 600; }
+
+  /* ---------- section shell ---------- */
+  section { padding: 80px 24px; border-bottom: 1px solid var(--rule); }
+  section:last-of-type { border-bottom: none; }
+  .sec-head { max-width: 62ch; margin: 0 auto 48px; text-align: center; }
+  .sec-eyebrow {
+    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 12px;
+  }
+  h2.sec-title {
+    font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+    font-size: clamp(1.7rem, 3.4vw, 2.4rem); letter-spacing: 0.01em;
+  }
+  p.sec-dek { color: var(--muted); font-size: 1.02rem; margin: 16px 0 0; }
+
+  /* ---------- program cards ---------- */
+  .programs-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule); max-width: 1080px; margin: 0 auto;
+  }
+  @media (max-width: 860px) { .programs-grid { grid-template-columns: 1fr; } }
+  .program-card {
+    background: var(--surface); padding: 32px 28px; display: flex; flex-direction: column; gap: 14px;
+    transition: background 0.2s ease;
+  }
+  .program-card:hover { background: var(--surface-2); }
+  .program-kicker {
+    font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--accent);
+  }
+  h3.program-title {
+    font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+    font-size: 1.25rem; letter-spacing: 0.01em;
+  }
+  .program-audience { font-size: 0.9rem; color: var(--muted); }
+  .program-emphasis { font-size: 0.95rem; }
+  .program-includes {
+    margin-top: auto; padding-top: 16px; border-top: 1px dashed var(--rule);
+    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.01em;
+  }
+
+  /* ---------- differentiator ---------- */
+  .diff-wrap {
+    max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;
+  }
+  .diff-item { display: flex; gap: 18px; }
+  .diff-num {
+    font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent); flex-shrink: 0;
+    padding-top: 3px; font-variant-numeric: tabular-nums;
+  }
+  .diff-text p { margin: 0; }
+  .diff-text b { color: var(--text); }
+
+  /* ---------- pricing ---------- */
+  .pricing-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1080px; margin: 0 auto;
+  }
+  @media (max-width: 860px) { .pricing-grid { grid-template-columns: 1fr; } }
+  .tier {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 3px;
+    padding: 32px 26px; display: flex; flex-direction: column; gap: 16px; position: relative;
+  }
+  .tier.featured { border-color: var(--accent); box-shadow: var(--shadow); }
+  .tier-badge {
+    position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+    background: var(--accent); color: var(--accent-ink); font-family: var(--font-mono);
+    font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 2px;
+  }
+  .tier-name {
+    font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+    font-size: 1rem; letter-spacing: 0.03em; color: var(--muted);
+  }
+  .tier-price {
+    font-family: var(--font-mono); font-size: 2.4rem; color: var(--text); font-variant-numeric: tabular-nums;
+  }
+  .tier-price span { font-size: 0.95rem; color: var(--muted); }
+  .tier ul { margin: 0; padding-left: 18px; font-size: 0.92rem; flex-grow: 1; }
+  .tier li { margin-bottom: 9px; }
+  .tier .btn { text-align: center; margin-top: 6px; }
+
+  /* ---------- faq / footer ---------- */
+  .faq { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+  .faq-item h4 {
+    font-family: var(--font-display); font-weight: 700; font-size: 1rem; margin: 0 0 6px;
+  }
+  .faq-item p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+  footer { padding: 48px 24px 60px; }
+  footer .wrap {
+    display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px;
+  }
+  .footer-mark {
+    font-family: var(--font-display); font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase;
+    font-size: 0.85rem; color: var(--muted);
+  }
+  .footer-tag {
+    font-family: var(--font-body); font-style: italic; color: var(--muted); font-size: 0.85rem;
+  }
+  .footer-legal { color: var(--muted); font-size: 0.78rem; max-width: 60ch; margin-top: 14px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="wordmark" href="#top">XOLO FITNESS</a>
+    <div class="navlinks">
+      <a href="#programs">Programs</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#pricing" class="cta-small">Get Started</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow">The XOLOKAN Method</p>
+    <h1 class="hero-title">Train Like The Work Is The Performance</h1>
+    <p class="hero-dek">
+      Soviet-block periodization, calisthenics-built relative strength, and
+      injury prevention built specifically for dancers, gymnasts, aerialists,
+      and performers — not a generic gym program adapted for you.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#pricing">See Pricing</a>
+      <a class="btn btn-ghost" href="#programs">Browse Programs</a>
+    </div>
+    <div class="hero-meta">
+      <span><b>Method by</b> Oscar &ldquo;Xolo&rdquo; Sifuentes</span>
+      <span><b>Built on</b> RCT-backed strength-first injury prevention</span>
+      <span><b>Personalized by</b> XOLOKAN, the AI coach</span>
+    </div>
+  </div>
+</header>
+
+<section id="programs">
+  <div class="sec-head">
+    <p class="sec-eyebrow">The Catalog</p>
+    <h2 class="sec-title">Three Protocols, One Method</h2>
+    <p class="sec-dek">
+      Not one generic program stretched to fit everyone — three, each built
+      for a specific kind of athlete. Every protocol ships as a 30-Day
+      Foundation (start here) and a full 12-Week Method, in Bodyweight or
+      Gym editions.
+    </p>
+  </div>
+
+  <div class="programs-grid">
+    <div class="program-card">
+      <span class="program-kicker">Protocol 01</span>
+      <h3 class="program-title">Dancer Protocol</h3>
+      <p class="program-audience">Professional and pre-professional dancers, choreographers, movement performers</p>
+      <p class="program-emphasis">
+        Ankle resilience for jump-heavy repertoire, hip stability for held
+        positions and extension work, isometric control for line quality.
+      </p>
+      <div class="program-includes">30-Day Foundation · 12-Week Method · Bodyweight or Gym</div>
+    </div>
+
+    <div class="program-card">
+      <span class="program-kicker">Protocol 02</span>
+      <h3 class="program-title">Gymnast / Aerialist Protocol</h3>
+      <p class="program-audience">Gymnasts, aerialists, circus performers, acrobats</p>
+      <p class="program-emphasis">
+        Strength-to-bodyweight ratio, shoulder and wrist resilience for
+        apparatus work, grip and isometric hold capacity.
+      </p>
+      <div class="program-includes">30-Day Foundation · 12-Week Method · Bodyweight or Gym</div>
+    </div>
+
+    <div class="program-card">
+      <span class="program-kicker">Protocol 03</span>
+      <h3 class="program-title">Performer Protocol</h3>
+      <p class="program-audience">Actors, musicians, and high-performing professionals</p>
+      <p class="program-emphasis">
+        Balanced strength and conditioning, general injury resilience, work
+        capacity for demanding rehearsal and travel schedules.
+      </p>
+      <div class="program-includes">30-Day Foundation · 12-Week Method · Bodyweight or Gym</div>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="sec-head">
+    <p class="sec-eyebrow">Why This Isn't A PDF Template</p>
+    <h2 class="sec-title">Built For You, Not Adapted To You</h2>
+  </div>
+
+  <div class="diff-wrap">
+    <div class="diff-item">
+      <span class="diff-num">01</span>
+      <div class="diff-text"><p><b>Your discipline, equipment, and experience</b> shape which exercises you get — not a one-size list with substitutions bolted on.</p></div>
+    </div>
+    <div class="diff-item">
+      <span class="diff-num">02</span>
+      <div class="diff-text"><p><b>Your age and anatomy are factored in</b> — recovery pacing across 20s vs. 30s, and anatomy-specific injury countermeasures (ACL/landing mechanics, pelvic floor guidance) for female clients specifically.</p></div>
+    </div>
+    <div class="diff-item">
+      <span class="diff-num">03</span>
+      <div class="diff-text"><p><b>Your injury history</b> adds the exact corrective work you need — not a generic "consult a doctor" disclaimer instead of a program.</p></div>
+    </div>
+    <div class="diff-item">
+      <span class="diff-num">04</span>
+      <div class="diff-text"><p><b>The method keeps improving.</b> New research gets reviewed and folded in continuously, with a public audit trail — this isn't a PDF written once and sold forever.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="sec-head">
+    <p class="sec-eyebrow">Membership</p>
+    <h2 class="sec-title">Pick Your Level Of Access</h2>
+    <p class="sec-dek">Monthly. Cancel anytime. Same method at every tier — the difference is personalization depth.</p>
+  </div>
+
+  <div class="pricing-grid">
+    <div class="tier">
+      <span class="tier-name">Self-Guided</span>
+      <div class="tier-price">$75<span> /mo</span></div>
+      <ul>
+        <li>One protocol's full 30-Day Foundation or 12-Week Method</li>
+        <li>Bodyweight or Gym edition</li>
+        <li>Regenerated at each block transition</li>
+      </ul>
+      <!-- SETUP: replace href with the Stripe Payment Link for the $75/mo Self-Guided tier -->
+      <a class="btn btn-ghost" href="#" data-tier="self-guided">Subscribe — $75/mo</a>
+    </div>
+
+    <div class="tier featured">
+      <span class="tier-badge">Most Personalized</span>
+      <span class="tier-name">XOLOKAN-Personalized</span>
+      <div class="tier-price">$150<span> /mo</span></div>
+      <ul>
+        <li>Generated live from your discipline, equipment, injury history, age, and anatomy</li>
+        <li>Chat with XOLOKAN to adjust as you go</li>
+        <li>Regenerates automatically each 12-week block</li>
+      </ul>
+      <!-- SETUP: replace href with the Stripe Payment Link for the $150/mo Personalized tier -->
+      <a class="btn btn-primary" href="#" data-tier="personalized">Subscribe — $150/mo</a>
+    </div>
+
+    <div class="tier">
+      <span class="tier-name">Premium / Hybrid</span>
+      <div class="tier-price">$200<span> /mo</span></div>
+      <ul>
+        <li>Everything in Personalized</li>
+        <li>Check-ins and form feedback</li>
+        <li>Direct virtual access to Oscar</li>
+      </ul>
+      <!-- SETUP: replace href with the Stripe Payment Link for the $200/mo Premium tier -->
+      <a class="btn btn-ghost" href="#" data-tier="premium">Subscribe — $200/mo</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="sec-head">
+    <p class="sec-eyebrow">Before You Start</p>
+    <h2 class="sec-title">A Few Things Worth Knowing</h2>
+  </div>
+  <div class="faq">
+    <div class="faq-item">
+      <h4>Is this medical advice?</h4>
+      <p>No. This is training education, not a substitute for a doctor or physical therapist. If you have an existing injury, are pregnant, or are returning from injury, get cleared before starting, and stop any exercise that produces sharp pain.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Do I need a gym?</h4>
+      <p>No — every protocol has a Bodyweight Edition requiring only a pull-up bar, a resistance band, and a bench. Prefer to lift? The Gym Edition uses real loaded strength work instead.</p>
+    </div>
+    <div class="faq-item">
+      <h4>What if I'm just starting out?</h4>
+      <p>The method meets you at your level and scales intensity, not standards — beginners get the same precision as advanced athletes, dosed appropriately.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="footer-mark">XOLO FITNESS</span>
+    <span class="footer-tag">PRECISION. DISCIPLINE. PERFORMANCE.</span>
+    <p class="footer-legal">
+      XOLOKAN and the programs above are training education, not medical
+      advice, and do not replace guidance from a doctor or physical
+      therapist. &copy; XOLO FITNESS.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
