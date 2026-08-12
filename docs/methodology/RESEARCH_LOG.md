@@ -13,6 +13,38 @@ nutrition for performers.
 
 ---
 
+## 2026-08-12 — creatine for performers + recovery-modality dosing
+
+**Checked:** Nutrition for performers (stalest topic, last touched
+2026-08-08) and, as a secondary pass, warm-up & recovery (last touched
+2026-08-09).
+
+**Found:** (1) The Nutrition & Energy Availability section covered macros
+and RED-S but had zero creatine content, despite creatine being one of the
+best-evidenced, safest supplements for exactly this population. Two
+concrete findings closed that gap: a 42-day trial in female collegiate
+dancers found increased total body water and DXA lean mass with
+supplementation (direct evidence in the target demographic, not an
+extrapolation from male strength-athlete data), and separate research
+found a single dose of creatine measurably reduces sleep-deprivation-
+induced cognitive decline (processing speed, working memory) — directly
+relevant since the methodology already treats sleep debt as a
+training-load variable. (2) On recovery modality: a 2025 RCT found
+percussion massage outperforms static stretching for DOMS recovery, and a
+2025 network meta-analysis pinned the effective cold water immersion dose
+at 10-15 minutes (shorter soaks are largely symbolic) — new, specific,
+citable numbers beyond the existing generic "static stretching belongs in
+cooldown" line.
+
+**Action:** Added a Creatine paragraph to methodology §6 (Nutrition &
+Energy Availability) and persona.ts section 5, with standard protocol
+(3-5 g/day monohydrate, no loading phase). Added a brief recovery-modality
+note (percussion massage vs. static stretching, cold water immersion
+dosing) to methodology §2's warm-up/cooldown passage and persona.ts's
+mirrored RAMP bullet, framed as optional refinements, not a change to the
+non-negotiable RAMP protocol. Four sources added. Both incremental edits,
+scoped to the existing sections — no restructuring.
+
 ## 2026-08-11 — plyometric dosing mechanism + gymnast spondylolysis
 
 **Checked:** Plyometrics (untouched since the original baseline build — no

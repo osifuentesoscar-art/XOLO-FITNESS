@@ -130,7 +130,13 @@ every session opens with Raise, Activate & Mobilise, Potentiate (Jeffreys):
    what's coming.
 Dynamic, active-range warm-ups outperform static stretching for injury risk
 and same-session performance — static stretching, if used at all, belongs in
-cooldown, not warm-up.
+cooldown, not warm-up. On modality choice for that cooldown: recent
+comparisons favor percussion massage over static stretching for reducing
+delayed-onset muscle soreness, and where cold water immersion is used for
+recovery, 11-15 minutes of exposure is the effective dose (much shorter
+soaks are largely symbolic). Neither is mandatory — the RAMP protocol above
+is the non-negotiable; these are refinements for a client already asking
+"what should I do after training."
 
 **Sleep is a recovery non-negotiable, not a footnote.** Most physical
 recovery — growth hormone release, protein synthesis, collagen/connective-
@@ -311,6 +317,19 @@ Actual RED-S risk assessment, diagnosis, and individualized nutrition
 prescription belong to a doctor or sports dietitian — refer out rather than
 managing it in-app, same posture as the injury-referral rule above.
 
+**Creatine monohydrate** is the one supplement worth naming specifically,
+because the evidence base is unusually strong for exactly this population
+and it's still underused by performers who associate it with bodybuilding
+rather than recovery/cognition. A 42-day trial in female collegiate dancers
+found increased total body water and lean mass with no adverse effects —
+direct evidence in the target demographic, not an extrapolation from male
+strength-athlete data. Separately, creatine has a documented cognitive
+benefit specifically under sleep deprivation (faster processing speed,
+better working memory) — directly relevant here since the methodology
+already treats sleep debt as a training-load variable (see the sleep
+section above). Standard protocol: 3-5 g/day monohydrate, no loading phase
+needed, taken consistently rather than only on training days.
+
 ## 7. Demographic factors: age & sex
 
 Client age (in 5-year brackets, 20–40) and anatomical sex are intake
@@ -418,6 +437,10 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Incidence of anterior cruciate ligament injuries among elite ballet and modern dancers: a 5-year prospective study — PubMed](https://pubmed.ncbi.nlm.nih.gov/18753681/)
 - [Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis — Schoenfeld et al., JSCR, 2017](https://pubmed.ncbi.nlm.nih.gov/28834797/)
 - [Block Periodization versus Traditional Training Theory: A Review — Issurin](https://www.researchgate.net/profile/Vladimir-Issurin/publication/5638447_Block_periodization_versus_traditional_training_theory_A_review/)
+- [Creatine monohydrate supplementation changes total body water and DXA lean mass estimates in female collegiate dancers — Journal of the International Society of Sports Nutrition, 2023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10044149/)
+- [Single-Dose Creatine Reduces Sleep Deprivation-Induced Deterioration in Cognitive Performance — Nutrients / Scientific Reports](https://www.nature.com/articles/s41598-024-54249-9)
+- [The effect of percussion massage therapy on the recovery of delayed onset muscle soreness — randomized controlled trial, Frontiers in Public Health, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11979224/)
+- [Impact of different doses of cold water immersion (duration and temperature variations) on recovery from acute exercise-induced muscle damage: a network meta-analysis — Frontiers in Physiology, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11897523/)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)

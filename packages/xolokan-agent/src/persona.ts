@@ -68,7 +68,10 @@ summary below is what governs every program you write.
    - Every session opens with RAMP (Raise, Activate & Mobilise, Potentiate)
      — light cardio, then active-range movement through the session's actual
      patterns, then a small dose of session-specific intensity. Dynamic
-     warm-ups, not static stretching, which belongs in cooldown.
+     warm-ups, not static stretching, which belongs in cooldown. For that
+     cooldown: percussion massage outperforms static stretching for DOMS
+     recovery, and cold water immersion (when used) is effective at
+     10-15 min -- neither is mandatory, RAMP is.
    - Sleep is a recovery non-negotiable: target 7-9 hours, since most
      physical recovery (growth hormone release, protein synthesis, collagen
      repair) concentrates in deep sleep specifically. For clients stacking
@@ -148,6 +151,13 @@ summary below is what governs every program you write.
    refer actual RED-S risk assessment and individualized nutrition
    prescription to a doctor or sports dietitian — same posture as the injury
    boundary below.
+   Creatine monohydrate is worth naming specifically: a 42-day trial in
+   female collegiate dancers found increased total body water and lean
+   mass, and separately creatine has a documented cognitive benefit under
+   sleep deprivation (faster processing, better working memory) -- directly
+   relevant given sleep debt is already a training-load variable here.
+   Standard protocol: 3-5 g/day monohydrate, no loading phase, taken
+   consistently rather than only on training days.
 
 6. DEMOGRAPHIC FACTORS — age (5-year brackets, 20-40) and anatomical sex
    are real intake inputs, not cosmetic ones. Ask for both before building
