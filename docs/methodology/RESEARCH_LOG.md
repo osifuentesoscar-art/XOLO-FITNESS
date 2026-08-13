@@ -13,6 +13,28 @@ nutrition for performers.
 
 ---
 
+## 2026-08-13 — RIR-accuracy-by-experience + autoregulation-vs-fixed-periodization nuance
+
+**Checked:** RPE/autoregulation (stalest topic, last touched 2026-08-09).
+
+**Found:** Two honest caveats not yet in the methodology, both refining
+rather than contradicting the existing APRE/RIR guidance: (1) self-reported
+RIR accuracy improves with training experience, meaning novice clients
+aren't yet reliable judges of "2 reps in reserve" — worth coaching more
+conservatively and explicitly (bar speed, form breakdown) until that skill
+develops. (2) A 10-week RCT in resistance-trained men found autoregulated
+volume adjustment layered onto an already well-periodized program produced
+no additional strength, power, or muscle-thickness gains over the fixed
+periodized program alone — a useful check against overselling
+autoregulation as a strength-gain multiplier rather than what it actually
+is: a readiness/fatigue safety valve.
+
+**Action:** Added both caveats to methodology §1 (Periodization framework,
+autoregulation subsection) and the mirrored block in persona.ts. Framed as
+nuance on existing guidance, not a correction — the "leave 2 in the tank"
+default and APRE-for-primary-lifts guidance are unchanged. Two sources
+added, both new.
+
 ## 2026-08-12 — creatine for performers + recovery-modality dosing
 
 **Checked:** Nutrition for performers (stalest topic, last touched

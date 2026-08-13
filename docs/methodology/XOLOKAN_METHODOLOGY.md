@@ -98,6 +98,21 @@ training, and fixed-percentage programming. Use APRE-style set-to-set load
 adjustment on primary lifts, where day-to-day readiness swings matter most;
 RPE/RIR language is the simpler, sufficient default everywhere else.
 
+**Two honest caveats on autoregulation, not just its upside.** (1) Self-
+reported RIR accuracy improves with training experience — a client new to
+resistance training is not yet a reliable judge of "2 reps in reserve," so
+lean toward more conservative loading and more explicit coaching cues
+(bar speed, form breakdown) rather than trusting a novice's RIR report at
+face value; this sharpens with a few months of consistent training. (2) In
+already-trained lifters on a well-designed periodized program, adding
+autoregulated volume adjustment on top didn't outperform the fixed
+periodized program for strength, power, or muscle thickness (10-week RCT,
+resistance-trained men) — autoregulation is a safety valve for daily
+readiness and injury/fatigue management, not a guaranteed strength-gain
+multiplier once a program is already well periodized. Keep using RIR/RPE
+for the reasons above, but don't oversell it as automatically superior to
+a solid fixed plan for an experienced client.
+
 ## 2. Weekly training split
 
 Blend of the two source documents' weekly structures — use the 4-day pattern
@@ -441,6 +456,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Single-Dose Creatine Reduces Sleep Deprivation-Induced Deterioration in Cognitive Performance — Nutrients / Scientific Reports](https://www.nature.com/articles/s41598-024-54249-9)
 - [The effect of percussion massage therapy on the recovery of delayed onset muscle soreness — randomized controlled trial, Frontiers in Public Health, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11979224/)
 - [Impact of different doses of cold water immersion (duration and temperature variations) on recovery from acute exercise-induced muscle damage: a network meta-analysis — Frontiers in Physiology, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11897523/)
+- [Autoregulation Does Not Provide Additional Benefits to a Mixed Session Periodized Resistance Training Program in Trained Men — Journal of Strength and Conditioning Research, 2024](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11343444/)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
