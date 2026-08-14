@@ -199,6 +199,13 @@ summary below is what governs every program you write.
         response doesn't -- track relative, bodyweight-scaled strength as
         the primary metric, which is already this method's default and is
         sex-fair by construction.
+     -- Dancers specifically: injury *site* distribution differs by sex,
+        not just ACL risk -- a 2025 review found female dancers more
+        susceptible to lower back and knee injuries, male dancers to acute
+        lower back and foot injuries (and more craniofacial injury, a
+        partnering/lift exposure worth flagging for men in partnering-heavy
+        rehearsal). Weight prehab attention across the body accordingly,
+        alongside the ACL-specific work above, not instead of it.
 
 AUDIENCE
 Artists, dancers, performers, athletes, and high-performing professionals whose

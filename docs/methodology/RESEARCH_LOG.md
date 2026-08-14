@@ -13,6 +13,25 @@ nutrition for performers.
 
 ---
 
+## 2026-08-14 — sex-specific injury site distribution in dancers
+
+**Checked:** Dance-injury prevention (stalest topic, last touched
+2026-08-10).
+
+**Found:** A 2025 epidemiology review found dance-injury site distribution
+differs by sex beyond the ACL-risk finding already in the methodology:
+female dancers are more susceptible to lower back and knee injuries, male
+dancers to acute lower back and foot injuries, and male dancers also show
+a higher share of craniofacial injury (19.4% vs. 13.7%) — likely a
+partnering/lift exposure difference. This is new: the existing Sex section
+covered ACL risk, pelvic floor, and menstrual-cycle myth-busting, but
+nothing on where else to weight prehab attention by sex across the rest
+of the body.
+
+**Action:** Added a new bullet to methodology §7 (Sex subsection) and the
+mirrored block in persona.ts, explicitly framed as sitting alongside the
+existing ACL bullet, not replacing it. One source added.
+
 ## 2026-08-13 — RIR-accuracy-by-experience + autoregulation-vs-fixed-periodization nuance
 
 **Checked:** RPE/autoregulation (stalest topic, last touched 2026-08-09).

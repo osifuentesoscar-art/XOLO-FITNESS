@@ -400,6 +400,15 @@ women need an easier program.
   This is exactly why the method already tracks relative,
   bodyweight-scaled strength as its primary metric rather than absolute
   load — that framework is sex-fair by construction, not by adjustment.
+- **Injury *site* distribution differs by sex in dancers specifically, not
+  just ACL risk.** A 2025 epidemiology review found female dancers are more
+  susceptible to lower back and knee injuries, while male dancers face
+  higher rates of acute lower back and foot injuries (and a higher share
+  of craniofacial injury, 19.4% vs. 13.7% — a partner-work/lift-related
+  exposure difference worth a caution note for male dancers in
+  partnering-heavy rehearsal). This sits alongside the ACL bullet above,
+  not in place of it: ACL risk explains one specific injury type, this is
+  about where to weight prehab attention across the whole body by sex.
 
 ## 8. From methodology to product
 
@@ -457,6 +466,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [The effect of percussion massage therapy on the recovery of delayed onset muscle soreness — randomized controlled trial, Frontiers in Public Health, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11979224/)
 - [Impact of different doses of cold water immersion (duration and temperature variations) on recovery from acute exercise-induced muscle damage: a network meta-analysis — Frontiers in Physiology, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11897523/)
 - [Autoregulation Does Not Provide Additional Benefits to a Mixed Session Periodized Resistance Training Program in Trained Men — Journal of Strength and Conditioning Research, 2024](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11343444/)
+- [Dance-Related Injuries: An Evidence-Based Review of Epidemiology, Mechanisms, and Prevention Strategies — Current Physical Medicine and Rehabilitation Reports, 2025](https://link.springer.com/article/10.1007/s40141-025-00523-4)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
