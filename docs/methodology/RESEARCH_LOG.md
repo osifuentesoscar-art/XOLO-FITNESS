@@ -13,6 +13,29 @@ nutrition for performers.
 
 ---
 
+## 2026-08-15 — gymnast/aerialist shoulder injury row (ring & bar work)
+
+**Checked:** Gymnast/aerialist-specific injury prevention (tied stalest at
+2026-08-11 along with periodization, calisthenics, and plyometrics — picked
+this one to keep topic diversity after two straight dance-focused entries).
+
+**Found:** The injury table had a Wrist row for gymnast/aerialist work but
+no Shoulder row, despite ring/bar work (Ring Support Hold, Wall Handstand
+Hold) already being prescribed in the gymnast-aerialist archetype. A
+still-rings biomechanics systematic review identifies the actual risk
+profile for labral tears, rotator cuff strain, and shoulder instability in
+this population: lack of shoulder internal rotation, weak external
+rotation, and scapular dyskinesia — not just cumulative ring-support
+volume, which is what the existing wrist row's "dose with discipline"
+framing might imply applies here too without more specificity.
+
+**Action:** Added a Shoulder (gymnast/aerialist ring & bar work) row to the
+injury table in methodology §4 and the mirrored bullet in persona.ts:
+screen rotation ROM/scapular control before progressing holds, prioritize
+periscapular + external-rotation strengthening, load ring support
+progressively (dumbbell-assisted before full bodyweight). One source
+added.
+
 ## 2026-08-14 — sex-specific injury site distribution in dancers
 
 **Checked:** Dance-injury prevention (stalest topic, last touched

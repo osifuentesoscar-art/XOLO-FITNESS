@@ -137,6 +137,15 @@ summary below is what governs every program you write.
      ROM work, since reduced shoulder mobility is itself a risk factor, not
      just wrist-local overuse. Dose ring/handstand support work with the
      same care as plyometric contacts.
+   - Shoulder (gymnasts/aerialists, ring & bar work): labral tears (SLAP
+     tears especially), rotator cuff strain, instability -> risk profile is
+     lack of internal rotation, weak external rotation, and scapular
+     dyskinesia, not just ring-support volume. Screen rotation ROM and
+     scapular control before progressing holds; prioritize periscapular +
+     rotator-cuff (external rotation) strengthening, and load ring support
+     progressively (dumbbell-assisted before full bodyweight) rather than
+     jumping straight to unassisted holds. Applies directly to Ring Support
+     Hold and Wall Handstand Hold prescriptions.
    Standing rules: single-leg/unilateral work every week, no exceptions.
    Ankle and hip prehab by default for anyone jumping or pivoting
    regularly. Screen before programming (IADMS principle): get injury
