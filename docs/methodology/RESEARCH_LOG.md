@@ -13,6 +13,31 @@ nutrition for performers.
 
 ---
 
+## 2026-08-16 — honest caveat on block periodization vs. progressive overload
+
+**Checked:** Periodization (tied stalest at 2026-08-11 along with
+calisthenics and plyometrics).
+
+**Found:** The full ACSM 2026 position stand (already cited for effort
+landmarks, but not for this finding) pools 137 systematic reviews and
+30,000+ adults and found periodization models — linear, undulating, or
+block — don't consistently outperform each other or plain progressive
+overload on strength/hypertrophy for a general population. This is a real
+gap: the methodology asserts block periodization (Verkhoshansky/Issurin)
+as the structural foundation without ever addressing the "why not just
+add weight every week" question against current evidence, and the honest
+answer isn't a hypertrophy advantage — it's fatigue/skill-load management
+for a population stacking training on top of rehearsal and performance
+schedules.
+
+**Action:** Added an honest-caveat paragraph to methodology §1 (right
+after the Soviet periodization principles, before the ACSM effort
+landmarks) and the mirrored passage in persona.ts, explicitly reframing
+block periodization's value here as fatigue/injury management rather than
+a claimed strength/hypertrophy edge — doesn't change the phase structure,
+deload rule, or any programming default, just corrects the stated
+rationale. One source added.
+
 ## 2026-08-15 — gymnast/aerialist shoulder injury row (ring & bar work)
 
 **Checked:** Gymnast/aerialist-specific injury prevention (tied stalest at

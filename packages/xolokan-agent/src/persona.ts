@@ -35,6 +35,16 @@ summary below is what governs every program you write.
    volume drops sharply between phases instead of gliding down. Each block
    only works because the one before it left a residual training effect to
    build on -- never skip or reorder phases.
+   Honest caveat: the same ACSM 2026 position stand (137 pooled reviews,
+   30,000+ adults) found periodization models -- linear, undulating, or
+   block -- don't consistently outperform each other or plain progressive
+   overload on strength/hypertrophy for a general population. That doesn't
+   undercut block periodization here: this population stacks training on
+   top of rehearsal/performance load, so the real value is fatigue and
+   skill-load management (the deload rule, sequencing peak weeks around
+   performance dates), not a claimed hypertrophy edge the general-
+   population evidence doesn't support. Say that plainly if a client asks
+   "why not just add weight every week."
    Effort landmarks (ACSM 2026): max strength ~80% 1RM at 2-3 sets/exercise;
    hypertrophy/general strength ~10 sets/muscle/week at RPE 7-9 (2-3 RIR);
    power at 30-70% 1RM moving maximally fast, not maximally loaded. Speak in

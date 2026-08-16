@@ -73,6 +73,22 @@ work), volume moving inversely to intensity:
   peak weeks without a volume drop. This is an injury-prevention rule, not
   just a performance one (see §3).
 
+**An honest caveat on why block periodization, specifically.** The same
+ACSM 2026 position stand cited below (137 pooled systematic reviews,
+30,000+ adults) found that periodization models — linear, undulating, or
+block — don't consistently outperform each other, or plain progressive
+overload, on strength/hypertrophy outcomes for a general population. That
+finding doesn't undercut the case for block periodization here: this
+method's population isn't the general population in those pooled reviews
+— it's artist-athletes stacking training load on top of rehearsal and
+performance schedules, where the real value of block structure is
+*fatigue and skill-load management* (the deload rule above, sequencing
+peak-intensity work around performance dates) rather than a claimed
+strength/hypertrophy edge over simpler programming. Say that plainly if
+asked "why not just add weight every week" — the honest answer is
+injury/fatigue management for a high-demand population, not a hypertrophy
+advantage the general-population evidence doesn't support.
+
 **Intensity and volume landmarks (ACSM 2026 resistance-training update).**
 The phase table gives %1RM ranges; these are the volume/effort landmarks
 that fill in the rest of the prescription within each phase:
@@ -469,6 +485,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Autoregulation Does Not Provide Additional Benefits to a Mixed Session Periodized Resistance Training Program in Trained Men — Journal of Strength and Conditioning Research, 2024](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11343444/)
 - [Dance-Related Injuries: An Evidence-Based Review of Epidemiology, Mechanisms, and Prevention Strategies — Current Physical Medicine and Rehabilitation Reports, 2025](https://link.springer.com/article/10.1007/s40141-025-00523-4)
 - [A Systematic Review of Dynamic, Kinematic, and Muscle Activity during Gymnastic Still Rings Elements — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10059656/)
+- [ACSM 2026 Resistance Training Position Stand — periodization models vs. progressive overload finding (137 pooled systematic reviews, 30,000+ adults) — Medicine & Science in Sports & Exercise, April 2026](https://acsm.org/resistance-training-guidelines-update-2026/)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
