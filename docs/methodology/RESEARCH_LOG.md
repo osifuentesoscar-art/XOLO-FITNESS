@@ -13,6 +13,29 @@ nutrition for performers.
 
 ---
 
+## 2026-08-17 — unilateral training performance evidence for the standing rule
+
+**Checked:** Calisthenics/relative strength (tied stalest at 2026-08-11
+along with plyometrics). Initial searches on general bodyweight-hypertrophy
+research and advanced lower-body bodyweight progression turned up nothing
+new or citable beyond what's already covered (Schoenfeld load-independent
+hypertrophy) or non-rigorous blog content — a unilateral-vs-bilateral
+training angle turned up two real 2025/2026 meta-analyses instead.
+
+**Found:** Two meta-analyses (Sports Medicine 2025; BMC Sports Science,
+Medicine and Rehabilitation 2026) found unilateral training specifically
+improves unilateral strength and unilateral jump performance over
+bilateral training, with equivalent hypertrophy either way. The
+methodology's standing rule #1 (single-leg/unilateral work every week) was
+justified only by landing-mechanics/asymmetry injury-prevention reasoning
+— this adds direct performance-transfer evidence for a jump-heavy artist
+population specifically.
+
+**Action:** Added the finding to standing rule #1 in methodology §4 and
+the mirrored bullet in persona.ts, framing unilateral work as the more
+specific tool for single-leg jump/landing skill, not just injury
+prevention. Two sources added.
+
 ## 2026-08-16 — honest caveat on block periodization vs. progressive overload
 
 **Checked:** Periodization (tied stalest at 2026-08-11 along with

@@ -156,7 +156,12 @@ summary below is what governs every program you write.
      progressively (dumbbell-assisted before full bodyweight) rather than
      jumping straight to unassisted holds. Applies directly to Ring Support
      Hold and Wall Handstand Hold prescriptions.
-   Standing rules: single-leg/unilateral work every week, no exceptions.
+   Standing rules: single-leg/unilateral work every week, no exceptions --
+   2025/2026 meta-analyses found unilateral training specifically improves
+   unilateral strength and unilateral jump performance over bilateral
+   training (hypertrophy is equivalent either way), so this isn't just
+   injury prevention, it's the more specific tool for single-leg jump/
+   landing skill.
    Ankle and hip prehab by default for anyone jumping or pivoting
    regularly. Screen before programming (IADMS principle): get injury
    history and baseline benchmarks before a client's first block, not

@@ -275,7 +275,14 @@ energy the plyometric work is supposed to build.
 **Standing rules:**
 1. **Single-leg / unilateral work every week, no exceptions.** Landing
    mechanics and side-to-side asymmetry are the biggest lever for jump-heavy
-   artists — this cannot be an afterthought accessory movement.
+   artists — this cannot be an afterthought accessory movement. A 2025/2026
+   pair of meta-analyses adds direct performance evidence, not just an
+   injury-prevention rationale: unilateral training specifically improves
+   unilateral strength and unilateral jump performance over bilateral
+   training, while both produce equivalent hypertrophy — exactly the
+   performance quality (single-leg jump/landing) this population needs, so
+   unilateral work isn't a lesser substitute for bilateral lifts, it's the
+   more specific tool for the actual skill.
 2. **Isometric holds at least 1x/week** for control-heavy artists (dancers,
    aerialists, gymnasts) — ties directly to the calisthenics layer above.
 3. **Ankle and hip prehab by default** for anyone doing regular jumping or
@@ -486,6 +493,8 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Dance-Related Injuries: An Evidence-Based Review of Epidemiology, Mechanisms, and Prevention Strategies — Current Physical Medicine and Rehabilitation Reports, 2025](https://link.springer.com/article/10.1007/s40141-025-00523-4)
 - [A Systematic Review of Dynamic, Kinematic, and Muscle Activity during Gymnastic Still Rings Elements — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10059656/)
 - [ACSM 2026 Resistance Training Position Stand — periodization models vs. progressive overload finding (137 pooled systematic reviews, 30,000+ adults) — Medicine & Science in Sports & Exercise, April 2026](https://acsm.org/resistance-training-guidelines-update-2026/)
+- [Comparison of Muscle Growth and Dynamic Strength Adaptations Induced by Unilateral and Bilateral Resistance Training: A Systematic Review and Meta-analysis — Sports Medicine, 2025](https://pubmed.ncbi.nlm.nih.gov/39794667/)
+- [Comparative effects of unilateral versus bilateral training on performance adaptations: a systematic review and multilevel meta-analysis — BMC Sports Science, Medicine and Rehabilitation, 2026](https://link.springer.com/article/10.1186/s13102-026-01834-2)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
