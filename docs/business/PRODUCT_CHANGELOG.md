@@ -9,6 +9,46 @@ top.
 
 ---
 
+## 2026-08-17 — creatine + gymnast shoulder-screening note
+
+**Reviewed:** RESEARCH_LOG.md entries since the last product changelog
+entry (2026-08-11): 08-12 (creatine + recovery-modality dosing), 08-13
+(RIR-accuracy/autoregulation nuance), 08-14 (sex-specific dance injury
+site distribution), 08-15 (gymnast/aerialist shoulder injury row), 08-16
+(honest caveat on block periodization vs. progressive overload), 08-17
+(unilateral-training performance evidence).
+
+**Changed:**
+- Added a Creatine paragraph to the Nutrition & Recovery Baseline page
+  (all archetypes/editions) — standard 3-5g/day protocol, citing the
+  female-collegiate-dancer and sleep-deprivation-cognition findings. This
+  was a real content gap: the page had macros and RED-S but nothing on
+  one of the best-evidenced supplements for this population.
+- Added an archetype-specific Day 1 outro for the Gymnast/Aerialist
+  Protocol only: a shoulder-screening note (internal rotation, scapular
+  control) before progressing Ring Support Hold / Handstand Push-Ups,
+  citing the still-rings biomechanics review. Built `DAY_OUTRO_30DAY_BY_
+  ARCHETYPE` + a `get_day_outro()` lookup instead of extending the
+  existing day-number-only dict, since this note only applies to one
+  archetype's Day 1 — the ankle-sprain note on Day 3 stays global since
+  it's genuinely archetype-agnostic (all three have jump work there).
+
+**Not changed:** The RIR-accuracy/autoregulation nuance, the periodization
+honest caveat, the sex-specific dance-injury-site finding, and the
+unilateral-training evidence are all real methodology additions but too
+technical/coaching-register for customer-facing PDF copy — they refine
+what XOLOKAN tells clients in conversation, not what a sold static program
+needs to say on the page. No change warranted there.
+
+**Drift check:** Full 12-PDF regeneration — zero cue-lookup failures,
+`archetypes.ts` hasn't changed since last week.
+
+**Audit:** All 12 PDFs — 11 or 24 pages depending on scope, zero page
+overflow, zero broken-glyph markers (`(cid:` / `&#`), zero Brace Life/ICONS
+contamination terms in extracted text. Spot-checked the new Nutrition page
+Creatine section and the Gymnast Day 1 outro render correctly and stay
+archetype-scoped (confirmed absent from Dancer/General-Performer PDFs).
+
 ## 2026-08-11 — full catalog + storefront (user-requested)
 
 **Changed:**

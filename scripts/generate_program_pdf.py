@@ -172,6 +172,21 @@ DAY_OUTRO_30DAY = {
     ),
 }
 
+# Archetype-specific overrides, checked before the day-number default above.
+DAY_OUTRO_30DAY_BY_ARCHETYPE = {
+    ("gymnast-aerialist", 1): (
+        "Ring and handstand support work loads the shoulder differently than pressing does. "
+        "Before progressing Ring Support Hold or Handstand Push-Ups, screen shoulder internal "
+        "rotation and scapular control — labral and rotator-cuff strain in ring/bar work tracks "
+        "with rotation deficits and scapular dyskinesia, not just hold volume. If shoulder ROM "
+        "feels limited, regress to shorter holds and build periscapular strength first rather "
+        "than pushing hold time."
+    ),
+}
+
+def get_day_outro(day_number):
+    return DAY_OUTRO_30DAY_BY_ARCHETYPE.get((ARCHETYPE, day_number)) or DAY_OUTRO_30DAY.get(day_number)
+
 # =========================================================
 # brand tokens
 # =========================================================
@@ -364,6 +379,16 @@ def nutrition_page():
         "pull back volume, the same way you'd respond to pain or missed reps.",
         S_BODY
     ))
+    story.append(Paragraph("Creatine", S_H2))
+    story.append(Paragraph(
+        "3-5g creatine monohydrate daily, no loading phase needed, taken consistently rather "
+        "than only on training days. The evidence here isn't just extrapolated from male "
+        "strength athletes — a trial in female collegiate dancers found increased lean mass "
+        "with no adverse effects, and separate research found creatine measurably reduces "
+        "cognitive decline under sleep deprivation — directly useful if you're stacking "
+        "rehearsal on top of this program.",
+        S_BODY
+    ))
     story.append(Paragraph(
         "Actual RED-S risk assessment and individualized nutrition prescription belong to a "
         "doctor or sports dietitian — this page is baseline awareness, not a diagnosis or a "
@@ -503,7 +528,7 @@ story.append(PageBreak())
 # =========================================================
 if SCOPE == "30-day":
     for day in week1_days:
-        render_day_page(day, DAY_OUTRO_30DAY.get(day["dayNumber"]))
+        render_day_page(day, get_day_outro(day["dayNumber"]))
 
     # 30-day calendar
     brand_header()
@@ -601,7 +626,7 @@ else:  # 12-week
         story.append(PageBreak())
 
         for day in week_data["days"]:
-            outro = DAY_OUTRO_30DAY.get(day["dayNumber"]) if phase_num == 1 else None
+            outro = get_day_outro(day["dayNumber"]) if phase_num == 1 else None
             render_day_page(day, outro)
 
         brand_header()
