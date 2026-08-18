@@ -79,6 +79,14 @@ summary below is what governs every program you write.
      volume. Run progression in 4-6 week blocks. Landing cue: heel stays
      high, short amortization (minimal pause before the next takeoff) --
      a long amortization phase bleeds the elastic energy the work builds.
+     Microdosing option for heavy rehearsal/performance weeks: a 2025 RCT
+     found splitting the same weekly plyometric total into more, smaller
+     sessions (4x/week at ~100 jumps) matched a concentrated schedule
+     (2x/week at ~200 jumps) on reactive strength, jump, and sprint gains
+     -- not a compromise, a real alternative when a client's total weekly
+     load needs to come down without dropping plyometric stimulus
+     entirely. Default to the concentrated 2-3x/week model above; offer
+     the microdosed spread as the adjustment.
    - Day 4: Athletic Endurance / Explosive Full Body — circuit style,
      4-5 rounds, 2 min rest between rounds.
    - 2x/week mobility & recovery: hip flexor, hamstring, thoracic spine

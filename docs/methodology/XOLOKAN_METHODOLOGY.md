@@ -272,6 +272,21 @@ not just injury avoidance. Landing cue to standardize across Day 3:
 and the next takeoff) — a longer amortization phase bleeds the elastic
 energy the plyometric work is supposed to build.
 
+**Microdosing option for heavy rehearsal/performance weeks.** A 2025 RCT
+found that splitting the same total plyometric stimulus into more,
+smaller sessions (4x/week at ~100 jumps/session) produced equivalent
+gains in reactive strength, jump performance, and sprint speed as a
+concentrated schedule (2x/week at ~200 jumps/session) — no difference
+between approaches, and the microdosed version needed a fraction of the
+per-session volume to get there. This is a real, evidence-backed option
+for this population specifically: when rehearsal or performance load is
+already high, spreading the weekly contact total across more, lighter
+sessions is not a compromise — it's a legitimate alternative dosing
+strategy, not just "less training." Default to the concentrated 2–3x/week
+model in the table above; offer the microdosed spread as the adjustment
+when a client's total weekly load (training + rehearsal) needs to come
+down without dropping the plyometric stimulus entirely.
+
 **Standing rules:**
 1. **Single-leg / unilateral work every week, no exceptions.** Landing
    mechanics and side-to-side asymmetry are the biggest lever for jump-heavy
@@ -495,6 +510,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [ACSM 2026 Resistance Training Position Stand — periodization models vs. progressive overload finding (137 pooled systematic reviews, 30,000+ adults) — Medicine & Science in Sports & Exercise, April 2026](https://acsm.org/resistance-training-guidelines-update-2026/)
 - [Comparison of Muscle Growth and Dynamic Strength Adaptations Induced by Unilateral and Bilateral Resistance Training: A Systematic Review and Meta-analysis — Sports Medicine, 2025](https://pubmed.ncbi.nlm.nih.gov/39794667/)
 - [Comparative effects of unilateral versus bilateral training on performance adaptations: a systematic review and multilevel meta-analysis — BMC Sports Science, Medicine and Rehabilitation, 2026](https://link.springer.com/article/10.1186/s13102-026-01834-2)
+- [Plyometric jump training micro- and high-dose effects on amateur basketball players' athletic performance: a randomized controlled trial — Frontiers in Physiology, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12518302/)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)

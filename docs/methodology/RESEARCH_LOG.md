@@ -13,6 +13,26 @@ nutrition for performers.
 
 ---
 
+## 2026-08-18 — plyometric microdosing option for heavy rehearsal weeks
+
+**Checked:** Plyometrics (stalest topic, last touched 2026-08-11).
+
+**Found:** A 2025 RCT compared microdosed plyometric training (4x/week,
+~100 jumps/session, 400 total) against a concentrated high-dose schedule
+(2x/week, ~200 jumps/session, 800 total) in athletes and found no
+difference in reactive strength, jump, or sprint gains — the microdosed
+group matched the high-dose group's results at half the total volume.
+This is directly actionable for this population: artist-athletes
+regularly stack conditioning on top of rehearsal/performance load, and
+the existing plyometric dosage section only offered one schedule shape
+(concentrated 2-3x/week). This adds a legitimate, evidence-backed
+alternative for weeks when total load needs to come down.
+
+**Action:** Added a microdosing-option paragraph to the plyometric dosage
+section in methodology §4 and the mirrored passage in persona.ts, framed
+as an adjustment option, not a replacement for the default concentrated
+schedule. One source added.
+
 ## 2026-08-17 — unilateral training performance evidence for the standing rule
 
 **Checked:** Calisthenics/relative strength (tied stalest at 2026-08-11
