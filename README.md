@@ -51,6 +51,7 @@ docs/methodology/
   sources/                 Source documents the methodology is built from
 docs/business/
   XOLOKAN_PRODUCT_SYSTEM.md   How the methodology turns into sellable programs
+  XOLOKAN_BUSINESS_PLAN.md    Market, financial scenarios, marketing, and scaling plan
   PRODUCT_CHANGELOG.md        Weekly log of changes to the sellable catalog
 ```
 
@@ -134,7 +135,15 @@ see `packages/storefront/SETUP.md`). Full detail in
 `docs/business/XOLOKAN_PRODUCT_SYSTEM.md` §7-8. A weekly Routine keeps the
 catalog current — see `docs/business/PRODUCT_CHANGELOG.md`.
 
+**Business plan exists.** `docs/business/XOLOKAN_BUSINESS_PLAN.md` covers
+market sizing, competitive landscape, financial scenarios (unit
+economics, revenue projections — modeled from industry benchmarks, not
+yet real transaction data), the marketing/customer-acquisition plan, and
+a three-phase scaling path past Oscar's own hours. Its own next-steps
+list (§9) is the current source of truth for what's blocking launch —
+recurring billing is still the first blocker.
+
 Open next steps: pull in the real brand voice/style guide once written,
-generalize the PDF export to the other archetypes/phases/equipment modes,
-set up recurring billing for the three tiers, and decide on a hosting
-target for the server + web UI.
+set up recurring billing for the three tiers (blocks everything else in
+the business plan), and decide on a hosting target for the server + web
+UI.
