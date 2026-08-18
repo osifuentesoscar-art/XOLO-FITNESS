@@ -36,6 +36,21 @@ this environment's network egress proxy, so the above is assembled from
 indexed search results, not a live crawl. Worth re-verifying against the live
 site/socials when you have unrestricted access.
 
+## Leadership structure
+
+Oscar is **Founder** — owns the methodology, the product/systems (this
+repo), business operations and finance, and overall strategy. A **CEO**
+(a working trainer, hired rather than promoted from within) owns
+day-to-day client coaching delivery and the brand's public face —
+content, DMs, discovery calls, and Personalized/Premium-tier check-ins.
+Title discipline matters here: the CEO hire's title is CEO, not Founder —
+Oscar founded the company and keeps that title and story. Full role
+split, candidate profile, and compensation structure are in
+[`docs/business/CEO_HIRING_PLAN.md`](docs/business/CEO_HIRING_PLAN.md);
+the scaling plan built around it is in
+[`docs/business/XOLOKAN_BUSINESS_PLAN.md`](docs/business/XOLOKAN_BUSINESS_PLAN.md)
+§6.
+
 ## What's here
 
 ```
@@ -52,6 +67,7 @@ docs/methodology/
 docs/business/
   XOLOKAN_PRODUCT_SYSTEM.md   How the methodology turns into sellable programs
   XOLOKAN_BUSINESS_PLAN.md    Market, financial scenarios, marketing, and scaling plan
+  CEO_HIRING_PLAN.md          Role split, candidate profile, and comp for the CEO hire
   PRODUCT_CHANGELOG.md        Weekly log of changes to the sellable catalog
 ```
 

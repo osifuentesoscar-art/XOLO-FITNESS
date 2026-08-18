@@ -29,10 +29,18 @@ today: three program archetypes, a working AI program generator
 (`generateProgram()`) that personalizes by discipline, equipment, injury
 history, age, and anatomical sex, a full 12-PDF sellable catalog, and a
 storefront landing page. What's not yet live is the business around the
-product: payment collection, a marketing engine, and a plan for what
-happens when Oscar's personal coaching time is the bottleneck.
+product: payment collection, a marketing engine, and a running leadership
+structure to actually deliver and grow it.
 
-This document is that plan. Three things it establishes:
+**Leadership structure**: Oscar is Founder — owns the methodology, the
+product/systems, business operations and finance, and overall strategy.
+A CEO (a working trainer, hired rather than promoted from within) owns
+day-to-day client coaching delivery and the brand's public face —
+content, DMs, discovery calls, Personalized/Premium check-ins. Full
+detail on the role split, candidate profile, and compensation structure
+is in [`CEO_HIRING_PLAN.md`](CEO_HIRING_PLAN.md); §6 below reflects it.
+
+This document is that plan. Four things it establishes:
 
 1. **The market is real and growing**, but the addressable niche (dancers,
    gymnasts, aerialists specifically) is small and underserved by
@@ -41,10 +49,14 @@ This document is that plan. Three things it establishes:
 2. **The unit economics have to work on personalization, not volume.**
    XOLOKAN's moat is depth per client, not the lowest price in the
    category — the financial model in §4 is built around that.
-3. **Scaling past Oscar's own hours is a real constraint that needs a plan
-   now**, not after it becomes a bottleneck — §7 lays out three phases,
-   the last of which turns the AI system into the tool other coaches use,
-   not just Oscar.
+3. **Client delivery and the brand's public face are run by a dedicated
+   CEO from day one**, not by Oscar personally — §6 lays out the role
+   split and the three-phase scaling plan past that, the last phase of
+   which turns the AI system into the tool multiple coaches use.
+4. **That CEO hire is a real cash cost, priced deliberately for a
+   bootstrapped, pre-revenue business** — not a market-rate salary the
+   Year-1 scenarios in §4 can't support, but a revenue-share-weighted
+   structure that scales with actual growth.
 
 ---
 
@@ -80,7 +92,7 @@ positioned to win a race to the bottom against $10/month apps.
   category supports real spend.
 - **89% of fitness enthusiasts now discover their personal trainers
   through social media** — validates the Instagram-first acquisition
-  strategy in §6 as the right channel, not a fallback.
+  strategy in §5 as the right channel, not a fallback.
 
 **Practical read:** this is a five-to-six-figure-subscriber ceiling
 market, not a millions-of-users one. That's a feature for a $75-200/month
@@ -105,7 +117,7 @@ point. What exists instead:
 **The honest gap in XOLOKAN's own positioning right now**: none of the
 above compete on personalization depth, but none of them need to yet
 either — XOLO FITNESS has no live customers, reviews, or case studies to
-point to. Early marketing (§6) has to lead with the demonstrable mechanism
+point to. Early marketing (§5) has to lead with the demonstrable mechanism
 (watch the program change live for a 22-year-old vs. a 38-year-old, a
 different injury history) rather than claimed superiority, because
 claimed superiority isn't earned until there's a track record.
@@ -141,7 +153,7 @@ even one month of live data. The goal is a usable framework for deciding
 
 | Metric | Assumption | Source / reasoning |
 |---|---|---|
-| Customer acquisition cost (CAC) | $100-150 per subscriber (base case) | Subscription fitness CAC benchmarks run $100-300 depending on channel; organic-first Instagram strategy (§6) should sit toward the low end before any paid spend starts |
+| Customer acquisition cost (CAC) | $100-150 per subscriber (base case) | Subscription fitness CAC benchmarks run $100-300 depending on channel; organic-first Instagram strategy (§5) should sit toward the low end before any paid spend starts |
 | Monthly churn | 8% (base case) — range 5% (optimistic, top-quartile) to 12% (conservative, category median) | Fitness app median monthly churn is 10-13%, top-quartile apps hold 4-6%; a coached/personalized relationship (not a passive app) should outperform the median, but this is unproven until measured |
 | Average subscriber lifetime | ~12.5 months at 8% monthly churn (1 ÷ churn rate) | Direct math from the churn assumption above — reforecast the moment real cohort data exists |
 | LTV target ratio | ≥3:1 LTV:CAC | Standard SaaS/subscription health benchmark; below 3:1 the business is spending more to acquire a customer than that customer is worth |
@@ -170,9 +182,10 @@ first 90 days of live billing, not signups.
 | Stripe processing fees | Variable, ~2.9% + $0.30/transaction | Standard Payment Links pricing; no custom backend needed (§9) |
 | Claude API usage (XOLOKAN chat, Personalized/Premium tiers) | Variable, scales with active chat usage | **Not yet measured** — this is a real per-user cost the personalized tiers depend on and it has never been benchmarked against actual usage. Action item: instrument and log token usage per conversation once the chat app has real users, so cost-per-active-subscriber is known within the first month, not assumed. |
 | Hosting (`packages/server`, `packages/web`) | Fixed, low | Render or equivalent — sub-$50/mo at this scale |
-| Marketing spend | Discretionary | $0 required to start (§6 is organic-first); budget for paid amplification only once the organic funnel is proven to convert |
-| Oscar's time | Opportunity cost, not cash | The real constraint in Phase 1 (§7) — priced implicitly by how many Premium/hybrid clients one person can actually serve well |
-| Contractor coaches (Phase 2+) | Variable, future | See §7 — not a Phase 1 cost |
+| Marketing spend | Discretionary | $0 required to start (§5 is organic-first); budget for paid amplification only once the organic funnel is proven to convert |
+| **CEO compensation** | **Real cash cost from month 1** | **Revised: no longer Oscar's opportunity cost — a CEO hire runs client delivery and the brand's public face from day one (§6). Structured as a modest base retainer plus revenue share, not a fixed salary — the Year-1 scenarios below can't support market-rate CEO pay. Full structure in `CEO_HIRING_PLAN.md` §4; treat the retainer as a real fixed cost against the scenarios in §4.3, and the revenue-share components as scaling automatically with revenue, not an additional fixed line.** |
+| Oscar's time | Opportunity cost, not cash | Now spent on product/systems/business ops/strategy (§6) rather than client delivery — still real time, just no longer the client-facing bottleneck the original Phase 1 plan assumed |
+| Contractor coaches (Phase 2+) | Variable, future | See §6 — not a Phase 1 cost |
 
 ### 4.3 Revenue scenarios (Year 1, illustrative)
 
@@ -188,7 +201,7 @@ existing "Most Personalized" badge on the $150 tier):
 | Optimistic | 70 | 50 | 18 | 138 | $14,850/mo |
 
 These are **month-12 snapshots on a ramp, not day-1 numbers** — realistic
-early-stage growth for an organic, Instagram-first launch (§6) is closer
+early-stage growth for an organic, Instagram-first launch (§5) is closer
 to single digits in month 1-2, building through content compounding and
 word-of-mouth in a tight-knit dance/performer community (a community where
 reputation travels fast — both the upside and the risk of that is worth
@@ -200,7 +213,7 @@ base, or optimistic.
 Conservative case (~$39K annualized run rate at month 12) validates the
 model and funds itself; the Base case (~$83K annualized) is a real
 part-to-full-time income; the Optimistic case (~$178K annualized) is where
-Phase 2 hiring (§7) becomes necessary just to keep Premium-tier service
+Phase 2 hiring (§6) becomes necessary just to keep Premium-tier service
 quality from degrading.
 
 ---
@@ -286,61 +299,69 @@ data (4-6 weeks) to see what's actually converting, not before.
 
 ## 6. Operations & scaling plan
 
-The real constraint isn't demand generation, it's **Oscar's own time**
-once the Personalized and Premium tiers require direct involvement (chat
-availability, check-ins, form feedback). Plan for that constraint now,
-in three phases:
+**Revised: Oscar has decided to hire a CEO (a working trainer, not a
+generalist operator) from day one rather than run Phase 1 solo.** The
+original version of this section modeled Oscar personally delivering
+Personalized/Premium-tier coaching until ~50 subscribers forced a hire.
+That's no longer the plan — full detail on the role split, candidate
+profile, compensation structure, and hiring process is in
+[`CEO_HIRING_PLAN.md`](CEO_HIRING_PLAN.md), which supersedes the
+Phase 1 description below. Kept here in brief so this section still reads
+as one coherent scaling arc; that document is the source of truth for
+this hire.
 
-### Phase 1 — Solo + AI (0 to ~50 subscribers)
+**Title discipline**: the CEO hire's title is CEO. Oscar keeps the
+Founder title and the brand story built around it (`README.md`, the
+storefront's "Method by Oscar Xolo Sifuentes" line, XOLOKAN's own
+persona) — see `CEO_HIRING_PLAN.md`'s framing note for why that
+distinction is worth being deliberate about.
 
-XOLOKAN handles the Self-Guided and Personalized tiers' actual program
-generation and day-to-day chat entirely — that's the point of building it
-as a system (§8 of the product doc). Oscar's time goes to: content
-creation (§5), Premium-tier check-ins, and DM conversion. No hiring yet —
-this phase should comfortably absorb the Conservative and most of the
-Base revenue scenario (§4.3) on Oscar's time alone.
+### Phase 1 — Founder + CEO from day one (0 to ~50 subscribers)
 
-### Phase 2 — First hire (~50-150 subscribers)
+XOLOKAN handles Self-Guided and Personalized tiers' program generation
+end to end — that hasn't changed. What's changed is who delivers the
+human side: **the CEO owns client coaching delivery (Personalized/Premium
+check-ins, chat availability, form feedback) and the brand's public face
+(content, DMs, discovery calls) from the start**, while Oscar moves to
+product, systems, business operations/finance, and strategy — the
+methodology, the generator, pricing, and the direction of the business
+stay his. See `CEO_HIRING_PLAN.md` §2 for the full role split and §4 for
+how this is compensated (revenue-share-weighted, not a fixed market-rate
+salary — the business can't support that yet, see §4.2 below).
 
-Two candidate hires, in likely order:
+### Phase 2 — First operational hire (~50-150 subscribers)
 
-1. **A part-time VA or content coordinator** — handles the DM funnel's
-   first-response layer and content scheduling, freeing Oscar's time for
-   the coaching work only he can do. This is the highest-leverage first
-   hire because it protects the "fast DM response" commitment in §5.2 as
-   volume grows past what one person can answer same-day.
-2. **An assistant coach for Premium check-ins** — a certified trainer
-   (per the IRS contractor-classification caution below) who runs
-   check-ins/form-feedback under Oscar's system, not replacing his
-   coaching but extending its reach. Bring this in when Premium-tier
-   volume alone starts crowding out content/business-development time.
+With a CEO already running client delivery and the brand face, the
+highest-leverage next hire is a **part-time VA or content coordinator** —
+handles the DM funnel's first-response layer and content scheduling,
+protecting the "fast DM response" commitment in §5.2 as volume grows past
+what the CEO can personally answer same-day. An additional assistant
+coach for Premium check-ins becomes the hire after that, once Premium-tier
+volume alone starts crowding out the CEO's content/business-development
+time.
 
-**Contractor classification matters here**: the IRS uses behavioral,
-financial, and relationship criteria to determine employee vs.
-independent-contractor status, and treating a contractor like an employee
-(fixed hours, mandated tools, no autonomy in how the work gets done)
-risks misclassification penalties. If Phase 2 hiring happens, structure
-it deliberately as genuine contractor work (their own schedule, their own
-client-interaction style within brand guardrails) or as a real
-employee relationship — not an ambiguous middle that looks like
-misclassification on paper. This is a real legal/financial risk worth a
-short conversation with an accountant or employment attorney before the
-first hire, not something to improvise.
+**Contractor classification matters for every hire past the CEO, too**:
+the IRS uses behavioral, financial, and relationship criteria to
+determine employee vs. independent-contractor status, and treating a
+contractor like an employee (fixed hours, mandated tools, no autonomy in
+how the work gets done) risks misclassification penalties. Structure each
+hire deliberately as genuine contractor work or a real employee
+relationship — not an ambiguous middle. Get legal/accounting input before
+any of these hires, same caution as `CEO_HIRING_PLAN.md` §4 and §7.
 
 ### Phase 3 — Multi-coach studio (~150+ subscribers)
 
-This is where XOLOKAN stops being "Oscar's tool" and becomes **the
-system other coaches deliver through** — additional certified coaches,
+This is where XOLOKAN stops being one person's tool and becomes **the
+system multiple coaches deliver through** — additional certified coaches,
 each running their own client roster on the XOLOKAN Method (the named,
 systematized IP from `XOLOKAN_PRODUCT_SYSTEM.md` §1 is exactly what makes
 this possible: the method is documented and productized, not locked in
-Oscar's head). At this scale, the coaching-platform layer already scoped
-in the product system doc (Trainerize, for a multi-coach studio
-specifically) becomes worth adopting instead of the current lightweight
-web chat app. This phase is a genuine business-model shift — from
-"Oscar's coaching business" to "a studio running Oscar's method" — and
-deserves its own planning pass when subscriber count actually approaches
-this range, not before.
+one person's head — which matters more now that delivery is already
+split across two people by Phase 1). At this scale, the coaching-platform
+layer already scoped in the product system doc (Trainerize, for a
+multi-coach studio specifically) becomes worth adopting instead of the
+current lightweight web chat app. This phase deserves its own planning
+pass when subscriber count actually approaches this range, not before.
 
 ---
 
