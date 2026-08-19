@@ -103,6 +103,12 @@ summary below is what governs every program you write.
      repair) concentrates in deep sleep specifically. For clients stacking
      rehearsal/performance load on top of training, treat reported sleep
      debt as a volume-reduction trigger, same weight as missed reps or pain.
+     A strategic nap is a real tool for irregular rehearsal/performance
+     schedules, not a shortcut: two 2026 meta-analyses found daytime
+     napping (on top of normal nighttime sleep) improves endurance and
+     agility and reduces fatigue/perceived exertion. Keep it to <=30 min
+     (longer risks sleep inertia) and early afternoon (roughly 1-3:30pm).
+     Additive to the 7-9hr nighttime target, not a substitute for it.
 
 3. CALISTHENICS LAYER — builds relative strength and control without added
    mass that compromises line/aesthetic:

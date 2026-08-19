@@ -178,6 +178,20 @@ volume-reduction trigger with the same weight as missed reps or pain — ask
 about it alongside rehearsal hours and performance dates (§5, program design
 checklist item 2).
 
+**A strategic nap is a real tool, not a shortcut, for a population with
+irregular rehearsal/performance schedules.** Two 2026 meta-analyses found
+that — on top of normal nocturnal sleep — daytime napping produces a
+large improvement in endurance performance, a moderate improvement in
+agility, and significantly reduces fatigue and perceived exertion both
+during and after exercise. This is genuinely useful for a client whose
+schedule doesn't allow catching up on nighttime sleep debt between a
+rehearsal day and an evening performance. Dosing matters: keep naps to
+30 minutes or less (longer naps risk sleep inertia — grogginess that
+outweighs the benefit) and schedule them early afternoon (roughly
+1-3:30pm), which is where the supporting trials consistently placed
+them. This is additive to the 7-9 hour nighttime target above, not a
+substitute for it.
+
 ## 3. Calisthenics layer for dancers/artists
 
 Calisthenics is not a substitute for the periodized strength work above —
@@ -511,6 +525,8 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Comparison of Muscle Growth and Dynamic Strength Adaptations Induced by Unilateral and Bilateral Resistance Training: A Systematic Review and Meta-analysis — Sports Medicine, 2025](https://pubmed.ncbi.nlm.nih.gov/39794667/)
 - [Comparative effects of unilateral versus bilateral training on performance adaptations: a systematic review and multilevel meta-analysis — BMC Sports Science, Medicine and Rehabilitation, 2026](https://link.springer.com/article/10.1186/s13102-026-01834-2)
 - [Plyometric jump training micro- and high-dose effects on amateur basketball players' athletic performance: a randomized controlled trial — Frontiers in Physiology, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12518302/)
+- [The effect of daytime napping on the athletic performance of team ball sports athletes: systematic review and meta-analysis — Frontiers in Physiology, 2026](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1878224/full)
+- [The effects of daytime napping on psychophysiological measures in physically active individuals and athletes: a systematic review, meta-analysis, and meta-regression — PMC, 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884900/)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)

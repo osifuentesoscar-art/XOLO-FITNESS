@@ -13,6 +13,33 @@ nutrition for performers.
 
 ---
 
+## 2026-08-19 — strategic napping as a recovery tool
+
+**Checked:** Warm-up & recovery (tied stalest at 2026-08-12 along with
+nutrition for performers). Also checked whether the RAMP protocol's
+Potentiate phase had new dosing specifics — an 8-week targeted-potentiation
+study on female police officers turned up, but it's a different population
+and application (change-of-direction under load) with no clear
+translation to this methodology's existing Potentiate guidance, so no
+action there.
+
+**Found:** Two 2026 meta-analyses on daytime napping in athletes: on top
+of normal nocturnal sleep, napping produces a large improvement in
+endurance performance, a moderate improvement in agility, and
+significantly reduces fatigue and perceived exertion during and after
+exercise. Dosing specifics: keep naps to 30 minutes or less (longer risks
+sleep inertia) and schedule early afternoon (roughly 1-3:30pm), where
+supporting trials consistently placed them. This is a real gap: the
+existing sleep guidance only covered nighttime sleep target and treating
+sleep debt as a volume-reduction trigger — nothing on napping as an
+actionable tool for a population with genuinely irregular rehearsal/
+performance schedules that often can't fix sleep debt with nighttime
+sleep alone.
+
+**Action:** Added a napping paragraph directly after the existing sleep
+guidance in methodology §2 and the mirrored passage in persona.ts, framed
+as additive to the nighttime target, not a substitute. Two sources added.
+
 ## 2026-08-18 — plyometric microdosing option for heavy rehearsal weeks
 
 **Checked:** Plyometrics (stalest topic, last touched 2026-08-11).
