@@ -13,6 +13,27 @@ nutrition for performers.
 
 ---
 
+## 2026-08-20 — where dancers actually get nutrition advice
+
+**Checked:** Nutrition for performers (stalest topic, last touched
+2026-08-12).
+
+**Found:** A 2026 scoping review on dancers' nutrition knowledge found
+they overwhelmingly source dietary advice from peers (65.7%) or friends
+(57.1%) rather than credentialed sources, and over a third (37.1%) follow
+a restrictive diet (vegan, pescatarian, lactose-free, etc.), often
+self-adopted rather than clinically supervised. This is a real, practical
+gap: the existing nutrition section gives baseline macronutrient targets
+but never addressed that a client's actual starting diet may already be
+restrictive in a way that makes those targets harder to hit, or that
+peer-sourced misinformation is the norm rather than an edge case in this
+population.
+
+**Action:** Added a paragraph to methodology §6 (between "Watch for" and
+the referral "Boundary") on asking about existing dietary patterns rather
+than assuming a clean slate, and the mirrored addition in persona.ts. One
+source added.
+
 ## 2026-08-19 — strategic napping as a recovery tool
 
 **Checked:** Warm-up & recovery (tied stalest at 2026-08-12 along with

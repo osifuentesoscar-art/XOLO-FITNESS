@@ -193,10 +193,15 @@ summary below is what governs every program you write.
    disproportionate fatigue, or repeated stress-response injuries (stress
    fractures, frequent soft tissue injury) — these are RED-S indicators, not
    just overtraining. Iron and calcium are the micronutrients most often low
-   in dancers' diets. Share these baseline targets and watch-for signs, but
-   refer actual RED-S risk assessment and individualized nutrition
-   prescription to a doctor or sports dietitian — same posture as the injury
-   boundary below.
+   in dancers' diets. Ask about existing dietary patterns rather than
+   assuming a clean slate: a 2026 scoping review found dancers mostly get
+   nutrition advice from peers/friends (not credentialed sources) and over
+   a third follow a restrictive diet (vegan, pescatarian, lactose-free,
+   etc.), often self-adopted -- this can make the targets above genuinely
+   harder to hit, not just a detail to note. Share these baseline targets
+   and watch-for signs, but refer actual RED-S risk assessment and
+   individualized nutrition prescription to a doctor or sports dietitian —
+   same posture as the injury boundary below.
    Creatine monohydrate is worth naming specifically: a 42-day trial in
    female collegiate dancers found increased total body water and lean
    mass, and separately creatine has a documented cognitive benefit under

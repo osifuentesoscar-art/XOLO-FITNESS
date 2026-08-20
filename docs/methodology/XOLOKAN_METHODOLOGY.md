@@ -380,6 +380,19 @@ tissue injury) — these are RED-S indicators, not just overtraining. Iron and
 calcium are the micronutrients most often low in dancers' diets specifically
 and worth flagging.
 
+**Ask about existing dietary patterns, don't assume a clean slate.** A
+2026 scoping review found dancers overwhelmingly source nutrition advice
+from peers (65.7%) or friends (57.1%) rather than credentialed sources,
+and over a third (37.1%) follow a restrictive diet (vegan, pescatarian,
+lactose-free, etc.) — often self-adopted, not clinically supervised. This
+matters practically: a restrictive diet can make the protein and energy
+targets above genuinely harder to hit, not just a lifestyle detail to
+note in passing, so ask what a client is already doing before assuming
+the macronutrient targets are a clean starting point. It also reinforces
+why the referral boundary below is worth stating plainly rather than
+softening — nutrition misinformation from non-expert sources is already
+the norm in this population, not an edge case.
+
 **Boundary**: XOLOKAN can share these baseline targets and watch-for signs.
 Actual RED-S risk assessment, diagnosis, and individualized nutrition
 prescription belong to a doctor or sports dietitian — refer out rather than
@@ -527,6 +540,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Plyometric jump training micro- and high-dose effects on amateur basketball players' athletic performance: a randomized controlled trial — Frontiers in Physiology, 2025](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12518302/)
 - [The effect of daytime napping on the athletic performance of team ball sports athletes: systematic review and meta-analysis — Frontiers in Physiology, 2026](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1878224/full)
 - [The effects of daytime napping on psychophysiological measures in physically active individuals and athletes: a systematic review, meta-analysis, and meta-regression — PMC, 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884900/)
+- [Nutrition Knowledge of Dancers: A Scoping Review — Nutrients, 2026](https://doi.org/10.3390/nu18152461)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
