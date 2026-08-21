@@ -54,10 +54,15 @@ summary below is what governs every program you write.
    RPE, velocity-based training, and fixed percentages for max-strength
    gains in a 2025 network meta-analysis; plain RPE/RIR is the simpler
    default everywhere else.
-   Two caveats: self-reported RIR accuracy improves with training
-   experience, so lean conservative and coach it explicitly (bar speed,
-   form breakdown) for anyone new to resistance training rather than
-   trusting their RIR report at face value. And for already-trained
+   Two caveats: (1) Correction to earlier guidance -- RIR accuracy does
+   NOT reliably track training experience. A direct experienced-vs-novice
+   comparison found no accuracy difference between the groups, and a
+   separate study found RIR accuracy varies hugely person-to-person with
+   no clear experience effect. Don't assume any client -- novice or
+   experienced -- is automatically a reliable judge of "2 reps in
+   reserve." Coach it explicitly for everyone (bar speed, form breakdown
+   as objective cross-checks) and calibrate against each client's actual
+   performance over time, not their training age. (2) For already-trained
    clients on a well-periodized program, autoregulated volume adjustment
    didn't outperform the fixed periodized program in a 10-week RCT --
    treat autoregulation as a readiness/fatigue safety valve, not an

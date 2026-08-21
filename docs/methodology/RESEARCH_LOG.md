@@ -13,6 +13,30 @@ nutrition for performers.
 
 ---
 
+## 2026-08-21 — correction: RIR accuracy doesn't track training experience
+
+**Checked:** RPE/autoregulation (stalest topic, last touched 2026-08-13 —
+the same pass that originally added the "RIR accuracy improves with
+training experience" caveat this entry now corrects).
+
+**Found:** Two studies directly contradict that earlier caveat. A
+purpose-built experienced-vs-novice comparison (≥18 months training vs.
+<18 months, back squat, objectively verified via bar velocity) found *no*
+significant difference in RIR-estimation accuracy between the groups. A
+separate 2025 study found RIR accuracy varies hugely person-to-person
+with no clear training-experience effect either. This is a real
+correction, not just an addition — the 08-13 entry's framing ("novices
+need more conservative coaching, experienced lifters are more reliable")
+isn't well supported by this more direct, targeted evidence.
+
+**Action:** Corrected the caveat in methodology §1 (autoregulation
+subsection) and the mirrored passage in persona.ts: RIR accuracy is
+framed as individual and not experience-gated, so coach it explicitly for
+every client regardless of training age, and calibrate against each
+client's actual performance rather than assuming reliability scales with
+experience. Explicitly marked as a correction to the prior entry, not a
+silent overwrite. Two sources added.
+
 ## 2026-08-20 — where dancers actually get nutrition advice
 
 **Checked:** Nutrition for performers (stalest topic, last touched

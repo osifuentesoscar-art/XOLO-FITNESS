@@ -114,12 +114,21 @@ training, and fixed-percentage programming. Use APRE-style set-to-set load
 adjustment on primary lifts, where day-to-day readiness swings matter most;
 RPE/RIR language is the simpler, sufficient default everywhere else.
 
-**Two honest caveats on autoregulation, not just its upside.** (1) Self-
-reported RIR accuracy improves with training experience — a client new to
-resistance training is not yet a reliable judge of "2 reps in reserve," so
-lean toward more conservative loading and more explicit coaching cues
-(bar speed, form breakdown) rather than trusting a novice's RIR report at
-face value; this sharpens with a few months of consistent training. (2) In
+**Two honest caveats on autoregulation, not just its upside.** (1)
+**Correction to earlier guidance here**: RIR accuracy does not reliably
+track training experience the way it's tempting to assume. A direct
+experienced-vs-novice comparison (≥18 months training vs. <18 months,
+back squat, objectively verified via bar velocity) found *no* significant
+accuracy difference between the groups — and a separate study found RIR
+accuracy varies hugely person-to-person with no clear experience effect
+either. The practically useful takeaway isn't "coach novices more
+carefully than experienced lifters," it's that **RIR accuracy is
+individual, not experience-gated** — don't assume any client, regardless
+of training age, is automatically a reliable judge of "2 reps in
+reserve." Coach it explicitly for everyone (bar speed, form breakdown as
+objective cross-checks), and treat a given client's own RIR reports as
+something to calibrate against real performance over time, not something
+that improves on a fixed experience timeline. (2) In
 already-trained lifters on a well-designed periodized program, adding
 autoregulated volume adjustment on top didn't outperform the fixed
 periodized program for strength, power, or muscle thickness (10-week RCT,
@@ -541,6 +550,8 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [The effect of daytime napping on the athletic performance of team ball sports athletes: systematic review and meta-analysis — Frontiers in Physiology, 2026](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1878224/full)
 - [The effects of daytime napping on psychophysiological measures in physically active individuals and athletes: a systematic review, meta-analysis, and meta-regression — PMC, 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884900/)
 - [Nutrition Knowledge of Dancers: A Scoping Review — Nutrients, 2026](https://doi.org/10.3390/nu18152461)
+- [Objective Accuracy in Estimating Repetitions in Reserve in the Back Squat: An Analysis between Experienced vs. Novice Subjects — Journal of Human Kinetics](https://pmc.ncbi.nlm.nih.gov/articles/PMC13215226/)
+- [Exercise type, training load, velocity loss threshold, and sets affect the relationship between lifting velocity and perceived repetitions in reserve in strength-trained individuals — PeerJ, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12360324/)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
