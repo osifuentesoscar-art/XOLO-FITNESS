@@ -261,6 +261,18 @@ strength/balance benchmarks) before a client's first block, the same way
 the Day 1 baseline log works in a XOLOKAN program — screening is part of
 program design, not a separate clinical step.
 
+**Not every common screening measure actually predicts injury, though —
+prioritize balance.** A study of preprofessional ballet dancers found no
+significant association between injury and several widely-used screens
+(ankle/hip range of motion, active straight leg raise, Y Balance Test
+reach distances) — but balance-related measures specifically did show a
+protective effect, more so with more years of training. Practical
+takeaway: a baseline screen heavy on isolated ROM testing isn't wasted,
+but it also isn't where the injury-prediction value actually is — weight
+balance/proprioceptive assessment (single-leg stability, reactive
+balance) as the higher-priority baseline measure, not just one item on an
+equal-weighted checklist.
+
 **Most common injury sites and the countermeasure XOLOKAN should default to:**
 
 | Site | Common injuries | Default countermeasure |
@@ -552,6 +564,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Nutrition Knowledge of Dancers: A Scoping Review — Nutrients, 2026](https://doi.org/10.3390/nu18152461)
 - [Objective Accuracy in Estimating Repetitions in Reserve in the Back Squat: An Analysis between Experienced vs. Novice Subjects — Journal of Human Kinetics](https://pmc.ncbi.nlm.nih.gov/articles/PMC13215226/)
 - [Exercise type, training load, velocity loss threshold, and sets affect the relationship between lifting velocity and perceived repetitions in reserve in strength-trained individuals — PeerJ, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12360324/)
+- [Relationships Between Common Preseason Screening Measures and Dance-Related Injuries in Preprofessional Ballet Dancers — Journal of Orthopaedic & Sports Physical Therapy, 2023](https://doi.org/10.2519/jospt.2023.11835)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)

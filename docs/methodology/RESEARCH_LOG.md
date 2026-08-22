@@ -13,6 +13,27 @@ nutrition for performers.
 
 ---
 
+## 2026-08-22 — prioritize balance testing in the preseason screen
+
+**Checked:** Dance-injury prevention (stalest topic, last touched
+2026-08-14).
+
+**Found:** A study of preprofessional ballet dancers found no significant
+association between injury and several commonly-used screening measures
+(ankle/hip range of motion, active straight leg raise, Y Balance Test
+reach distances) — but balance-specific measures did show a protective
+effect, more so with more training years. This refines rather than
+contradicts the existing IADMS screening guidance: the methodology
+already calls for a pre-season baseline screen but treats it generically
+("strength/balance benchmarks") without saying which measures actually
+carry injury-prediction value.
+
+**Action:** Added a paragraph to methodology §4 (right after the existing
+"Screening, not just training" passage) and the mirrored addition in
+persona.ts: weight balance/proprioceptive testing as the higher-priority
+baseline measure rather than an equal-weighted checklist item alongside
+ROM-based screens. One source added.
+
 ## 2026-08-21 — correction: RIR accuracy doesn't track training experience
 
 **Checked:** RPE/autoregulation (stalest topic, last touched 2026-08-13 —

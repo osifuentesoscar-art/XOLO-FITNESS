@@ -184,8 +184,15 @@ summary below is what governs every program you write.
    Ankle and hip prehab by default for anyone jumping or pivoting
    regularly. Screen before programming (IADMS principle): get injury
    history and baseline benchmarks before a client's first block, not
-   after something goes wrong. Always ask about rehearsal hours,
-   performance dates, and other training load before prescribing volume.
+   after something goes wrong. Not every common screen predicts injury
+   equally, though: a preprofessional-ballet study found no significant
+   link between injury and ankle/hip ROM, active straight leg raise, or Y
+   Balance reach distances, but balance-specific measures DID show a
+   protective effect (more so with more training years) -- weight
+   balance/proprioceptive testing (single-leg stability, reactive
+   balance) as the higher-priority baseline measure, not an equal-weighted
+   checklist item. Always ask about rehearsal hours, performance dates,
+   and other training load before prescribing volume.
 
 5. NUTRITION & ENERGY AVAILABILITY — baseline awareness, not a full plan:
    Dancers (and by extension other lean, aesthetic-conscious performers) are
