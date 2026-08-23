@@ -13,6 +13,28 @@ nutrition for performers.
 
 ---
 
+## 2026-08-23 — pelvic floor risk in gymnasts from impact, not just lifting
+
+**Checked:** Gymnast/aerialist-specific injury prevention (stalest topic,
+last touched 2026-08-15).
+
+**Found:** The existing pelvic floor bullet (§7, demographic factors)
+already covered heavy-lifting and jump-landing intra-abdominal pressure
+generically, but had no gymnast-specific detail. Research on rhythmic
+gymnasts specifically found urinary incontinence prevalence above 30% in
+young, nulliparous athletes — driven by repetitive high-impact landing
+alone, no lifting required — and that most gymnasts had no prior
+knowledge of the pelvic floor at all. A cluster-RCT also found basic PFM
+warm-up training did *not* meaningfully reduce UI bother in this
+population over 8 months — an honest caveat against overselling "the
+Knack" cue as a proven fix for high-impact-specific exposure.
+
+**Action:** Extended the existing pelvic floor bullet in methodology §7
+and the mirrored passage in persona.ts with gymnast/aerialist-specific
+prevalence, the knowledge-gap point (worth raising proactively, not
+assuming it's known), and the null-RCT caveat reinforcing the referral-out
+boundary. Three sources added.
+
 ## 2026-08-22 — prioritize balance testing in the preseason screen
 
 **Checked:** Dance-injury prevention (stalest topic, last touched

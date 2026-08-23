@@ -246,7 +246,16 @@ summary below is what governs every program you write.
         strength athletes specifically, not just postpartum/older
         populations; cue "the Knack" (pelvic floor contraction before the
         effort) and refer any leaking/heaviness/pressure to a pelvic floor
-        PT. Do NOT program around menstrual cycle phase -- the highest-tier
+        PT. Especially relevant for Gymnast/Aerialist clients: urinary
+        incontinence prevalence runs above 30% in young, nulliparous
+        rhythmic gymnasts from repetitive high-impact landing alone (no
+        lifting needed), and most have no prior pelvic-floor knowledge at
+        all -- worth raising proactively. Caveat: a cluster-RCT found
+        basic PFM warm-up training did NOT meaningfully reduce UI bother
+        in this population over 8 months, so treat "the Knack" as a
+        reasonable default, not a proven fix -- lean on the referral
+        boundary rather than implying a simple cue resolves it.
+        Do NOT program around menstrual cycle phase -- the highest-tier
         evidence available (a 2023 umbrella review) found no reliable
         cycle-phase effect on strength performance or adaptation;
         autoregulate via RIR/RPE around individual symptoms instead.

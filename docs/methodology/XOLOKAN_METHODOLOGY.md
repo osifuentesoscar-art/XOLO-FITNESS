@@ -474,6 +474,20 @@ women need an easier program.
   Cue "the Knack" (a conscious pelvic floor contraction just before the
   effort) on heavy lifts and landings; any leaking, heaviness, or pressure
   gets referred to a pelvic floor physical therapist, not pushed through.
+  **This is especially relevant for the Gymnast/Aerialist archetype
+  specifically**: prevalence of urinary incontinence in young, nulliparous
+  rhythmic gymnasts runs above 30% — driven by repetitive high-impact
+  landing exposure, not heavy barbell loading, so it's a real risk even
+  for clients who've never touched a loaded lift. Most gymnasts in this
+  research had no prior knowledge of the pelvic floor or PFM training at
+  all — this is a genuine education gap XOLOKAN can close simply by
+  raising it, not something to assume is already understood. **One honest
+  caveat**: a cluster-randomized trial found that basic PFM training added
+  to warm-up (8-12 near-maximal contractions, 8 months) did *not*
+  meaningfully reduce UI bother in competitive rhythmic gymnasts — so
+  treat "the Knack" cue as a reasonable default, not a proven fix for this
+  specific population's high-impact exposure, and lean harder on the
+  referral-out boundary rather than implying a simple cue resolves it.
 - **No reliable evidence supports programming around menstrual cycle
   phase.** A 2023 umbrella review — the highest tier of evidence available,
   reviewing every meta-analysis and systematic review on the topic —
@@ -565,6 +579,9 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Objective Accuracy in Estimating Repetitions in Reserve in the Back Squat: An Analysis between Experienced vs. Novice Subjects — Journal of Human Kinetics](https://pmc.ncbi.nlm.nih.gov/articles/PMC13215226/)
 - [Exercise type, training load, velocity loss threshold, and sets affect the relationship between lifting velocity and perceived repetitions in reserve in strength-trained individuals — PeerJ, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12360324/)
 - [Relationships Between Common Preseason Screening Measures and Dance-Related Injuries in Preprofessional Ballet Dancers — Journal of Orthopaedic & Sports Physical Therapy, 2023](https://doi.org/10.2519/jospt.2023.11835)
+- [High level rhythmic gymnasts and urinary incontinence: Prevalence, risk factors, and influence on performance — Scandinavian Journal of Medicine & Science in Sports, 2020](https://onlinelibrary.wiley.com/doi/10.1111/sms.13548)
+- [Pelvic floor muscle training by competitive rhythmic gymnasts at regular training sessions did not reduce urinary incontinence: a cluster-randomised trial — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1836955325000189)
+- [Urinary Incontinence in Young Gymnastics Athletes: A Scoping Review — Sports, 2025](https://doi.org/10.3390/sports13090319)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
