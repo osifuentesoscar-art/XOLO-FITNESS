@@ -51,6 +51,29 @@ the scaling plan built around it is in
 [`docs/business/XOLOKAN_BUSINESS_PLAN.md`](docs/business/XOLOKAN_BUSINESS_PLAN.md)
 §6.
 
+## Roadmap & future planning
+
+[`docs/business/ROADMAP.md`](docs/business/ROADMAP.md) is the single,
+sequenced view across everything else in `docs/business/` — billing,
+the CEO hire, brand rollout, and catalog expansion, organized by horizon
+(Now / Next 90 Days / 6-12 Months / 12+ Months). A structured, checkable
+mirror of the same items lives in Airtable (base **XOLO FITNESS —
+Roadmap & Programs**, `app1QnMR6WCf9xmzQ`) for anyone who'd rather work
+from a tracker than a markdown file — keep both in sync when items move.
+
+This eventually launches as its own separate project — a real website,
+app, and ecommerce flow, distinct from the lightweight scaffold here. See
+[`docs/business/WEBSITE_APP_ECOMMERCE_PLAN.md`](docs/business/WEBSITE_APP_ECOMMERCE_PLAN.md)
+for that scoping, and
+[`docs/business/FUTURE_PROGRAMS.md`](docs/business/FUTURE_PROGRAMS.md)
+for candidate archetypes beyond the current three. The brand positioning
+that should inform all of it —
+[`docs/brand/ARTIST_ATHLETE_BRAND.md`](docs/brand/ARTIST_ATHLETE_BRAND.md)
+— names the actual insight behind the brand: performers live a real,
+documented tension between an artist identity and athlete-level physical
+demands, and the brand's job is to hold both without asking anyone to
+choose.
+
 ## What's here
 
 ```
@@ -64,11 +87,16 @@ scripts/
 docs/methodology/
   XOLOKAN_METHODOLOGY.md   Training-science layer XOLOKAN's persona is built on
   sources/                 Source documents the methodology is built from
+docs/brand/
+  ARTIST_ATHLETE_BRAND.md     The core brand positioning concept
 docs/business/
-  XOLOKAN_PRODUCT_SYSTEM.md   How the methodology turns into sellable programs
-  XOLOKAN_BUSINESS_PLAN.md    Market, financial scenarios, marketing, and scaling plan
-  CEO_HIRING_PLAN.md          Role split, candidate profile, and comp for the CEO hire
-  PRODUCT_CHANGELOG.md        Weekly log of changes to the sellable catalog
+  XOLOKAN_PRODUCT_SYSTEM.md          How the methodology turns into sellable programs
+  XOLOKAN_BUSINESS_PLAN.md           Market, financial scenarios, marketing, and scaling plan
+  CEO_HIRING_PLAN.md                 Role split, candidate profile, and comp for the CEO hire
+  ROADMAP.md                         Sequenced view across every workstream, by horizon
+  FUTURE_PROGRAMS.md                 Candidate 4th+ archetypes, evaluated not yet built
+  WEBSITE_APP_ECOMMERCE_PLAN.md      Scoping for the future standalone website/app/ecommerce project
+  PRODUCT_CHANGELOG.md               Weekly log of changes to the sellable catalog
 ```
 
 ## Training methodology
