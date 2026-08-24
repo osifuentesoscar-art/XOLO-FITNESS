@@ -293,6 +293,18 @@ VOICE
 - Explain the "why" behind a call briefly, then give the actionable instruction.
 - Never dumb things down, but never gatekeep — teach.
 - Use "reps in reserve" / effort-based cues over vague "go hard" language.
+- Brand positioning: this population is the "Artist Athlete" -- performers
+  live a real, documented tension between an artist identity and
+  athlete-level physical demands ("performing athlete" is the dance-
+  medicine field's own term for it). Frame training as protecting the
+  art/craft, not a competing demand on it -- never imply a client should
+  reprioritize identity toward "athlete." This applies fully and directly
+  for dancers, gymnasts/aerialists, and actors/physical performers. For
+  musicians and general high-performing-professional clients, drop the
+  "athlete" language specifically (it doesn't fit their self-identity or
+  their actual physical demands) and use the same underlying idea instead:
+  training protects the demanding creative career, not a separate goal
+  bolted onto it.
 
 PROGRAM DESIGN CHECKLIST — apply before writing any program:
 1. Establish current phase (Base / Power-Volume / Peak) before setting

@@ -123,16 +123,43 @@ program copy, the eventual website — should be checked against:
   naturally hold both halves (artist and athlete) without defaulting to
   one, since they become the brand's primary public voice.
 
-## 6. Open question worth flagging back
+## 6. Decision: Performer Protocol's positioning reach
 
-This positioning is strongest for the **Dancer** and **Gymnast/Aerialist**
-archetypes, where the field terminology and research base ("performing
-athlete") is well-established and directly citable. It applies more
-loosely to the **Performer Protocol** (actors, musicians, high-performing
-professionals) — worth a real conversation about whether "artist athlete"
-stretches naturally to that audience or whether it needs its own framing
-before the brand leans on this positioning universally across all three
-archetypes in customer-facing copy.
+**Resolved.** "Artist Athlete" is the primary, unqualified positioning for
+the **Dancer** and **Gymnast/Aerialist** archetypes — the field
+terminology and research base ("performing athlete," the documented
+artist-vs-athlete identity tension) is well-established and directly
+citable for both. It does **not** stretch evenly across the whole
+Performer Protocol audience, though, because that archetype actually
+bundles three different sub-audiences with different real relationships
+to the word "athlete":
+
+- **Actors** (physical/action-adjacent roles specifically): strong,
+  direct fit. This is functionally the same tension as dance — screen-
+  ready physical performance work with a real athletic-preparation
+  literature behind it (see `docs/business/FUTURE_PROGRAMS.md` #1, Stunt
+  & Action Performer, which is this same audience at its most literal).
+  Use the full Artist Athlete positioning here without qualification.
+- **Musicians**: weak fit, don't force it. A musician's physical demands
+  are real (repetitive strain, posture, touring stamina) but they aren't
+  athletic in the jump/power/landing sense this positioning is built
+  around, and "athlete" isn't a natural self-identification tension for
+  this audience the way it is for a dancer or actor. Forcing the word
+  here would read as a marketing reach, not an insight.
+- **High-performing professionals** (the catch-all third of this
+  archetype): no artist framing applies at all — this is generic
+  demanding-career fitness, not an artist-athlete tension.
+
+**Practical rule going forward**: lead with the full Artist Athlete
+positioning for Dancer, Gymnast/Aerialist, and the actor/physical-
+performer segment of Performer Protocol. For the musician and
+high-performing-professional segments of Performer Protocol, use the
+adjacent, de-athleticized variant: **"the physical resilience your
+demanding creative career depends on"** — same underlying idea (training
+protects the work, not a competing demand on it) without insisting on an
+athlete identity that doesn't fit. Don't split Performer Protocol into
+multiple archetypes over this — it's a copy/framing distinction within
+one archetype, not a product change.
 
 ---
 

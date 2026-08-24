@@ -45,13 +45,13 @@ from a tracker than a markdown file — same items, kept in sync.
 - [ ] **Revisit the business plan's financial scenarios with real data**
   — `XOLOKAN_BUSINESS_PLAN.md` §8's own 90-day checkpoint: replace churn
   and CAC assumptions with real numbers from the first cohort.
-- [ ] **Decide the Artist Athlete positioning's reach** —
-  `ARTIST_ATHLETE_BRAND.md` §6: confirm whether it extends naturally to
-  the Performer Protocol archetype or needs its own framing, before
-  leaning on it universally in customer-facing copy.
-- [ ] **Small persona update for the Artist Athlete voice** —
-  `ARTIST_ATHLETE_BRAND.md` §5: encode the positioning explicitly into
-  `persona.ts`'s VOICE section, once confirmed above.
+- [x] **Decide the Artist Athlete positioning's reach** —
+  `ARTIST_ATHLETE_BRAND.md` §6 (resolved 2026-08-25): full positioning for
+  Dancer, Gymnast/Aerialist, and Performer Protocol's actor/physical-
+  performer segment; de-athleticized "protects your demanding creative
+  career" framing for Performer Protocol's musician/professional segment.
+- [x] **Small persona update for the Artist Athlete voice** —
+  `persona.ts`'s VOICE section now encodes the decision above directly.
 - [ ] **Research pass: Figure Skating Protocol** — `FUTURE_PROGRAMS.md`
   #2, the lowest-lift catalog expansion candidate. Good first test of the
   "4th archetype" process before committing to a heavier build.
