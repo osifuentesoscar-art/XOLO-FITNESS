@@ -168,11 +168,15 @@ DAY_OUTRO_30DAY = {
         "mechanics earn their place gradually, not all at once. "
         "<b>History of ankle sprains?</b> Add single-leg balance work (eyes closed, 30s each "
         "side) on a rest day — sprain recurrence is driven more by balance and joint sense "
-        "than by strength alone."
+        "than by strength alone. <b>Heavy rehearsal week?</b> You don't have to skip this day "
+        "entirely — splitting the same jump volume into more, lighter sessions across the week "
+        "matches a single concentrated session on strength/power gains in the research, so "
+        "spreading it out is a legitimate option, not a compromise."
     ),
 }
 
-# Archetype-specific overrides, checked before the day-number default above.
+# Archetype-specific overrides. Combined with the day-number default above
+# when both exist (see get_day_outro), not a straight replacement.
 DAY_OUTRO_30DAY_BY_ARCHETYPE = {
     ("gymnast-aerialist", 1): (
         "Ring and handstand support work loads the shoulder differently than pressing does. "
@@ -182,10 +186,21 @@ DAY_OUTRO_30DAY_BY_ARCHETYPE = {
         "feels limited, regress to shorter holds and build periscapular strength first rather "
         "than pushing hold time."
     ),
+    ("gymnast-aerialist", 3): (
+        "<b>Repetitive landing carries a real pelvic-floor loading risk</b> — published research "
+        "found urinary incontinence affects 30%+ of young female gymnasts, from impact alone, "
+        "no lifting required. Cue a pelvic-floor contraction just before each landing; any "
+        "leaking, heaviness, or pressure gets referred to a pelvic floor physical therapist, not "
+        "pushed through — this is common, treatable, and not something a cue alone reliably fixes."
+    ),
 }
 
 def get_day_outro(day_number):
-    return DAY_OUTRO_30DAY_BY_ARCHETYPE.get((ARCHETYPE, day_number)) or DAY_OUTRO_30DAY.get(day_number)
+    archetype_note = DAY_OUTRO_30DAY_BY_ARCHETYPE.get((ARCHETYPE, day_number))
+    default_note = DAY_OUTRO_30DAY.get(day_number)
+    if archetype_note and default_note:
+        return archetype_note + " " + default_note
+    return archetype_note or default_note
 
 # =========================================================
 # brand tokens
@@ -376,7 +391,9 @@ def nutrition_page():
         "Target 7–9 hours. Deep sleep specifically — not just total time in bed — is where "
         "growth hormone release, protein synthesis, and connective-tissue repair concentrate. "
         "If you're stacking rehearsal on top of this program, treat sleep debt as a cue to "
-        "pull back volume, the same way you'd respond to pain or missed reps.",
+        "pull back volume, the same way you'd respond to pain or missed reps. A short nap "
+        "(30 min or less, early afternoon) is a legitimate recovery tool on top of nighttime "
+        "sleep, not a replacement for it — research shows it measurably reduces fatigue.",
         S_BODY
     ))
     story.append(Paragraph("Creatine", S_H2))

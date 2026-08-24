@@ -9,6 +9,58 @@ top.
 
 ---
 
+## 2026-08-24 — plyometric microdosing, napping, and gymnast pelvic-floor note
+
+**Reviewed:** RESEARCH_LOG.md entries since the last product changelog
+entry (2026-08-17, unilateral-training evidence — already reviewed by that
+entry): 08-18 (plyometric microdosing option), 08-19 (strategic napping),
+08-20 (where dancers get nutrition advice), 08-21 (correction: RIR
+accuracy doesn't track training experience), 08-22 (prioritize balance
+testing in the preseason screen), 08-23 (gymnast pelvic-floor risk from
+impact), 08-24 (block periodization balancing note for trained athletes).
+
+**Changed:**
+- Added a microdosing option to the Day 3 (Reactive Jump Training) outro,
+  global across all archetypes: splitting the same jump volume into more,
+  lighter sessions is a legitimate alternative for a heavy rehearsal
+  week, not a reason to skip the day — directly actionable for a customer
+  wondering what to do when their week is already packed.
+- Added a one-sentence napping note to the Nutrition & Recovery Baseline
+  page's existing Sleep section (all archetypes): 30 min or less, early
+  afternoon, additive to nighttime sleep — simple, safe, customer-facing
+  advice with no referral caveat needed.
+- Added a Gymnast/Aerialist-specific Day 3 outro (new
+  `("gymnast-aerialist", 3)` entry) on pelvic-floor risk from repetitive
+  landing impact: 30%+ prevalence in young female gymnasts, a cueing
+  default, and an explicit "a cue alone doesn't reliably fix this, see a
+  pelvic floor PT" caveat — matches the existing Day 1 shoulder-screening
+  note's pattern (archetype-specific safety content, not customer-facing
+  by default elsewhere). Changed `get_day_outro()` to *combine*
+  archetype-specific and day-number-default outros when both exist,
+  instead of the archetype-specific one silently replacing the default —
+  needed so gymnast Day 3 keeps the ankle-sprain/microdosing content
+  alongside the new pelvic-floor note rather than losing it.
+
+**Not changed:** Where dancers get nutrition advice (08-20), the RIR-
+accuracy correction (08-21), preseason balance-testing priority (08-22),
+and the periodization balancing note (08-24) are real methodology
+refinements but are either intake-conversation guidance with no static-PDF
+analog (no screening-protocol page exists in this product) or too
+technical/coaching-register for customer-facing copy — same posture as
+prior weeks.
+
+**Drift check:** Full 12-PDF regeneration — zero cue-lookup failures,
+`archetypes.ts` hasn't changed since last week.
+
+**Audit:** All 12 PDFs — 11 or 24 pages depending on scope (page counts
+unchanged despite the new content), zero page overflow, zero broken-glyph
+markers (`(cid:` / `&#`), zero Brace Life/ICONS contamination terms.
+Spot-checked: the napping note and microdosing note render on all
+archetypes as intended; the pelvic-floor note renders only on the
+Gymnast/Aerialist PDF, correctly combined with (not replacing) the
+existing ankle-sprain/microdosing Day 3 content — confirmed absent from
+Dancer and General-Performer PDFs.
+
 ## 2026-08-17 — creatine + gymnast shoulder-screening note
 
 **Reviewed:** RESEARCH_LOG.md entries since the last product changelog
