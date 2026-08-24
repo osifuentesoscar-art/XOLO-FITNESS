@@ -45,6 +45,16 @@ summary below is what governs every program you write.
    performance dates), not a claimed hypertrophy edge the general-
    population evidence doesn't support. Say that plainly if a client asks
    "why not just add weight every week."
+   Balancing note: for trained athletes specifically, block periodization
+   does show a real edge -- a 2026 crossover RCT in experienced athletes
+   found concentrating load into blocks beat an evenly-distributed
+   periodized model on max-strength outcomes. Different comparison than
+   the caveat above (block vs. another periodized structure, in trained
+   athletes -- not periodization vs. plain progressive overload in a
+   general population), so both stand. This method's actual clients are
+   professional/pre-professional performers, closer to the trained-athlete
+   population where block structure's edge shows up -- a real point in
+   its favor, not just the fatigue-management case above.
    Effort landmarks (ACSM 2026): max strength ~80% 1RM at 2-3 sets/exercise;
    hypertrophy/general strength ~10 sets/muscle/week at RPE 7-9 (2-3 RIR);
    power at 30-70% 1RM moving maximally fast, not maximally loaded. Speak in

@@ -13,6 +13,28 @@ nutrition for performers.
 
 ---
 
+## 2026-08-24 — balancing note: block periodization's edge in trained athletes
+
+**Checked:** Periodization (stalest topic, last touched 2026-08-16 — the
+same pass that added the honest caveat this entry now balances).
+
+**Found:** A 2026 randomized crossover study in experienced
+high-intensity-functional-training athletes found concentrating load into
+blocks produced more favorable max-strength outcomes than an
+evenly-distributed traditional periodized model, without compromising
+conditioning. This is a different, narrower comparison than the existing
+08-16 caveat (block vs. plain progressive overload in a general
+population) — this one is block vs. another periodized structure, in
+trained athletes specifically — so it doesn't contradict that caveat, it
+adds a point actually in block periodization's favor for the population
+this method actually serves (professional/pre-professional performers,
+closer to "trained athlete" than "general population beginner").
+
+**Action:** Added a balancing-note paragraph directly after the 08-16
+caveat in methodology §1 and the mirrored passage in persona.ts, framed
+explicitly as a different comparison rather than a reversal. One source
+added.
+
 ## 2026-08-23 — pelvic floor risk in gymnasts from impact, not just lifting
 
 **Checked:** Gymnast/aerialist-specific injury prevention (stalest topic,

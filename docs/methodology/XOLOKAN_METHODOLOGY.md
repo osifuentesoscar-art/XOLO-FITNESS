@@ -89,6 +89,22 @@ asked "why not just add weight every week" — the honest answer is
 injury/fatigue management for a high-demand population, not a hypertrophy
 advantage the general-population evidence doesn't support.
 
+**A balancing note, though: for trained athletes specifically, block
+periodization does show a real edge.** A 2026 randomized crossover study
+in experienced athletes found that concentrating high-intensity load into
+blocks produced more favorable maximal-strength outcomes than an evenly-
+distributed ("traditional") periodization model — without compromising
+conditioning or cardiovascular markers. This is a narrower, different
+comparison than the ACSM caveat above (block vs. an alternative
+periodized structure, in *trained* athletes — not periodization vs. plain
+progressive overload in a general population), so the two findings don't
+contradict each other; they apply to different populations and different
+questions. Worth stating plainly: this method's actual client base is
+professional/pre-professional performers, not general-population
+beginners — closer to the trained-athlete population where block
+structure's edge actually shows up, which is a real point in favor of the
+approach here, not just the fatigue-management case above.
+
 **Intensity and volume landmarks (ACSM 2026 resistance-training update).**
 The phase table gives %1RM ranges; these are the volume/effort landmarks
 that fill in the rest of the prescription within each phase:
@@ -582,6 +598,7 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [High level rhythmic gymnasts and urinary incontinence: Prevalence, risk factors, and influence on performance — Scandinavian Journal of Medicine & Science in Sports, 2020](https://onlinelibrary.wiley.com/doi/10.1111/sms.13548)
 - [Pelvic floor muscle training by competitive rhythmic gymnasts at regular training sessions did not reduce urinary incontinence: a cluster-randomised trial — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1836955325000189)
 - [Urinary Incontinence in Young Gymnastics Athletes: A Scoping Review — Sports, 2025](https://doi.org/10.3390/sports13090319)
+- [Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study — Frontiers in Physiology, 2026](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1810477/full)
 - [Bone Mineral Accrual From Adolescence Into Young Adulthood and Peak Bone Mass: A Longitudinal Cohort Study — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560013/)
 - [The ACL Female Athlete Crisis — AOSSM](https://www.sportsmed.org/membership/sports-medicine-update/summer-2026/the-acl-female-athlete-crisis)
 - [Sex specific considerations in anterior cruciate ligament injuries in the female athlete: State of the art — ScienceDirect](https://www.sciencedirect.com/science/article/pii/S205977542400172X)
