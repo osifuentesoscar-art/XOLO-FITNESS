@@ -230,7 +230,14 @@ doesn't for a general lifter.
   movement (support holds, L-sit progressions, wall handstand holds, deep
   squat holds) build strength precisely where dancers need controlled
   eccentric lowering and held positions — this is a direct performance
-  transfer, not general conditioning.
+  transfer, not general conditioning. **Effort level matters, not just the
+  position**: research on isometric training and tendon adaptation found
+  high-intensity holds (≥70% MVC — genuinely hard, not a passive static
+  stretch-like position) are what's needed to meaningfully improve tendon
+  stiffness and structure, with longer muscle lengths favoring the
+  muscle-morphology side of the adaptation. Coach these holds as a real
+  working effort with a clear RIR, the same as any other prescribed set —
+  not "hold as long as you can hold *something*."
 - **Progression model**: support/assisted → full range of motion →
   weighted or tempo-loaded. Never skip straight to weighted variations
   before full-ROM bodyweight control is clean.
@@ -612,3 +619,4 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Spondylolysis: A Narrative Review of Etiology, Diagnosis, and Management — MDPI](https://www.mdpi.com/1660-4601/23/2/153)
 - [Injuries in Artistic Gymnastics: Etiology, Prevention Strategies, and Multifactorial Perspectives — A Systematic Review, 2026 — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12652705/)
 - [Prevention and Treatment of Low Back Pain in Young Female TeamGym Gymnasts — ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04778215)
+- [Isometric training and long-term adaptations: Effects of muscle length, intensity, and intent: A systematic review — ResearchGate](https://www.researchgate.net/publication/329881153_Isometric_training_and_long-term_adaptations_Effects_of_muscle_length_intensity_and_intent_A_systematic_review)

@@ -13,6 +13,26 @@ nutrition for performers.
 
 ---
 
+## 2026-08-25 — isometric hold intensity for tendon adaptation
+
+**Checked:** Calisthenics/relative strength (stalest topic, last touched
+2026-08-17).
+
+**Found:** Research on isometric training and tendon adaptation found
+high-intensity holds (≥70% MVC) are what's needed to meaningfully improve
+tendon stiffness and structure, with longer muscle lengths favoring the
+muscle-morphology side of the adaptation — genuinely hard holds, not a
+passive static position. This is a real gap: the existing calisthenics
+section prescribes isometric holds (support holds, L-sit progressions,
+wall handstand holds, deep squat holds) for weak-leverage control but
+never specified effort level, which matters for whether the hold actually
+drives adaptation or is just time spent in a position.
+
+**Action:** Added an effort-level specification to the isometrics bullet
+in methodology §3 and the mirrored passage in persona.ts: coach these
+holds as a real working effort with a clear RIR, same as any other
+prescribed set, not "hold as long as you can." One source added.
+
 ## 2026-08-24 — balancing note: block periodization's edge in trained athletes
 
 **Checked:** Periodization (stalest topic, last touched 2026-08-16 — the

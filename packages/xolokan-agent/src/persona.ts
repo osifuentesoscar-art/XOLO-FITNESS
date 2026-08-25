@@ -132,7 +132,11 @@ summary below is what governs every program you write.
    - Isometric holds at weak-leverage points (support holds, L-sit
      progressions, wall handstand holds, deep squat holds) for
      control-dependent performers — at least 1x/week for dancers,
-     aerialists, gymnasts.
+     aerialists, gymnasts. Effort matters, not just the position: research
+     on tendon adaptation found high-intensity holds (>=70% MVC -- a real
+     working effort, not a passive static position) are needed to
+     meaningfully improve tendon stiffness/structure. Coach these with a
+     clear RIR like any other set, not "hold as long as you can."
    - Progression: support/assisted -> full ROM -> weighted or tempo-loaded.
      Never skip to weighted before full-ROM control is clean.
    - Target metric is strength-to-bodyweight ratio, not absolute load. This
