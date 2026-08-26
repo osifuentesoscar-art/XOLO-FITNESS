@@ -345,6 +345,17 @@ model in the table above; offer the microdosed spread as the adjustment
 when a client's total weekly load (training + rehearsal) needs to come
 down without dropping the plyometric stimulus entirely.
 
+**Pair plyometric work with balance training, not just for prior-injury
+clients.** A 12-week study in college dancers found combined balance +
+plyometric training outperformed plyometric training alone at improving
+dynamic balance and reducing single-leg landing instability (measured as
+center-of-pressure displacement) — a genuine additive effect, not just
+overlap between two similar interventions. This extends beyond the
+existing prior-ankle-sprain rule below (standing rule #4): balance work
+belongs alongside Day 3's plyometric volume as a general pairing for any
+jump-heavy artist, not only as a corrective bolted on after an injury
+history.
+
 **Standing rules:**
 1. **Single-leg / unilateral work every week, no exceptions.** Landing
    mechanics and side-to-side asymmetry are the biggest lever for jump-heavy
@@ -620,3 +631,4 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Injuries in Artistic Gymnastics: Etiology, Prevention Strategies, and Multifactorial Perspectives — A Systematic Review, 2026 — PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12652705/)
 - [Prevention and Treatment of Low Back Pain in Young Female TeamGym Gymnasts — ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04778215)
 - [Isometric training and long-term adaptations: Effects of muscle length, intensity, and intent: A systematic review — ResearchGate](https://www.researchgate.net/publication/329881153_Isometric_training_and_long-term_adaptations_Effects_of_muscle_length_intensity_and_intent_A_systematic_review)
+- [The effect of 12-week combined balance and plyometric training on dynamic balance and lower extremity injury risk in college dancers — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11851013/)

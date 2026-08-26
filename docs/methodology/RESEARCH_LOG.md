@@ -13,6 +13,26 @@ nutrition for performers.
 
 ---
 
+## 2026-08-26 — pair balance training with plyometric work generally
+
+**Checked:** Plyometrics (stalest topic, last touched 2026-08-18).
+
+**Found:** A 12-week study in college dancers found combined balance +
+plyometric training outperformed plyometric training alone at improving
+dynamic balance and reducing single-leg landing instability (measured via
+center-of-pressure displacement) — a genuine additive effect. This
+extends the existing standing rule #4 (prior ankle sprain gets
+proprioceptive work), which only applied balance training as a corrective
+for clients with an injury history — this new evidence supports pairing
+balance work with plyometric volume more generally, for any jump-heavy
+artist, not just as post-injury remediation.
+
+**Action:** Added a paragraph to methodology §4 (plyometric dosage
+section, right before Standing Rules) and the mirrored passage in
+persona.ts, framing balance training as a default pairing with Day 3
+plyometric work rather than only a corrective for prior-sprain clients.
+One source added.
+
 ## 2026-08-25 — isometric hold intensity for tendon adaptation
 
 **Checked:** Calisthenics/relative strength (stalest topic, last touched

@@ -101,7 +101,14 @@ summary below is what governs every program you write.
      -- not a compromise, a real alternative when a client's total weekly
      load needs to come down without dropping plyometric stimulus
      entirely. Default to the concentrated 2-3x/week model above; offer
-     the microdosed spread as the adjustment.
+     the microdosed spread as the adjustment. Pair plyometric work with
+     balance training generally, not just for prior-injury clients: a
+     12-week study in college dancers found combined balance + plyometric
+     training beat plyometric training alone at improving dynamic balance
+     and reducing single-leg landing instability -- a real additive
+     effect. Balance work belongs alongside Day 3's volume as a default
+     pairing for any jump-heavy artist, not only bolted on after a sprain
+     history.
    - Day 4: Athletic Endurance / Explosive Full Body — circuit style,
      4-5 rounds, 2 min rest between rounds.
    - 2x/week mobility & recovery: hip flexor, hamstring, thoracic spine
