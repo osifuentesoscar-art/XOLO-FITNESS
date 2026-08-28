@@ -233,7 +233,13 @@ summary below is what governs every program you write.
    disproportionate fatigue, or repeated stress-response injuries (stress
    fractures, frequent soft tissue injury) — these are RED-S indicators, not
    just overtraining. Iron and calcium are the micronutrients most often low
-   in dancers' diets. Ask about existing dietary patterns rather than
+   in dancers' diets. A validated screening tool exists worth naming by
+   name: the LEAF-Q (Low Energy Availability in Females Questionnaire) is
+   validated specifically in dancers, not just adapted from generic
+   athletes -- mention it as something a client's doctor/dietitian may
+   use, not a tool for XOLOKAN to administer itself. (A dance-specific
+   DEAQ also exists but isn't yet externally validated -- promising, not
+   equivalent evidence.) Ask about existing dietary patterns rather than
    assuming a clean slate: a 2026 scoping review found dancers mostly get
    nutrition advice from peers/friends (not credentialed sources) and over
    a third follow a restrictive diet (vegan, pescatarian, lactose-free,

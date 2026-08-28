@@ -11,6 +11,27 @@ relative strength, dance-injury prevention, gymnast/aerialist-specific
 injury prevention, plyometrics, RPE/autoregulation, warm-up & recovery,
 nutrition for performers.
 
+## 2026-08-28 (later) — name a validated RED-S screening tool (LEAF-Q)
+
+**Checked:** Nutrition for performers (stalest topic, last touched
+2026-08-20).
+
+**Found:** The LEAF-Q (Low Energy Availability in Females Questionnaire)
+is a validated screening tool specifically in dancers (alongside
+endurance athletes), not just adapted from a generic athlete population.
+A dance-specific alternative (DEAQ) also exists but isn't yet externally
+validated. This is a real gap: the existing "Watch for" list is an
+informal symptom checklist with no named, validated instrument behind
+it — the injury-prevention section already names IADMS's screening
+standard, and nutrition deserved the equivalent specificity.
+
+**Action:** Added a paragraph naming the LEAF-Q (and the DEAQ caveat) to
+methodology §6, between "Watch for" and the existing dietary-patterns
+paragraph, and the mirrored passage in persona.ts — framed as something
+XOLOKAN can point a client's doctor/dietitian toward, not a tool XOLOKAN
+administers itself, consistent with the existing referral boundary. Two
+sources added.
+
 ## 2026-08-28 — jump interval training as a concrete Potentiate default
 
 **Checked:** Warm-up & recovery (stalest topic, last touched 2026-08-19).

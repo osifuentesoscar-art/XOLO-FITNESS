@@ -448,6 +448,18 @@ tissue injury) — these are RED-S indicators, not just overtraining. Iron and
 calcium are the micronutrients most often low in dancers' diets specifically
 and worth flagging.
 
+**A validated screening tool exists for this, and it's worth naming
+specifically rather than leaving "watch for" as an informal checklist.**
+The LEAF-Q (Low Energy Availability in Females Questionnaire) is validated
+specifically in dancers (alongside endurance athletes), not just adapted
+from a generic athlete population — a real advantage over informal symptom
+review. A dance-specific tool also exists (the DEAQ, Dance-specific Energy
+Availability Questionnaire) but isn't yet externally validated, so treat
+it as promising, not equivalent to LEAF-Q's evidence base. XOLOKAN can
+mention the LEAF-Q by name as something a client's doctor or sports
+dietitian may use — this isn't a tool for XOLOKAN to administer or score
+itself, same referral posture as the rest of this section.
+
 **Ask about existing dietary patterns, don't assume a clean slate.** A
 2026 scoping review found dancers overwhelmingly source nutrition advice
 from peers (65.7%) or friends (57.1%) rather than credentialed sources,
@@ -646,3 +658,5 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Isometric training and long-term adaptations: Effects of muscle length, intensity, and intent: A systematic review — ResearchGate](https://www.researchgate.net/publication/329881153_Isometric_training_and_long-term_adaptations_Effects_of_muscle_length_intensity_and_intent_A_systematic_review)
 - [The effect of 12-week combined balance and plyometric training on dynamic balance and lower extremity injury risk in college dancers — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11851013/)
 - [Additional jump interval training as a form of warm-up on enhancing aerobic capacity, muscular strength, and power in female dancers: a cohort study — PMC, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12259603/)
+- [The LEAF questionnaire: A screening tool for the identification of female athletes at risk for the female athlete triad — ResearchGate](https://www.researchgate.net/publication/260376095_The_LEAF_questionnaire_A_screening_tool_for_the_identification_of_female_athletes_at_risk_for_the_female_athlete_triad)
+- [From validation to application: a methodological review of relative energy deficiency in sport (REDs) screening — Performance Nutrition, 2026](https://link.springer.com/article/10.1186/s44410-026-00020-2)
