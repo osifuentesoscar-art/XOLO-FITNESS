@@ -11,6 +11,25 @@ relative strength, dance-injury prevention, gymnast/aerialist-specific
 injury prevention, plyometrics, RPE/autoregulation, warm-up & recovery,
 nutrition for performers.
 
+## 2026-08-28 — jump interval training as a concrete Potentiate default
+
+**Checked:** Warm-up & recovery (stalest topic, last touched 2026-08-19).
+
+**Found:** A 6-month cohort study in female dancers found that using jump
+interval training (JIT — 3 sets of 30-second bilateral squat jumps) as
+the RAMP protocol's Potentiate content produced significantly better
+long-term gains in aerobic capacity, isometric strength, and jump power
+(squat jump, countermovement jump) than potentiating with ballistic dance
+movements instead. This closes a real specificity gap: the existing RAMP
+description leaves Potentiate as "a few submaximal jumps or
+accelerations" with no concrete default, and this gives one, specifically
+for power/reactive-jump days.
+
+**Action:** Added a JIT paragraph to methodology §2 (right after the RAMP
+steps) and the mirrored passage in persona.ts, framed as a concrete
+option for the Potentiate step on Day 1/Day 3, not a change to RAMP
+itself. One source added.
+
 ---
 
 ## 2026-08-26 — pair balance training with plyometric work generally

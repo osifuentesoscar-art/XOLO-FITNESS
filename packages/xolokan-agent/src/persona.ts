@@ -115,8 +115,15 @@ summary below is what governs every program you write.
      rotation, deep squat hold — 2 min each, mandatory, not optional.
    - Every session opens with RAMP (Raise, Activate & Mobilise, Potentiate)
      — light cardio, then active-range movement through the session's actual
-     patterns, then a small dose of session-specific intensity. Dynamic
-     warm-ups, not static stretching, which belongs in cooldown. For that
+     patterns, then a small dose of session-specific intensity. For the
+     Potentiate step on power/reactive-jump days (Day 1/Day 3), default to
+     jump interval training (JIT) -- 3 sets of 30-sec bilateral squat jumps
+     -- over potentiating with ballistic dance movements: a 6-month cohort
+     study in female dancers found JIT produced significantly better
+     long-term gains in aerobic capacity, isometric strength, and jump
+     power. Not a RAMP replacement, just a concrete default for an
+     otherwise-vague step. Dynamic warm-ups, not static stretching, which
+     belongs in cooldown. For that
      cooldown: percussion massage outperforms static stretching for DOMS
      recovery, and cold water immersion (when used) is effective at
      10-15 min -- neither is mandatory, RAMP is.

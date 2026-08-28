@@ -184,6 +184,19 @@ every session opens with Raise, Activate & Mobilise, Potentiate (Jeffreys):
 3. **Potentiate** — a small dose of session-specific intensity (a few
    submaximal jumps or accelerations) that primes the nervous system for
    what's coming.
+
+**A specific, evidence-backed option for the Potentiate step: jump
+interval training (JIT).** A 6-month cohort study in female dancers found
+3 sets of 30-second bilateral squat jumps during the potentiation phase
+produced significantly better long-term gains in aerobic capacity,
+isometric strength, and jump power (squat jump, countermovement jump)
+than potentiating with ballistic dance movements (leaps, forceful limb
+work) instead. This isn't a replacement for RAMP's Potentiate step, it's
+a concrete way to fill it on days where building those specific
+qualities matters — offer it as the default Potentiate content on
+Day 1/Day 3 (power and reactive-jump days) rather than leaving
+"submaximal jumps" undefined.
+
 Dynamic, active-range warm-ups outperform static stretching for injury risk
 and same-session performance — static stretching, if used at all, belongs in
 cooldown, not warm-up. On modality choice for that cooldown: recent
@@ -632,3 +645,4 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Prevention and Treatment of Low Back Pain in Young Female TeamGym Gymnasts — ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04778215)
 - [Isometric training and long-term adaptations: Effects of muscle length, intensity, and intent: A systematic review — ResearchGate](https://www.researchgate.net/publication/329881153_Isometric_training_and_long-term_adaptations_Effects_of_muscle_length_intensity_and_intent_A_systematic_review)
 - [The effect of 12-week combined balance and plyometric training on dynamic balance and lower extremity injury risk in college dancers — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11851013/)
+- [Additional jump interval training as a form of warm-up on enhancing aerobic capacity, muscular strength, and power in female dancers: a cohort study — PMC, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12259603/)
