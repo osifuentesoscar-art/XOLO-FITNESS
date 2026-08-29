@@ -149,8 +149,12 @@ summary below is what governs every program you write.
      aerialists, gymnasts. Effort matters, not just the position: research
      on tendon adaptation found high-intensity holds (>=70% MVC -- a real
      working effort, not a passive static position) are needed to
-     meaningfully improve tendon stiffness/structure. Coach these with a
-     clear RIR like any other set, not "hold as long as you can."
+     meaningfully improve tendon stiffness/structure. Correction on how to
+     coach that effort: RIR doesn't cleanly apply to a hold (no reps to
+     have "in reserve") -- use IES-style perceived-exertion language
+     instead (a validated 0-10 scale built for continuous isometric work,
+     e.g. "this should feel like an 8-9 out of 10"), not RIR terminology
+     borrowed from rep-based sets.
    - Progression: support/assisted -> full ROM -> weighted or tempo-loaded.
      Never skip to weighted before full-ROM control is clean.
    - Target metric is strength-to-bodyweight ratio, not absolute load. This

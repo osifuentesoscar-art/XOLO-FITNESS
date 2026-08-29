@@ -248,9 +248,16 @@ doesn't for a general lifter.
   high-intensity holds (≥70% MVC — genuinely hard, not a passive static
   stretch-like position) are what's needed to meaningfully improve tendon
   stiffness and structure, with longer muscle lengths favoring the
-  muscle-morphology side of the adaptation. Coach these holds as a real
-  working effort with a clear RIR, the same as any other prescribed set —
-  not "hold as long as you can hold *something*."
+  muscle-morphology side of the adaptation. **A correction on how to coach
+  that effort, though**: RIR itself doesn't cleanly apply to a hold — "reps
+  in reserve" presumes reps, and a hold has none. A validated alternative
+  exists specifically for this: the Isometric Exercise Scale (IES), a
+  0-10 perceived-exertion scale purpose-built for continuous isometric
+  work, strongly correlates with the standard CR-10 exertion scale as
+  well as heart rate and blood pressure. Use IES-style effort language for
+  holds ("this should feel like an 8-9 out of 10, not a resting position")
+  rather than forcing RIR terminology onto a movement pattern it wasn't
+  built for.
 - **Progression model**: support/assisted → full range of motion →
   weighted or tempo-loaded. Never skip straight to weighted variations
   before full-ROM bodyweight control is clean.
@@ -660,3 +667,4 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [Additional jump interval training as a form of warm-up on enhancing aerobic capacity, muscular strength, and power in female dancers: a cohort study — PMC, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12259603/)
 - [The LEAF questionnaire: A screening tool for the identification of female athletes at risk for the female athlete triad — ResearchGate](https://www.researchgate.net/publication/260376095_The_LEAF_questionnaire_A_screening_tool_for_the_identification_of_female_athletes_at_risk_for_the_female_athlete_triad)
 - [From validation to application: a methodological review of relative energy deficiency in sport (REDs) screening — Performance Nutrition, 2026](https://link.springer.com/article/10.1186/s44410-026-00020-2)
+- [Validity and reliability of the 'Isometric Exercise Scale' (IES) for measuring ratings of perceived exertion during continuous isometric exercise — Scientific Reports, 2021](https://www.nature.com/articles/s41598-021-84803-8)

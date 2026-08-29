@@ -11,6 +11,26 @@ relative strength, dance-injury prevention, gymnast/aerialist-specific
 injury prevention, plyometrics, RPE/autoregulation, warm-up & recovery,
 nutrition for performers.
 
+## 2026-08-29 — correction: RIR doesn't apply cleanly to isometric holds
+
+**Checked:** RPE/autoregulation (stalest topic, last touched 2026-08-21).
+
+**Found:** The 2026-08-25 entry added an intensity spec to isometric
+holds ("coach these with a clear RIR like any other set") but that's an
+imprecise fit — RIR presumes reps in reserve, and a hold has no reps. A
+validated alternative exists specifically for this: the Isometric
+Exercise Scale (IES), a 0-10 perceived-exertion scale purpose-built for
+continuous isometric work, strongly correlates with the standard CR-10
+scale as well as heart rate and blood pressure. This is a genuine
+correction to how the effort-level guidance was phrased, not a new
+finding about the holds themselves — the ≥70% MVC intensity target from
+08-25 stands, only the coaching language changes.
+
+**Action:** Corrected the isometrics passage in methodology §3 and the
+mirrored passage in persona.ts: use IES-style perceived-exertion language
+("this should feel like an 8-9 out of 10") for holds instead of RIR
+terminology borrowed from rep-based sets. One source added.
+
 ## 2026-08-28 (later) — name a validated RED-S screening tool (LEAF-Q)
 
 **Checked:** Nutrition for performers (stalest topic, last touched
