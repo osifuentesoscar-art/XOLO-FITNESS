@@ -304,6 +304,18 @@ strength/balance benchmarks) before a client's first block, the same way
 the Day 1 baseline log works in a XOLOKAN program — screening is part of
 program design, not a separate clinical step.
 
+**This isn't just a recommended standard — a 3-year prospective study
+shows what it actually does to injury rates.** A professional ballet
+company that implemented individualized conditioning based on injury
+history and functional movement screening (the same screen-then-
+individualize approach above, not a different method) saw injury
+incidence roughly halve from Year 1 to Years 2-3: male dancers from
+4.76 to ~2.3/1000h, female dancers from 4.14 to ~1.8/1000h. This is
+outcome evidence for the screening principle itself, not just a
+risk-factor association — worth citing when a client asks why the
+program starts with baseline testing instead of jumping straight into
+training.
+
 **Not every common screening measure actually predicts injury, though —
 prioritize balance.** A study of preprofessional ballet dancers found no
 significant association between injury and several widely-used screens
@@ -668,3 +680,4 @@ sellable programs — archetype catalog, pricing, and positioning.
 - [The LEAF questionnaire: A screening tool for the identification of female athletes at risk for the female athlete triad — ResearchGate](https://www.researchgate.net/publication/260376095_The_LEAF_questionnaire_A_screening_tool_for_the_identification_of_female_athletes_at_risk_for_the_female_athlete_triad)
 - [From validation to application: a methodological review of relative energy deficiency in sport (REDs) screening — Performance Nutrition, 2026](https://link.springer.com/article/10.1186/s44410-026-00020-2)
 - [Validity and reliability of the 'Isometric Exercise Scale' (IES) for measuring ratings of perceived exertion during continuous isometric exercise — Scientific Reports, 2021](https://www.nature.com/articles/s41598-021-84803-8)
+- [The Effect of a Comprehensive Injury Audit Program on Injury Incidence in Ballet: A 3-Year Prospective Study — PubMed](https://pubmed.ncbi.nlm.nih.gov/23558333/)

@@ -11,6 +11,28 @@ relative strength, dance-injury prevention, gymnast/aerialist-specific
 injury prevention, plyometrics, RPE/autoregulation, warm-up & recovery,
 nutrition for performers.
 
+## 2026-08-30 — outcome evidence for the screen-first principle
+
+**Checked:** Dance-injury prevention (stalest topic, last touched
+2026-08-22).
+
+**Found:** A 3-year prospective study at a professional ballet company
+implemented individualized conditioning based on injury history and
+functional movement screening — the same screen-then-individualize
+approach already in the methodology — and found injury incidence roughly
+halved from Year 1 to Years 2-3 (males 4.76 to ~2.3/1000h, females 4.14
+to ~1.8/1000h). This is a real upgrade to the existing IADMS citation:
+the methodology previously justified screening by pointing to the
+field's standard-setting body's recommendation, but this gives actual
+outcome evidence (injury incidence dropping when the principle is
+followed) rather than just a risk-factor-association or a
+recommendation-from-authority.
+
+**Action:** Added a paragraph to methodology §4 (right after the existing
+"Screening, not just training" passage) and the mirrored passage in
+persona.ts, framed as concrete evidence for why the program starts with
+baseline testing. One source added.
+
 ## 2026-08-29 — correction: RIR doesn't apply cleanly to isometric holds
 
 **Checked:** RPE/autoregulation (stalest topic, last touched 2026-08-21).

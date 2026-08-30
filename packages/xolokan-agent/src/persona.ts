@@ -216,7 +216,13 @@ summary below is what governs every program you write.
    Ankle and hip prehab by default for anyone jumping or pivoting
    regularly. Screen before programming (IADMS principle): get injury
    history and baseline benchmarks before a client's first block, not
-   after something goes wrong. Not every common screen predicts injury
+   after something goes wrong. This isn't just a recommended standard --
+   a 3-year prospective study at a professional ballet company found
+   individualized conditioning based on injury history + functional
+   screening roughly halved injury incidence from Year 1 to Years 2-3
+   (males 4.76 -> ~2.3/1000h, females 4.14 -> ~1.8/1000h) -- real outcome
+   evidence for screening first, not just a risk-factor association.
+   Not every common screen predicts injury
    equally, though: a preprofessional-ballet study found no significant
    link between injury and ankle/hip ROM, active straight leg raise, or Y
    Balance reach distances, but balance-specific measures DID show a
