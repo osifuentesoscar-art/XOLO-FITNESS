@@ -468,6 +468,12 @@ story.append(Paragraph(
     "distance." + (" You'll retest them on Day 29." if SCOPE == "30-day" else " You'll retest them at the end of each phase (weeks 4, 8, and 12)."),
     S_BODY
 ))
+story.append(Paragraph(
+    "This isn't paperwork — a 3-year study at a professional ballet company found that "
+    "conditioning individualized around baseline testing and injury history roughly halved "
+    "injury rates by year two. Skipping this step isn't just skipping a formality.",
+    S_MUTED
+))
 
 story.append(Paragraph("Effort: RIR, not percentages", S_H2))
 story.append(Paragraph(
@@ -475,7 +481,9 @@ story.append(Paragraph(
     "sets in this program are RIR 2: stop with two clean reps left in the tank. "
     "<b>Progression rule:</b> if you hit the top of a rep range at RIR 2+ with clean form, add "
     "a rep or a small load/difficulty bump next session. If form breaks down or you're at RIR "
-    "0–1 before the last set, hold where you are.",
+    "0–1 before the last set, hold where you are. <b>Isometric holds (marked \"-\" in the RIR "
+    "column) don't use RIR</b> — there are no reps to have in reserve. Instead, hold at a real "
+    "working effort, roughly an 8-9 out of 10 — not a resting position you could sit in all day.",
     S_BODY
 ))
 

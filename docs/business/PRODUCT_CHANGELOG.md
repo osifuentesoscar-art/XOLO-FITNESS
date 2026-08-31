@@ -9,6 +9,54 @@ top.
 
 ---
 
+## 2026-08-31 — baseline-testing rationale and an isometric-hold effort clarification
+
+**Reviewed:** RESEARCH_LOG.md entries since the last product changelog
+entry (2026-08-24, already reviewed by that entry): 08-25 (isometric hold
+intensity for tendon adaptation), 08-26 (pair balance training with
+plyometric work generally), 08-28 (jump interval training as a Potentiate
+default), 08-28 later (name a validated RED-S screening tool, LEAF-Q),
+08-29 (correction: RIR doesn't apply cleanly to isometric holds), 08-30
+(outcome evidence for the screen-first principle), 08-31 (FAI as a
+distinct hip injury row).
+
+**Changed:**
+- Added a "why this isn't paperwork" line to the "Before Day 1 — record
+  your baseline" section (all archetypes/editions), citing the 3-year
+  ballet-company study showing individualized-conditioning-from-baseline
+  roughly halved injury rates — gives the existing baseline-logging ask a
+  concrete reason instead of asking the customer to just trust the
+  process.
+- Added a clarification to the "Effort: RIR, not percentages" section:
+  isometric holds (shown as "-" in the RIR column) don't use RIR at all
+  since there are no reps to have in reserve, and should instead be held
+  at a real working effort (~8-9/10). This was a real, unexplained gap in
+  the existing customer-facing copy — a customer looking at a hold's "-"
+  RIR value had no idea what effort target applied, and closes the loop
+  on the 08-25/08-29 methodology correction (IES-style effort language,
+  not RIR, for holds).
+
+**Not changed:** The JIT Potentiate default (08-28) only applies to
+power/reactive-jump days specifically, and the existing RAMP paragraph is
+written generically across all days — customizing it per-day is more
+restructuring than this pass's scope warrants, so left as-is for now.
+Pairing balance work with plyometric training generally (08-26) is
+already substantively covered by the existing Day 3 ankle-sprain/balance
+note. The LEAF-Q (08-28 later) and the FAI hip row (08-31) are real
+methodology content but too clinical/referral-register, or not
+actionable against what's actually prescribed in this program, for
+customer-facing copy — same posture as prior weeks' technical/coaching-
+register exclusions.
+
+**Drift check:** Full 12-PDF regeneration — zero cue-lookup failures,
+`archetypes.ts` hasn't changed since last week.
+
+**Audit:** All 12 PDFs — 11 or 24 pages depending on scope (page counts
+unchanged), zero page overflow, zero broken-glyph markers (`(cid:` /
+`&#`), zero Brace Life/ICONS contamination terms. Spot-checked: both new
+additions render correctly on the How This Works page (page 2) across
+archetypes, no layout regressions.
+
 ## 2026-08-24 — plyometric microdosing, napping, and gymnast pelvic-floor note
 
 **Reviewed:** RESEARCH_LOG.md entries since the last product changelog
