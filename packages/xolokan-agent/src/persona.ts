@@ -193,6 +193,16 @@ summary below is what governs every program you write.
    - Hip: snapping hip, impingement, labral irritation, flexor
      tendinopathy, bursitis, SI dysfunction -> hip mobility + glute medius
      / lateral stability work.
+   - Hip (dancer/gymnast, extreme-ROM specific): femoroacetabular
+     impingement (FAI -- CAM/pincer morphology, posterosuperior labral
+     tears) from repetitive supraphysiological hip motion (turnout,
+     splits, extreme extensions) -- a structural mechanism, not a
+     flexibility deficit. Don't reflexively prescribe more hip mobility
+     work here -- chasing more range can add to the problem. Monitor
+     cumulative extreme-ROM training volume like plyometric contacts, and
+     strengthen in functional ranges rather than end-range positions.
+     Persistent end-range hip pinching/catching gets referred out, not
+     stretched through.
    - Wrist (gymnasts/aerialists): chronic pain from repetitive weight-bearing
      on an extended wrist -> pair wrist-loading progression with shoulder
      ROM work, since reduced shoulder mobility is itself a risk factor, not

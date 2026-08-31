@@ -11,6 +11,30 @@ relative strength, dance-injury prevention, gymnast/aerialist-specific
 injury prevention, plyometrics, RPE/autoregulation, warm-up & recovery,
 nutrition for performers.
 
+## 2026-08-31 — FAI as a distinct, extreme-ROM-specific hip injury row
+
+**Checked:** Gymnast/aerialist-specific injury prevention (stalest topic,
+last touched 2026-08-23).
+
+**Found:** The existing Hip row covered generic soft-tissue causes
+(snapping hip, impingement, labral irritation, bursitis) with a single
+countermeasure (hip mobility + glute medius work). Femoroacetabular
+impingement (FAI — CAM/pincer morphology, posterosuperior labral tears)
+is a well-documented, distinct hip pathology in dancers/gymnasts from
+repetitive supraphysiological hip motion (turnout, splits, extreme
+extensions) — a structural/bony mechanism, not a flexibility deficit.
+This matters practically: the existing row's default countermeasure
+(more hip mobility work) is actually the wrong instinct for FAI
+specifically, since chasing more end-range motion can add to a structural
+problem rather than fix it — the same kind of mechanism-mismatch the
+Lower Back (gymnast/aerialist) row already corrects for spondylolysis.
+
+**Action:** Added a new Hip (dancer/gymnast, extreme-ROM specific) row to
+the injury table in methodology §4 and the mirrored bullet in persona.ts,
+distinguishing FAI from the generic hip row and countering the reflexive
+"add more mobility work" instinct with volume-monitoring and functional-
+range strengthening instead. One source added.
+
 ## 2026-08-30 — outcome evidence for the screen-first principle
 
 **Checked:** Dance-injury prevention (stalest topic, last touched
